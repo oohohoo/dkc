@@ -199,6 +199,16 @@ IMAGE BLEND MODE
   mix-blend-mode: screen;
 }
 
+.newswrapfix:focus .card__blend-colour, .newswrapfix:hover .card__blend-colour {
+    background-color: #9B2557;
+  }
+  
+  
+  .newswrapfix:focus .card__image, .newswrapfix:hover .card__image {
+    mix-blend-mode: screen;
+  }
+
+
 .card__image--transition {
   transition: 0.3s ease all;
   transition-delay: 0s;
