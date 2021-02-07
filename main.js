@@ -52,7 +52,7 @@ Webflow.push(function () {
 
 /*
 ================================================================================
-NEKA NEIDENTIFICIRANA SKRIPTA
+Add onClick attribute to any element
 ================================================================================
 */
 window.onload = function() {
@@ -66,20 +66,6 @@ window.onload = function() {
     }
 }
 
-/*
-================================================================================
-NEKA NEIDENTIFICIRANA SKRIPTA 2
-================================================================================
-*/
-function openNav() {
-    $("#mynav").fadeIn();
-    $("#open-nav").hide();
-}
-
-function closeNav() {
-    $("#mynav").fadeOut();
-    $("#open-nav").show();
-}
 
 /*
 ================================================================================
@@ -203,6 +189,32 @@ SWIPER SINGLE PAGE
     // grabCursor: true,
  
    })        
+
+
+
+
+
+
+
+
+   /*
+================================================================================
+SHOW HIDE SEARCH
+================================================================================
+*/
+function openNav() {
+    $("#mynav").fadeIn();
+    $("#open-nav").hide();
+}
+
+function closeNav() {
+    $("#mynav").fadeOut();
+    $("#open-nav").show();
+}
+
+
+
+
  
 }
 
