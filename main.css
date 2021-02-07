@@ -30,6 +30,7 @@ body::-webkit-scrollbar-thumb {
 background:rgb(155, 37, 87);
 }
 /*
+
 body {overflow-y:hidden;}
 body:hover {overflow-y:scroll;}
 */
