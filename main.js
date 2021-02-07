@@ -5,6 +5,82 @@ FUNCTION INIT
 */
 function init() {
 
+
+/*
+================================================================================
+DISABLE SCROLL SCRIPT
+================================================================================
+*/
+var Webflow = Webflow || [];
+Webflow.push(function () {
+    var $body = $(document.body);
+    var scrollPosition = 0;
+
+    $('[scroll="disable"]').on('click', function () {
+        var oldWidth = $body.innerWidth();
+        scrollPosition = window.pageYOffset;
+        $body.css('overflow', 'hidden');
+        $body.css('position', 'fixed');
+        $body.css('top', `-${scrollPosition}px`);
+        $body.width(oldWidth);
+    });
+    $('[scroll="enable"]').on('click', function () {
+        if ($body.css('overflow') != 'hidden') { scrollPosition = window.pageYOffset; }
+        $body.css('overflow', '');
+        $body.css('position', '');
+        $body.css('top', '');
+        $body.width('');
+        $(window).scrollTop(scrollPosition);
+    });
+    $('[scroll="both"]').on('click', function () {
+        if ($body.css('overflow') !== 'hidden') {
+            var oldWidth = $body.innerWidth();
+            scrollPosition = window.pageYOffset;
+            $body.css('overflow', 'hidden');
+            $body.css('position', 'fixed');
+            $body.css('top', `-${scrollPosition}px`);
+            $body.width(oldWidth);
+        } else {
+            $body.css('overflow', '');
+            $body.css('position', '');
+            $body.css('top', '');
+            $body.width('');
+            $(window).scrollTop(scrollPosition);
+        }
+    });
+});
+
+/*
+================================================================================
+NEKA NEIDENTIFICIRANA SKRIPTA
+================================================================================
+*/
+window.onload = function() {
+    var anchors = document.getElementsByTagName('*');
+    for(var i = 0; i < anchors.length; i++) {
+        var anchor = anchors[i];
+        anchor.onclick = function() {
+            code = this.getAttribute('whenClicked');
+            eval(code);   
+        }
+    }
+}
+
+/*
+================================================================================
+NEKA NEIDENTIFICIRANA SKRIPTA 2
+================================================================================
+*/
+function openNav() {
+    $("#myNav").fadeIn();
+    $("#open-nav").hide();
+}
+
+function closeNav() {
+    $("#myNav").fadeOut();
+    $("#open-nav").show();
+}
+
 /*
 ================================================================================
 SWIPER HERO
