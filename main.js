@@ -197,20 +197,7 @@ SWIPER SINGLE PAGE
 
 
 
-   /*
-================================================================================
-SHOW HIDE SEARCH
-================================================================================
-*/
-function openNav() {
-    $("#mynav").fadeIn();
-    $("#open-nav").hide();
-}
 
-function closeNav() {
-    $("#mynav").fadeOut();
-    $("#open-nav").show();
-}
 
 
 
