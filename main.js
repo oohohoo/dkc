@@ -135,6 +135,63 @@ var menu = ['', '', '', '', '', '']
     grabCursor: true,
   }
   })        
+  
+
+
+/*
+================================================================================
+SWIPER SINGLE PAGE
+================================================================================
+*/
+  var galSwiper = new Swiper ('.swiper-container-gal', {
+    loop: true,
+         speed: 1000,
+    // spaceBetween: 100,
+    // initialSlide: 0,
+     //truewrapper adoptsheight of active slide
+     //autoHeight: false,
+     updateOnWindowResize: true,
+     // Optional parameters
+   //  direction: 'vertical',
+       // delay between transitions in ms
+         autoplay: {
+                 delay: 5000,
+                 disableOnInteraction: false,
+ },
+    // autoplayStopOnLast: false, // loop false also
+     // If we need pagination
+  
+      navigation: {
+         nextEl: '.swiper-button-p',
+         prevEl: '.swiper-button-n',
+       },
+ 
+     
+     // And if we need scrollbar
+     //scrollbar: '.swiper-scrollbar',
+     // "slide", "fade", "cube", "coverflow" or "flip"
+     effect: 'fade',
+     
+       
+     // Distance between slides in px.
+   //  spaceBetween: 60,
+     //
+     slidesPerView: 1,
+     //
+    // centeredSlides: true,
+     //
+    // slidesOffsetBefore: 0,
+     //
+    // grabCursor: true,
+ 
+   })        
+ 
+
+
+
+
+
+
 
 
 }
