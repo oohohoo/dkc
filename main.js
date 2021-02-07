@@ -3,7 +3,7 @@
 FUNCTION INIT
 ================================================================================
 */
-/*function init() { */
+function init() {
 
 
 /*
@@ -205,12 +205,12 @@ SWIPER SINGLE PAGE
    })        
  
 }
-/*
+
 window.addEventListener('load', function() {
     console.log("PAGE LOADED");
 	init();
 });
-*/
+
 
 
 
