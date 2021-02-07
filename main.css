@@ -364,6 +364,29 @@ ROTATE OVERTEXT
 
 }
 
+/*
+================================================================================
+OHOHO
+================================================================================
+*/
+
+.ohohoone {
+    display: block;
+  }
+  
+  .ohohotwo {
+    display:none;
+    }
+    
+   .ohohowrap:hover .ohohoone {
+    display: none;
+  }
+  
+  .ohohowrap:hover .ohohotwo {
+    display: block;
+  } 
+
+
 
 
 /*
