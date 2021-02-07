@@ -207,8 +207,7 @@ SWIPER SINGLE PAGE
 }
 
 window.addEventListener('load', function() {
-    alert('Page loaded');
-    alert(`Image size: ${img.offsetWidth}x${img.offsetHeight}`);
+    console.log("PAGE LOADED");
 	init();
 });
 
