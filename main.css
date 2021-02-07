@@ -271,6 +271,12 @@ NTH CHILDS
     border-bottom: 3px solid #9b2557;
     padding-bottom: 3rem;
   }
+
+  .searchcontentwrap:nth-last-child(1) {
+    border-bottom: 3px solid #9b2557;
+    
+  }
+  
   
 /*
 ================================================================================
