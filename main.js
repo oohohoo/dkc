@@ -72,12 +72,12 @@ NEKA NEIDENTIFICIRANA SKRIPTA 2
 ================================================================================
 */
 function openNav() {
-    $("#myNav").fadeIn();
+    $("#mynav").fadeIn();
     $("#open-nav").hide();
 }
 
 function closeNav() {
-    $("#myNav").fadeOut();
+    $("#mynav").fadeOut();
     $("#open-nav").show();
 }
 
