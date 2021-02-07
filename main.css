@@ -470,7 +470,7 @@ MEDIA QUERY
   @media (min-width: 1200px) and (max-width:1599px) {
 
     .contactwrap {
-    border-bottom: 1;
+    border-top: 1;
     }
   /*html {
   font-size:16px
@@ -481,7 +481,7 @@ MEDIA QUERY
   font-size:18px
   }*/
   .contactwrap {
-    border-bottom: 7;
+    border-top: 7;
     }
   }
   @media (min-width: 2000px) and (max-width:2399px) {
