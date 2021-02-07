@@ -20,16 +20,16 @@ SCROLLBAR STYLE
   
 
 /*width*/
-
+/*
 body::-webkit-scrollbar {
 width:8px;
 }
-
+*/
 /*thumb*/
-
+/*
 body::-webkit-scrollbar-thumb {
 background:rgb(155, 37, 87);
-}
+}*/
 /*
 
 body {overflow-y:hidden;}
@@ -42,12 +42,12 @@ body:hover {overflow-y:scroll;}
 */
 
 /*FIREFOX SCROLLBAR */
-* {
+/*body {
     scrollbar-width: thin;
     scrollbar-color: blue orange;
   }
 
-
+*/
 /*
 ================================================================================
 NO SELECTION
