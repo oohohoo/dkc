@@ -225,6 +225,9 @@ IMAGE BLEND MODE
 }
 
 .card__image {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
   transform: translateZ(0);
 }
 
