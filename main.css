@@ -56,7 +56,7 @@ NO SELECTION
 ================================================================================
 */
 
-.noselk {
+.nosel {
   -webkit-user-select: none;  /* Chrome all / Safari all */
   -moz-user-select: none;     /* Firefox all */
   -ms-user-select: none;      /* IE 10+ */
@@ -230,15 +230,16 @@ NTH CHILDS
 SWIPER HOME
 ================================================================================
 */
-
+/*
 .swiper-pagination {
 	/*position: absolute;
 	bottom: 2.000em;
 	right: "50%";
 	width: auto !important;
 	left: auto !important;
-	margin: 0;*/
+	margin: 0;
 }
+*/
 .swiper-pagination-bullet {
 transform-origin: top left;
    margin-right: 1.200em;
