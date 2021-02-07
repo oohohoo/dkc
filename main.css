@@ -208,6 +208,15 @@ IMAGE BLEND MODE
     mix-blend-mode: screen;
   }
 
+  .projectwrap:focus .card__blend-colour, .projectwrap:hover .card__blend-colour {
+    background-color: #9B2557;
+  }
+   
+  
+  .projectwrap:focus .card__image, .projectwrap:hover .card__image {
+    mix-blend-mode: screen;
+  }
+
 
 .card__image--transition {
   transition: 0.3s ease all;
@@ -248,6 +257,19 @@ NTH CHILDS
   .docsolowrap:nth-last-of-type(n+1) {
     border-bottom: 3px solid #9b2557;
     
+  }
+
+  .projectsolowrapfix:nth-last-of-type(-n+2) {
+    border-bottom: 3px solid #9b2557;
+   }
+  
+  .projectsolowrapfix:nth-of-type(1) {
+    border-top: 3px solid #9b2557;
+   }
+
+   .contactwrap:nth-last-child(-n+2) {
+    border-bottom: 3px solid #9b2557;
+    padding-bottom: 3rem;
   }
   
 /*
