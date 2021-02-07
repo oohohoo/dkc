@@ -10,6 +10,7 @@ SCROLLBAR STYLE
 body::-webkit-scrollbar {
 width:8px;
 }
+
 /*thumb*/
 
 body::-webkit-scrollbar-thumb {
