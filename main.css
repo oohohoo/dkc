@@ -29,10 +29,10 @@ width:8px;
 body::-webkit-scrollbar-thumb {
 background:rgb(155, 37, 87);
 }
-
+/*
 body {overflow-y:hidden;}
 body:hover {overflow-y:scroll;}
-
+*/
 /*track
 ::-webkit-scrollbar-track {
   background:rgb(245, 244, 241);
