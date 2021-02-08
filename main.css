@@ -241,8 +241,7 @@ NTH CHILDS
 .great-great-grandchild{
   border-bottom: 1px solid #9b2557;
 }
-
-.great-great-grandchild:nth-last-child(2) {
+li:nth-last-child(1) .great-great-grandchild {
   border-bottom: 0px solid #9b2557;
 }
 
