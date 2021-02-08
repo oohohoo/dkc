@@ -238,11 +238,11 @@ NTH CHILDS
 */
 
 
-.great-great-grandchild{
+.grandchild{
   border-bottom: 1px solid #9b2557;
 }
-.grandchild:nth-last-child(1) .great-great-grandchild {
-  border-bottom: 0px solid #9b2557;
+.child:nth-child(1) .grandchild {
+  border-bottom: 5px solid #9b2557;
 }
 
 .child:nth-child(1) .grandchild {
