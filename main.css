@@ -112,7 +112,7 @@ MENU
   .underline:hover::before {
     transform-origin: left;
     transform: scaleX(1);
-    left: 50px;
+    
   }
 
 
