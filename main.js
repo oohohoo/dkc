@@ -6,6 +6,91 @@ FUNCTION INIT
 function init() {
 
 
+
+/*
+================================================================================
+JQUERY NTH GRANDFADER - CHILD
+================================================================================
+*/
+
+  $(function() {
+
+    // Using Jquery $( "parent > child" ); selector which returns an array of matches  
+    // Iterate through an array of Jquery objects using $(..).each()
+    $('ul > li > ul > li').each(function(){
+    
+      console.log($(this).text());
+      $(this).addClass('great-great-grandchild');
+        
+    });
+    
+    //This adds the class to all matches as well
+    $('ul > li > ul > li > div').addClass('great-great-grandchild');
+    
+    // element:first selector selects the first occurrence of a given element  
+    console.log($('ul:first').attr("value")); //Returns the value attribute of the first <ul> element
+    
+    // element:nth-child(n) selector selects the nth occurrence of a given element
+    console.log($('ul:nth-child(1)').attr("value"));
+    console.log($('ul:nth-child(2)').attr("value"));
+    
+    // $(parent).children() returns all DIRECT children
+    console.log($('ul:nth-child(1)').children().attr("value"));
+    console.log($('ul:nth-child(2)').children().attr("value"));
+    
+    //Iterate through 2nd list grandchildren
+    $('ul:nth-child(2)').children().children().each(function (){
+    
+      console.log($(this).attr("value"));
+    
+    });
+    
+    //Let's use this to establish a hierarchy for your unordered lists
+    console.log(" ");
+    console.log("Creating Hierarchy:");
+    console.log(" ");
+    CreateListHierarchy();
+    
+  });
+  
+  function CreateListHierarchy() {
+      
+    $('div > ul').each(function(index) {
+    
+       let listNumber = index + 1;
+       
+       $(this).addClass('list' + listNumber); //Adds classes list1 and list2 to ul-1 and 2
+       console.log('Class: ' + 'list' + listNumber + ' added to: ' + $(this).attr("value"));
+       
+       AllocateClassNames(this, listNumber);       
+    
+    });
+  
+  }
+  
+  function AllocateClassNames(parent, parentNumber) {
+   
+    $(parent).children().each(function(index) {
+    
+      let classIndex = index + 1;
+   
+      $(this).addClass('list' + parentNumber + '' + classIndex);
+      
+      console.log('Class: ' + 'list' + parentNumber + '' + classIndex + ' added to: ' + 
+      $(this).attr("value"));
+  
+      //Check if this element has children, re-run the loop if it does
+      if(!!$(this).children().length) { 
+      
+          AllocateClassNames(this, parentNumber + '' + classIndex);
+          
+      }
+    
+    });
+  
+  } 
+
+
 /*
 ================================================================================
 DISABLE SCROLL SCRIPT
