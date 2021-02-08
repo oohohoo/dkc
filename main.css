@@ -242,7 +242,6 @@ NTH CHILDS
   border-bottom: 1px solid #9b2557;
 }
 
-
 .child:nth-child(1) .grandchild {
   border-top: 3px solid #9b2557;
 }
@@ -269,6 +268,7 @@ NTH CHILDS
     
   }
 
+  /*
   .doc-grid-item:nth-of-type(1) {
     border-top: 3px solid #9b2557;
     
@@ -292,6 +292,7 @@ NTH CHILDS
     border-top: 3px solid #9b2557;
    }
 
+   */
    .contactwrap:nth-last-child(-n+2) {
     border-bottom: 3px solid #9b2557;
     padding-bottom: 3rem;
