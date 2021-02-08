@@ -250,13 +250,7 @@ NTH CHILDS
   border-bottom: 3px solid #9b2557;
 }
   
-.childprojekt:nth-child(1)  {
-  border-top: 3px solid #9b2557;
-}
 
-.childprojekt:nth-last-child(1)  {
-  border-bottom: 3px solid #9b2557;
-}
 
 
 
@@ -298,7 +292,6 @@ NTH CHILDS
     border-top: 3px solid #9b2557;
    }
 
-   */
    .contactwrap:nth-last-child(-n+2) {
     border-bottom: 3px solid #9b2557;
     padding-bottom: 3rem;
