@@ -105,6 +105,7 @@ MENU
     left: -1.25em;
     width: 1em;
     
+    
     transform: scaleX(0);
     transform-origin: right;
     transition: transform 0.25s;
