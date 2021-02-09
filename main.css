@@ -212,12 +212,12 @@ IMAGE BLEND MODE
     mix-blend-mode: screen;
   }
 
-  .projectwrap:focus .card__blend-colour, .projectwrap:hover .card__blend-colour {
+  .projecthover:focus .card__blend-colour, .projectwrap:hover .card__blend-colour {
     background-color: #9B2557;
   }
    
   
-  .projectwrap:focus .card__image, .projectwrap:hover .card__image {
+  .projecthover:focus .card__image, .projectwrap:hover .card__image {
     mix-blend-mode: screen;
   }
 
