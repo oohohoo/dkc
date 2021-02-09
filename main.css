@@ -200,6 +200,7 @@ IMAGE BLEND MODE
   
 }
 .newswrap:focus .card__image, .newswrap:hover .card__image {
+  transform: translateZ(0);
   mix-blend-mode: screen;
 }
 
@@ -209,6 +210,7 @@ IMAGE BLEND MODE
     background-color: #9B2557;
   }
 .newswrapfix:focus .card__image, .newswrapfix:hover .card__image {
+  transform: translateZ(0);
     mix-blend-mode: screen;
   }
 
@@ -218,6 +220,7 @@ IMAGE BLEND MODE
     background-color: #9B2557;
   }
 .child:focus .card__image, .projectwrap:hover .card__image {
+  transform: translateZ(0);
     mix-blend-mode: screen;
   }
 
