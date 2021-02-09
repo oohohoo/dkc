@@ -74,10 +74,11 @@ color: #f5f4f1 !important;
 }
 
 
-#ch2-dialog-description {
+
+.ch2-theme-bar .ch2-dialog p:last-child, .ch2-theme-bar .ch2-dialog p:nth-child(2) {
+  /* display: inline; */
   max-width: 300px!important;
 }
-
 
 /*
 ================================================================================
