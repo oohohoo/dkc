@@ -70,7 +70,9 @@ color: #f5f4f1 !important;
     margin-right: 5em !important;
 }  
 
-
+.ch2-theme-bar .ch2-dialog {
+  padding: 0.850em 1em !important;
+}
 
 
 
