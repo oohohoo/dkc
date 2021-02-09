@@ -292,7 +292,7 @@ HOME TAB BEFORE
     content: "";
 border-bottom: solid 3px #9b2557;
 position: absolute;
-left: -1.25em;
+left: 0;
 top: 0.2em;
 width: 1em;
 }
