@@ -1,3 +1,61 @@
+/*
+================================================================================
+COOKIE SKIN
+================================================================================
+*/
+.ch2-theme-bar .ch2-dialog-content {
+	font-size: 1rem !important;
+}
+.ch2-style-light .ch2-btn-secondary {
+    background: #fff !important;
+    color: #080808 !important;
+}
+.ch2-theme-bar .ch2-dialog {
+    box-shadow: 0 0 0px 0 rgba(0,0,0,.1) !important;
+}
+.ch2-theme-bar .ch2-dialog p {
+    font-size: 1.35em  !important;
+color: #080808 !important;
+}
+.ch2-style-light .ch2-btn-primary, .ch2-style-dark .ch2-btn-primary {
+    background: #fff !important;
+}
+.ch2-btn:hover {
+    box-shadow: 0 0 0px 0 rgba(0,0,0,.4) !important;
+}
+.ch2-btn {
+    font-family: Neuemontreal, sans-serif !important;
+    box-shadow: 0 0 0px 0 rgba(0,0,0,.4) !important;
+    padding: 0.850em 1em !important;
+    font-size: 1.35em !important;
+    font-weight: 400 !important;
+}
+.ch2-style-light .ch2-btn-primary {
+    background: #fff !important;
+    color: #080808 !important;
+}
+.ch2-dialog-content p:first-child {
+    display: none !important;
+}
+.ch2-dialog-content a {
+   font-size: 1em !important;
+    color: #080808 !important;
+    cursor: pointer !important;
+}
+.ch2-style-light .ch2-dialog-content a {
+    border-bottom: 1px solid #080808 !important;
+}
+.ch2-theme-bar .ch2-dialog-content {margin-top: 0.73em !important;
+}
+.ch2-container, .ch2-icon {font-size: 1rem  !important;
+}
+.ch2-theme-bar .ch2-dialog-actions button {
+    min-width: auto !important;
+}
+.ch2-theme-bar .ch2-dialog-actions button:first-child {
+    margin-right: 2em !important;
+}  
+
 
 
 /*
@@ -285,6 +343,7 @@ NTH CHILDS
 HOME TAB BEFORE
 ================================================================================
 */
+
 
 
 
