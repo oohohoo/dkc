@@ -224,7 +224,7 @@ IMAGE BLEND MODE
     mix-blend-mode: screen;
   }
 
-  
+
 
 .card__image--transition {
   transition: 0.3s ease all;
@@ -239,7 +239,7 @@ IMAGE BLEND MODE
     -moz-filter: grayscale(100%);
   transform: translateZ(0);
   mix-blend-mode: screen;
-  background-color:rgb(48, 2, 2);
+  background-color:rgb(48, 2, 2)!important;
 }
 
 /*
