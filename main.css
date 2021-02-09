@@ -6,6 +6,16 @@ COOKIE SKIN
 .ch2-theme-bar .ch2-dialog-content {
 	/*font-size: 1rem !important;*/
 }
+
+.ch2-container, .ch2-icon {
+  font-family: 'Nimbussansdot regu', sans-serif!important;
+  /* font-family: sans-serif; */
+  /* font-size: 14px; */
+  /* line-height: 1; */
+  
+}
+
+
 .ch2-style-light .ch2-btn-secondary {
     background: #fff !important;
     color: #9b2557 !important;
@@ -24,7 +34,7 @@ color: #9b2557 !important;
     box-shadow: 0 0 0px 0 rgba(0,0,0,.4) !important;
 }
 .ch2-btn {
-    font-family: Neuemontreal, sans-serif !important;
+  font-family: 'Nimbussansdot regu', sans-serif !important;
     box-shadow: 0 0 0px 0 rgba(0,0,0,.4) !important;
     padding: 0.850em 1em !important;
     font-size: 1.35em !important;
