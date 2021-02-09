@@ -15,6 +15,9 @@ COOKIE SKIN
   
 }
 
+.ch2-style-light .ch2-dialog {
+  background: #9b2557;
+}
 
 .ch2-style-light .ch2-btn-secondary {
     background: #9b2557 !important;
