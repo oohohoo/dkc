@@ -253,7 +253,7 @@ NTH CHILDS
 .child:nth-last-child(1) .grandchild {
   border-bottom: 3px solid #9b2557;
 }
-
+/*
 .child:nth-child(1) .grandchild.projekti {
   border-top: 3px solid #9b2557;
 }
@@ -262,7 +262,7 @@ NTH CHILDS
   border-bottom: 3px solid #9b2557;
 }
 
-
+*/
 
 
 
