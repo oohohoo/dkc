@@ -228,6 +228,9 @@ IMAGE BLEND MODE
   mix-blend-mode: screen;
   background-color: #000000;
 }
+.card__image--transition::after {
+    background-color: #000000;
+}
 
 .card__image {
     filter: grayscale(100%);
