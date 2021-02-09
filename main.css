@@ -243,7 +243,7 @@ IMAGE BLEND MODE
   -o-transform: translateZ(0);
   transform: translateZ(0);
   mix-blend-mode: multiply;
-  background-color:rgb(235, 21, 21)!important;
+  /*background-color:rgb(235, 21, 21)!important;*/
 }
 
 /*
