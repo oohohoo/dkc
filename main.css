@@ -40,8 +40,8 @@ color: #fff !important;
   font-family: 'Nimbussansdot regu', sans-serif !important;
     box-shadow: 0 0 0px 0 rgba(0,0,0,.4) !important;
     padding: 0.850em 1em !important;
-    font-size: 1.35em !important;
-    font-weight: 400 !important;
+    font-size: 1.125em !important;
+    font-weight: 700 !important;
 }
 .ch2-style-light .ch2-btn-primary {
     background: #9b2557 !important;
@@ -51,7 +51,7 @@ color: #fff !important;
     display: none !important;
 }
 .ch2-dialog-content a {
-   font-size: 1em !important;
+   font-size: 1.125em !important;
     color: #9b2557 !important;
     cursor: pointer !important;
 }
