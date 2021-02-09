@@ -235,7 +235,7 @@ IMAGE BLEND MODE
     -moz-filter: grayscale(100%);
   transform: translateZ(0);
   mix-blend-mode: screen;
-  background-color:rgb(238, 238, 238);
+  background-color:rgb(48, 2, 2);
 }
 
 /*
