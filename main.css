@@ -198,28 +198,25 @@ IMAGE BLEND MODE
 .newswrap:focus .card__blend-colour, .newswrap:hover .card__blend-colour {
   background-color: #9B2557;
 }
-
-
-
 .newswrap:focus .card__image, .newswrap:hover .card__image {
   mix-blend-mode: screen;
 }
 
+
+
 .newswrapfix:focus .card__blend-colour, .newswrapfix:hover .card__blend-colour {
     background-color: #9B2557;
   }
-  
-  
-  .newswrapfix:focus .card__image, .newswrapfix:hover .card__image {
+.newswrapfix:focus .card__image, .newswrapfix:hover .card__image {
     mix-blend-mode: screen;
   }
 
-  .child:focus .card__blend-colour, .projectwrap:hover .card__blend-colour {
+
+
+.child:focus .card__blend-colour, .projectwrap:hover .card__blend-colour {
     background-color: #9B2557;
   }
-   
-  
-  .child:focus .card__image, .projectwrap:hover .card__image {
+.child:focus .card__image, .projectwrap:hover .card__image {
     mix-blend-mode: screen;
   }
 
