@@ -242,8 +242,8 @@ IMAGE BLEND MODE
   -ms-transform: translateZ(0);
   -o-transform: translateZ(0);
   transform: translateZ(0);
-  mix-blend-mode: screen;
-  background-color:rgb(48, 2, 2)!important;
+  mix-blend-mode: multiply;
+  background-color:rgb(235, 21, 21)!important;
 }
 
 /*
