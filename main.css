@@ -199,6 +199,7 @@ IMAGE BLEND MODE
 }
 
 
+
 .newswrap:focus .card__image, .newswrap:hover .card__image {
   mix-blend-mode: multiply;
 }
