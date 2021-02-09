@@ -197,10 +197,11 @@ IMAGE BLEND MODE
 
 .newswrap:focus .card__blend-colour, .newswrap:hover .card__blend-colour {
   background-color: #9B2557;
+  mix-blend-mode: screen;
   
 }
 .newswrap:focus .card__image, .newswrap:hover .card__image {
-  mix-blend-mode: screen;
+  
 }
 
 
