@@ -200,7 +200,6 @@ IMAGE BLEND MODE
   
 }
 .newswrap:focus .card__image, .newswrap:hover .card__image {
-  transform: translateZ(0);
   mix-blend-mode: screen;
 }
 
@@ -210,7 +209,6 @@ IMAGE BLEND MODE
     background-color: #9B2557;
   }
 .newswrapfix:focus .card__image, .newswrapfix:hover .card__image {
-  transform: translateZ(0);
     mix-blend-mode: screen;
   }
 
@@ -220,16 +218,15 @@ IMAGE BLEND MODE
     background-color: #9B2557;
   }
 .child:focus .card__image, .projectwrap:hover .card__image {
-  transform: translateZ(0);
     mix-blend-mode: screen;
   }
-
 
 
 .card__image--transition {
   transition: 0.3s ease all;
   transition-delay: 0s;
- 
+  mix-blend-mode: screen;
+  background-color: #000000;
 }
 
 
@@ -237,13 +234,7 @@ IMAGE BLEND MODE
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
-    -webkit-transform: translateZ(0);
-  -moz-transform: translateZ(0);
-  -ms-transform: translateZ(0);
-  -o-transform: translateZ(0);
   transform: translateZ(0);
-  mix-blend-mode: multiply;
-  /*background-color:rgb(235, 21, 21)!important;*/
 }
 
 /*
