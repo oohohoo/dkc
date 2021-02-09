@@ -225,7 +225,7 @@ IMAGE BLEND MODE
   transition: 0.3s ease all;
   transition-delay: 0s;
   mix-blend-mode: normal;
-  background-color: #000000;
+  /*background-color: #000000;*/
 }
 
 .card__image {
