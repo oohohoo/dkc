@@ -254,7 +254,7 @@ NTH CHILDS
   border-bottom: 3px solid #9b2557;
 }
 
-.projectwrap:nth-child(1) .grandchild {
+.projectwrap .child:nth-child(1) .grandchild {
   border-top: 3px solid #9b2557;
 }
 /*
