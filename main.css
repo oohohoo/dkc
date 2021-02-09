@@ -8,14 +8,14 @@ COOKIE SKIN
 }
 .ch2-style-light .ch2-btn-secondary {
     background: #fff !important;
-    color: #080808 !important;
+    color: #9b2557 !important;
 }
 .ch2-theme-bar .ch2-dialog {
     box-shadow: 0 0 0px 0 rgba(0,0,0,.1) !important;
 }
 .ch2-theme-bar .ch2-dialog p {
     font-size: 1.35em  !important;
-color: #080808 !important;
+color: #9b2557 !important;
 }
 .ch2-style-light .ch2-btn-primary, .ch2-style-dark .ch2-btn-primary {
     background: #fff !important;
@@ -32,18 +32,18 @@ color: #080808 !important;
 }
 .ch2-style-light .ch2-btn-primary {
     background: #fff !important;
-    color: #080808 !important;
+    color: #9b2557 !important;
 }
 .ch2-dialog-content p:first-child {
     display: none !important;
 }
 .ch2-dialog-content a {
    font-size: 1em !important;
-    color: #080808 !important;
+    color: #9b2557 !important;
     cursor: pointer !important;
 }
 .ch2-style-light .ch2-dialog-content a {
-    border-bottom: 1px solid #080808 !important;
+    border-bottom: 1px solid #9b2557 !important;
 }
 .ch2-theme-bar .ch2-dialog-content {margin-top: 0.73em !important;
 }
