@@ -230,14 +230,14 @@ IMAGE BLEND MODE
   mix-blend-mode: screen;
   background-color: #000000;
 }
-
+/*
 .card__image {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
   transform: translateZ(0);
 }
-
+*/
 /*
 ================================================================================
 NTH CHILDS
