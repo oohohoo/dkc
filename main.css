@@ -224,6 +224,7 @@ IMAGE BLEND MODE
     mix-blend-mode: screen;
   }
 
+  
 
 .card__image--transition {
   transition: 0.3s ease all;
