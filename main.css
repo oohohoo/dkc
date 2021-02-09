@@ -286,16 +286,6 @@ HOME TAB BEFORE
 ================================================================================
 */
 
-  .tabwrap.w--current:before {
-    color: #9b2557;
-   /* content: "—  ";*/
-    content: "";
-border-bottom: solid 3px #9b2557;
-position: absolute;
-left: 0;
-top: 0.9em;
-width: 1em;
-}
 
 
  
