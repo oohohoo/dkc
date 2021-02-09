@@ -200,7 +200,7 @@ IMAGE BLEND MODE
 
 
 .newswrap:focus .card__image, .newswrap:hover .card__image {
-  mix-blend-mode: screen;
+  mix-blend-mode: multiply;
 }
 
 .newswrapfix:focus .card__blend-colour, .newswrapfix:hover .card__blend-colour {
@@ -209,7 +209,7 @@ IMAGE BLEND MODE
   
   
   .newswrapfix:focus .card__image, .newswrapfix:hover .card__image {
-    mix-blend-mode: screen;
+    mix-blend-mode: multiply;
   }
 
   .child:focus .card__blend-colour, .projectwrap:hover .card__blend-colour {
