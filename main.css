@@ -21,14 +21,14 @@ COOKIE SKIN
 
 .ch2-style-light .ch2-btn-secondary {
     background: transparent !important;
-    color: #fff !important;
+    color: #f5f4f1 !important;
 }
 .ch2-theme-bar .ch2-dialog {
     box-shadow: 0 0 0px 0 rgba(0,0,0,0) !important;
 }
 .ch2-theme-bar .ch2-dialog p {
-   /* font-size: 1.35em  !important;*/
-color: #fff !important;
+    font-size: 1.125em  !important;
+color: #f5f4f1 !important;
 }
 .ch2-style-light .ch2-btn-primary, .ch2-style-dark .ch2-btn-primary {
     background: #9b2557 !important;
@@ -45,7 +45,7 @@ color: #fff !important;
 }
 .ch2-style-light .ch2-btn-primary {
     background: #9b2557 !important;
-    color: #fff !important;
+    color: #f5f4f1 !important;
 }
 .ch2-dialog-content p:first-child {
     display: none !important;
@@ -60,7 +60,8 @@ color: #fff !important;
 }
 .ch2-theme-bar .ch2-dialog-content {margin-top: 0.73em !important;
 }
-.ch2-container, .ch2-icon {font-size: 1vw  !important;
+.ch2-container, .ch2-icon {
+  font-size: 1vw  !important;
 }
 .ch2-theme-bar .ch2-dialog-actions button {
     min-width: auto !important;
