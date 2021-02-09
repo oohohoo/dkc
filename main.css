@@ -237,6 +237,10 @@ IMAGE BLEND MODE
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
+    -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
   transform: translateZ(0);
   mix-blend-mode: screen;
   background-color:rgb(48, 2, 2)!important;
