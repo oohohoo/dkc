@@ -254,11 +254,11 @@ NTH CHILDS
   border-bottom: 3px solid #9b2557;
 }
 
-.projectwrap .child:nth-child(1) .grandchild {
+.child:nth-child(1) .grandchild.projekti {
   border-top: 3px solid #9b2557;
 }
 
-.projectwrap .childprojekt:nth-last-child(1) .grandchild {
+.projectwrap .childprojekt:nth-last-child(1) .grandchild.projekti {
   border-bottom: 3px solid #9b2557;
 }
 
