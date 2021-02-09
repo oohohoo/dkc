@@ -218,7 +218,7 @@ IMAGE BLEND MODE
    
   
   .child:focus .card__image, .projectwrap:hover .card__image {
-    mix-blend-mode: screen;
+    mix-blend-mode: multiply;
   }
 
 
