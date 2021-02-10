@@ -613,6 +613,8 @@ MEDIA QUERY
   /*html {
   font-size:18px
   }*/
+
+  * { border: 1px solid black; }
   .contactwrap {
     border-top: 7px solid #9b2557;
     }
