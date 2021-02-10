@@ -24,7 +24,7 @@ JQUERY NTH GRANDFADER - CHILD
     
 
     //This adds the class to all matches as well
-    $('ul > li > a > ul > li').addClass('great-great-grandchild');
+    $('div > ul > li > a > ul > li').addClass('great-great-grandchild');
     
     // element:first selector selects the first occurrence of a given element  
     console.log($('ul:first').attr("value")); //Returns the value attribute of the first <ul> element
