@@ -591,9 +591,7 @@ MEDIA QUERY
  /* html {
   font-size:13px
   }*/
-  .contactwrap {
-    border-top: 1.5px solid #9b2557;
-}
+ 
   }
   @media (min-width: 1000px) and (max-width:1199px) {
   /*html {
