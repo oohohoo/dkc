@@ -519,12 +519,13 @@ MEDIA QUERY
   }
   .nav-link.w-inline-block.w--current:before {
   border-bottom: solid 2px #9b2557;
+  }
 
    
 }
 
 
-  }
+ 
   @media (min-width: 700px) and (max-width:999px) {
  /* html {
   font-size:13px
@@ -553,10 +554,13 @@ MEDIA QUERY
   .claniceminigrid, .newsminigrid {
     border-top: 2px solid #9b2557;  
   }
-  .nav-link.w-inline-block.w--current:before {
-    border-bottom: solid 2px #9b2557;
-
+  .nav-link.w-inline-block.w--current:before, .underline::before {
+    border-bottom: solid 8px #9b2557;
   }
+   
+
+
+}
   @media (min-width: 1000px) and (max-width:1199px) {
   /*html {
   font-size:14px
@@ -587,6 +591,8 @@ MEDIA QUERY
     border-bottom: solid 3px #9b2557;
 
   }
+
+}
   @media (min-width: 1200px) and (max-width:1599px) {
 
     .contactwrap, .footersponzorwrap  {
@@ -613,7 +619,7 @@ MEDIA QUERY
 
     .nav-link.w-inline-block.w--current:before {
       border-bottom: solid 3px #9b2557;
-
+    }
   /*html {
   font-size:16px
   }*/
@@ -649,6 +655,7 @@ MEDIA QUERY
     border-bottom: solid 4px #9b2557;
   
   }
+}
   @media (min-width: 2000px) and (max-width:2399px) {
   /*html {
   font-size:21px
@@ -678,6 +685,8 @@ MEDIA QUERY
     border-bottom: solid 5px #9b2557;
   
   }
+  }
+
   @media (min-width: 2400px) {
   /*html {
   font-size:24px
@@ -708,12 +717,10 @@ MEDIA QUERY
   }
   .nav-link.w-inline-block.w--current:before {
     border-bottom: solid 5px #9b2557;
- 
-
   }
 
 
-
+  }
 /*
 ================================================================================
 TEXT SINGLE PAGE
@@ -722,7 +729,7 @@ TEXT SINGLE PAGE
 .swiper-button-n:focus,
 .swiper-button-p:focus { 
 outline: none; }
-
+  
 
 /*
 ================================================================================
@@ -807,4 +814,3 @@ color: #f5f4f1 !important;
   height: 0.813em!important;
   margin-right: -0.95em!important;
 }
-  }
