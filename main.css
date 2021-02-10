@@ -73,13 +73,11 @@ color: #f5f4f1 !important;
   padding: 0.850em 5em !important;
 }
 
-
-
-.ch2-theme-bar .ch2-dialog p:last-child, .ch2-theme-bar .ch2-dialog p:nth-child(2) {
-  /* display: inline; */
-  display: block;
-  max-width: 300px!important;
+.ch2-theme-bar .ch2-dialog-actions {
+  margin-left: 15em;
 }
+
+
 
 /*
 ================================================================================
