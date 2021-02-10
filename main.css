@@ -282,7 +282,7 @@ NTH CHILDS
 }
 
 
-.child2:nth-child(1) .grandchild {
+.child2:nth-child(1) .grandgrandchild {
   border-top: 3px solid #06dd3c;
 }
 /*
