@@ -157,7 +157,7 @@ CURRENT
   width: 1em;
    
 }
-/*
+
 .sub-link.w-inline-block.w--current:before {
   content: "";
 border-bottom: solid 3px #9b2557;
@@ -165,7 +165,7 @@ position: absolute;
 left: -1.25em;
 width: 1em;
  }
-*/
+
 .sub-link.w-inline-block.w--current  {
 margin-left: 1.25em;
 
