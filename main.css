@@ -599,7 +599,7 @@ MEDIA QUERY
   .claniceminigrid:nth-last-child(-n+3) {
     border-bottom: 2px solid #9b2557;  
   }
-  .claniceminigrid {
+  .claniceminigrid, .newsminigrid {
     border-top: 2px solid #9b2557;  
   }
 
@@ -629,7 +629,7 @@ MEDIA QUERY
     border-bottom: 2px solid #9b2557;  
   }
 
-  .claniceminigrid {
+  .claniceminigrid, .newsminigrid {
     border-top: 2px solid #9b2557;  
   }
 
@@ -657,7 +657,7 @@ MEDIA QUERY
   .claniceminigrid:nth-last-child(-n+3) {
     border-bottom: 3px solid #9b2557;  
   }
-  .claniceminigrid {
+  .claniceminigrid, .newsminigrid {
     border-top: 3px solid #9b2557;  
   }
 
@@ -682,10 +682,9 @@ MEDIA QUERY
     .claniceminigrid:nth-last-child(-n+3) {
       border-bottom: 3px solid #9b2557;  
     }
-    .claniceminigrid {
+    .claniceminigrid, .newsminigrid {
       border-top: 3px solid #9b2557;  
     }
- 
 
 
 
@@ -716,10 +715,9 @@ MEDIA QUERY
     border-bottom: 4px solid #9b2557;  
   }
 
-  .claniceminigrid {
+  .claniceminigrid, .newsminigrid {
     border-top: 4px solid #9b2557;  
   }
-
 
 
   
@@ -746,7 +744,7 @@ MEDIA QUERY
   .claniceminigrid:nth-last-child(-n+3) {
     border-bottom: 5px solid #9b2557;  
   }
-  .claniceminigrid {
+  .claniceminigrid, .newsminigrid {
     border-top: 5px solid #9b2557;  
   }
  
