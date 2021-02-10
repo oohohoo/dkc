@@ -605,7 +605,7 @@ MEDIA QUERY
   font-size:14px
   }*/
   .contactwrap {
-    border-top: 2px solid #9b2557;
+    border-top: 3px solid #9b2557;
 }
   }
   @media (min-width: 1200px) and (max-width:1599px) {
