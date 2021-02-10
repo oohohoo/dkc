@@ -586,13 +586,18 @@ MEDIA QUERY
   /*html {
   font-size:12px
   }*/
+  .contactwrap {
+    border-top: 2px solid #9b2557;
+}
   }
   @media (min-width: 700px) and (max-width:999px) {
  /* html {
   font-size:13px
   }*/
- 
-  
+  .contactwrap {
+    border-top: 2px solid #9b2557;
+}
+
 
   }
   @media (min-width: 1000px) and (max-width:1199px) {
