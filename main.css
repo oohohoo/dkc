@@ -27,6 +27,7 @@ COOKIE SKIN
 }
 .ch2-theme-bar .ch2-dialog p {
     font-size: 1.125em  !important;
+    line-height: 1.1;
 color: #f5f4f1 !important;
 }
 .ch2-style-light .ch2-btn-primary, .ch2-style-dark .ch2-btn-primary {
