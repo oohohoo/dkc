@@ -262,7 +262,7 @@ NTH CHILDS
 }
 
 .unuk{
-  border-bottom: 5px solid #9b2557;
+  border-bottom: 0px solid #9b2557;
 }
 
 .child:nth-child(1) .grandchild {
