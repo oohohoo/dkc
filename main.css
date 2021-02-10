@@ -773,7 +773,9 @@ MEDIA QUERY
   .claniceminigrid:nth-last-child(-n+3) {
     border-bottom: 5px solid #9b2557;  
   }
-
+  .claniceminigrid {
+    border-top: 5px solid #9b2557;  
+  }
 
   }
 
