@@ -260,11 +260,11 @@ NTH CHILDS
 .grandchild{
   border-bottom: 1px solid #9b2557;
 }
-
+/*
 .child2:nth-child(1) .grandchild {
   border-top: 3px solid #9b2557;
 }
-
+*/
 .newname{
   border-bottom: 1px solid #9b2557;
 }
@@ -604,6 +604,13 @@ MEDIA QUERY
   .swiper-pagination-bullet {
     height: 2px;
   }
+
+  .child2:nth-child(1) .newname {
+    border-top: 2px solid #9b2557;
+  }
+  .child2:nth-last-child(1) .grandchild {
+    border-bottom: 2px solid #9b2557;
+  }
    
 
 
@@ -639,6 +646,12 @@ MEDIA QUERY
   .swiper-pagination-bullet {
     height: 3px;
   }
+  .child2:nth-child(1) .newname {
+    border-top: 3px solid #9b2557;
+  }
+  .child2:nth-last-child(1) .grandchild {
+    border-bottom: 3px solid #9b2557;
+  }
 
 }
   @media (min-width: 1200px) and (max-width:1599px) {
@@ -670,6 +683,12 @@ MEDIA QUERY
     }
     .swiper-pagination-bullet {
       height: 3px;
+    }
+    .child2:nth-child(1) .newname {
+      border-top: 3px solid #9b2557;
+    }
+    .child2:nth-last-child(1) .grandchild {
+      border-bottom: 3px solid #9b2557;
     }
   /*html {
   font-size:16px
@@ -708,6 +727,13 @@ MEDIA QUERY
   .swiper-pagination-bullet {
     height: 4px;
   }
+  .child2:nth-child(1) .newname {
+    border-top: 4px solid #9b2557;
+  }
+  .child2:nth-last-child(1) .grandchild {
+    border-bottom: 4px solid #9b2557;
+  }
+
 }
   @media (min-width: 2000px) and (max-width:2399px) {
   /*html {
@@ -740,6 +766,13 @@ MEDIA QUERY
   .swiper-pagination-bullet {
     height: 5px;
   }
+  .child2:nth-child(1) .newname {
+    border-top: 5px solid #9b2557;
+  }
+  .child2:nth-last-child(1) .grandchild {
+    border-bottom: 5px solid #9b2557;
+  }
+
   }
 
   @media (min-width: 2400px) {
@@ -776,7 +809,12 @@ MEDIA QUERY
   .swiper-pagination-bullet {
     height: 5px;
   }
-
+  .child2:nth-child(1) .newname {
+    border-top: 5px solid #9b2557;
+  }
+  .child2:nth-last-child(1) .grandchild {
+    border-bottom: 5px solid #9b2557;
+  }
   }
 /*
 ================================================================================
