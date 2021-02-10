@@ -611,7 +611,7 @@ MEDIA QUERY
   @media (min-width: 1200px) and (max-width:1599px) {
 
     .contactwrap, .lajna {
-        border-top: 4px solid #9b2557;
+        border-top: 3px solid #9b2557;
     }
 
 
