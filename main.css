@@ -4,9 +4,8 @@ COOKIE SKIN
 ================================================================================
 */
 .ch2-theme-bar .ch2-dialog-content {
-	/*font-size: 1rem !important;*/
+  padding-right: 8.125em;
 }
-
 .ch2-container, .ch2-icon {
   font-family: 'Nimbussansdot regu', sans-serif!important;
   /* font-family: sans-serif; */
