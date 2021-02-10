@@ -614,8 +614,7 @@ MEDIA QUERY
   font-size:18px
   }*/
 
-  * { border: 1px solid black; }
-  .contactwrap {
+    .contactwrap {
     border-top: 7px solid #9b2557;
     }
   }
