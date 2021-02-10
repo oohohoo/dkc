@@ -108,7 +108,7 @@ SCROLLBAR STYLE
 /*width*/
 
 body::-webkit-scrollbar {
-width:4px;
+width:6px;
 }
 
 /*thumb*/
