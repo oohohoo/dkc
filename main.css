@@ -1,90 +1,5 @@
 /*
 ================================================================================
-COOKIE SKIN
-================================================================================
-*/
-.ch2-theme-bar .ch2-dialog-content {
-  padding-right: 9.5em!important;
-}
-.ch2-container, .ch2-icon {
-  font-family: 'Nimbussansdot regu', sans-serif!important;
-  /* font-family: sans-serif; */
-   font-size: 1vw; 
-  /* line-height: 1; */
-  
-}
-
-.ch2-style-light .ch2-dialog {
-  background: #9b2557!important;
-}
-
-.ch2-style-light .ch2-btn-secondary {
-    background: transparent !important;
-    color: #f5f4f1 !important;
-}
-.ch2-theme-bar .ch2-dialog {
-    box-shadow: 0 0 0px 0 rgba(0,0,0,0) !important;
-}
-.ch2-theme-bar .ch2-dialog p {
-    font-size: 1.125em  !important;
-    line-height: 1.1;
-color: #f5f4f1 !important;
-}
-.ch2-style-light .ch2-btn-primary, .ch2-style-dark .ch2-btn-primary {
-    background: #9b2557 !important;
-}
-.ch2-btn:hover {
-    box-shadow: 0 0 0px 0 rgba(0,0,0,.4) !important;
-}
-.ch2-btn {
-  font-family: 'Nimbussansdot regu', sans-serif !important;
-    box-shadow: 0 0 0px 0 rgba(0,0,0,.4) !important;
-    padding: 0.850em 1em !important;
-    font-size: 1.125em !important;
-    font-weight: 700 !important;
-}
-.ch2-style-light .ch2-btn-primary {
-    background: #9b2557 !important;
-    color: #f5f4f1 !important;
-}
-.ch2-dialog-content p:first-child {
-    display: none !important;
-}
-.ch2-dialog-content a {
-   font-size: 1.125em !important;
-    color: #9b2557 !important;
-    cursor: pointer !important;
-}
-.ch2-style-light .ch2-dialog-content a {
-    border-bottom: 1px solid #9b2557 !important;
-}
-
-.ch2-container, .ch2-icon {
-  font-size: 1vw  !important;
-}
-.ch2-theme-bar .ch2-dialog-actions button {
-    min-width: auto !important;
-}
-.ch2-theme-bar .ch2-dialog-actions button:first-child {
-    margin-right: 3em !important;
-}  
-
-.ch2-theme-bar .ch2-dialog {
-  padding: 0.850em 5em !important;
-}
-
-.ch2-theme-bar .ch2-dialog-actions {
-  margin-left: 15em!important;
-}
-
-.ch2-dialog-actions button {
-  height: 0.813em!important;
-  margin-right: -0.95em!important;
-}
-
-
-/*
-================================================================================
 SCROLLBAR FIX
 ================================================================================
 */
@@ -166,7 +81,7 @@ html {
 ANIMATE ON RESIZE
 ================================================================================
 */
-  /*
+  
   section, h1, h2, h3, p, li, img {
     -moz-transition: width 1s ease-in-out, left 1.5s ease-in-out;
     -webkit-transition: width 1s ease-in-out, left 1.5s ease-in-out;
@@ -793,3 +708,88 @@ TEXT SINGLE PAGE
 .swiper-button-n:focus,
 .swiper-button-p:focus { 
 outline: none; }
+
+
+/*
+================================================================================
+COOKIE SKIN
+================================================================================
+*/
+.ch2-theme-bar .ch2-dialog-content {
+  padding-right: 9.5em!important;
+}
+.ch2-container, .ch2-icon {
+  font-family: 'Nimbussansdot regu', sans-serif!important;
+  /* font-family: sans-serif; */
+   font-size: 1vw; 
+  /* line-height: 1; */
+  
+}
+
+.ch2-style-light .ch2-dialog {
+  background: #9b2557!important;
+}
+
+.ch2-style-light .ch2-btn-secondary {
+    background: transparent !important;
+    color: #f5f4f1 !important;
+}
+.ch2-theme-bar .ch2-dialog {
+    box-shadow: 0 0 0px 0 rgba(0,0,0,0) !important;
+}
+.ch2-theme-bar .ch2-dialog p {
+    font-size: 1.125em  !important;
+    line-height: 1.1;
+color: #f5f4f1 !important;
+}
+.ch2-style-light .ch2-btn-primary, .ch2-style-dark .ch2-btn-primary {
+    background: #9b2557 !important;
+}
+.ch2-btn:hover {
+    box-shadow: 0 0 0px 0 rgba(0,0,0,.4) !important;
+}
+.ch2-btn {
+  font-family: 'Nimbussansdot regu', sans-serif !important;
+    box-shadow: 0 0 0px 0 rgba(0,0,0,.4) !important;
+    padding: 0.850em 1em !important;
+    font-size: 1.125em !important;
+    font-weight: 700 !important;
+}
+.ch2-style-light .ch2-btn-primary {
+    background: #9b2557 !important;
+    color: #f5f4f1 !important;
+}
+.ch2-dialog-content p:first-child {
+    display: none !important;
+}
+.ch2-dialog-content a {
+   font-size: 1.125em !important;
+    color: #9b2557 !important;
+    cursor: pointer !important;
+}
+.ch2-style-light .ch2-dialog-content a {
+    border-bottom: 1px solid #9b2557 !important;
+}
+
+.ch2-container, .ch2-icon {
+  font-size: 1vw  !important;
+}
+.ch2-theme-bar .ch2-dialog-actions button {
+    min-width: auto !important;
+}
+.ch2-theme-bar .ch2-dialog-actions button:first-child {
+    margin-right: 3em !important;
+}  
+
+.ch2-theme-bar .ch2-dialog {
+  padding: 0.850em 5em !important;
+}
+
+.ch2-theme-bar .ch2-dialog-actions {
+  margin-left: 15em!important;
+}
+
+.ch2-dialog-actions button {
+  height: 0.813em!important;
+  margin-right: -0.95em!important;
+}
