@@ -261,8 +261,11 @@ NTH CHILDS
   border-bottom: 1px solid #0cf433;
 }
 
-
+.grandchild:nth-child(1) .grandchild {
+  border-top: 3px solid #9b2557;
+}
 /*
+ODAVDE DOLE JE ORIGINAL
 .child:nth-child(1) .grandchild {
   border-top: 3px solid #9b2557;
 }
