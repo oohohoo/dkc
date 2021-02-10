@@ -596,11 +596,14 @@ MEDIA QUERY
   /*html {
   font-size:14px
   }*/
+  .contactwrap {
+    border-top: 2px solid #9b2557;
+}
   }
   @media (min-width: 1200px) and (max-width:1599px) {
 
     .contactwrap {
-        border-top: 1px solid #9b2557;
+        border-top: 3px solid #9b2557;
     }
 
 
@@ -613,6 +616,9 @@ MEDIA QUERY
   /*html {
   font-size:18px
   }*/
+  .contactwrap {
+    border-top: 4px solid #9b2557;
+}
 
   
   }
@@ -620,11 +626,18 @@ MEDIA QUERY
   /*html {
   font-size:21px
   }*/
+  .contactwrap {
+    border-top: 5px solid #9b2557;
+}
+  
   }
   @media (min-width: 2400px) {
   /*html {
   font-size:24px
   }*/
+  .contactwrap {
+    border-top: 6px solid #9b2557;
+}
   }
 
 
