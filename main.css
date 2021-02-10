@@ -593,9 +593,9 @@ MEDIA QUERY
   }*/
   }
   @media (min-width: 1000px) and (max-width:1199px) {
-  /*html {
+  html {
   font-size:14px
-  }*/
+  }
   .contactwrap {
     border-top: 2px solid #9b2557;
 }
