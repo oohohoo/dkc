@@ -707,6 +707,10 @@ MEDIA QUERY
     border-bottom: 4px solid #9b2557;  
   }
 
+  .claniceminigrid {
+    border-top: 15px solid #9b2557;  
+  }
+
 
 
   
@@ -719,19 +723,19 @@ MEDIA QUERY
     border-top: 5px solid #9b2557;
 }
   .child:nth-child(1) .grandchild {
-    border-top: 15px solid #9b2557;
+    border-top: 5px solid #9b2557;
   }
   
   .child:nth-last-child(1) .grandchild {
-    border-bottom: 15px solid #9b2557;
+    border-bottom: 5px solid #9b2557;
   }
   
   .newswrap:nth-last-child(-n+3) {
-    border-bottom: 15px solid #9b2557;
+    border-bottom: 5px solid #9b2557;
   }
   
   .claniceminigrid:nth-last-child(-n+3) {
-    border-bottom: 15px solid #9b2557;  
+    border-bottom: 5px solid #9b2557;  
   }
 
  
