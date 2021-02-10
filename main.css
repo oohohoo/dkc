@@ -261,6 +261,10 @@ NTH CHILDS
   border-bottom: 1px solid #9b2557;
 }
 
+.unuk{
+  border-bottom: 1px solid #9b2557;
+}
+
 .child:nth-child(1) .grandchild {
   border-top: 3px solid #9b2557;
 }
