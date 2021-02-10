@@ -565,6 +565,12 @@ MEDIA QUERY
   .swiper-pagination-bullet {
   height: 2px;
   }
+  .child2:nth-child(1) .newname {
+    border-top: 2px solid #9b2557;
+  }
+  .child2:nth-last-child(1) .newname {
+    border-bottom: 2px solid #9b2557;
+  }
    
 }
 
@@ -608,7 +614,7 @@ MEDIA QUERY
   .child2:nth-child(1) .newname {
     border-top: 2px solid #9b2557;
   }
-  .child2:nth-last-child(1) .grandchild {
+  .child2:nth-last-child(1) .newname {
     border-bottom: 2px solid #9b2557;
   }
    
@@ -649,7 +655,7 @@ MEDIA QUERY
   .child2:nth-child(1) .newname {
     border-top: 3px solid #9b2557;
   }
-  .child2:nth-last-child(1) .grandchild {
+  .child2:nth-last-child(1) .newname {
     border-bottom: 3px solid #9b2557;
   }
 
@@ -687,7 +693,7 @@ MEDIA QUERY
     .child2:nth-child(1) .newname {
       border-top: 3px solid #9b2557;
     }
-    .child2:nth-last-child(1) .grandchild {
+    .child2:nth-last-child(1) .newname {
       border-bottom: 3px solid #9b2557;
     }
   /*html {
@@ -730,7 +736,7 @@ MEDIA QUERY
   .child2:nth-child(1) .newname {
     border-top: 4px solid #9b2557;
   }
-  .child2:nth-last-child(1) .grandchild {
+  .child2:nth-last-child(1) .newname {
     border-bottom: 4px solid #9b2557;
   }
 
@@ -769,7 +775,7 @@ MEDIA QUERY
   .child2:nth-child(1) .newname {
     border-top: 5px solid #9b2557;
   }
-  .child2:nth-last-child(1) .grandchild {
+  .child2:nth-last-child(1) .newname {
     border-bottom: 5px solid #9b2557;
   }
 
@@ -812,7 +818,7 @@ MEDIA QUERY
   .child2:nth-child(1) .newname {
     border-top: 5px solid #9b2557;
   }
-  .child2:nth-last-child(1) .grandchild {
+  .child2:nth-last-child(1) .newname {
     border-bottom: 5px solid #9b2557;
   }
   }
