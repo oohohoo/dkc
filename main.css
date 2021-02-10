@@ -586,7 +586,7 @@ MEDIA QUERY
   /*html {
   font-size:12px
   }*/
-  .contactwrap, .lajna{
+  .contactwrap, ..footersponzorwrap  {
     border-top: 2px solid #9b2557;
 }
   }
@@ -594,7 +594,7 @@ MEDIA QUERY
  /* html {
   font-size:13px
   }*/
-  .contactwrap, .lajna{
+  .contactwrap, .footersponzorwrap {
     border-top: 2px solid #9b2557;
 }
 
@@ -604,13 +604,13 @@ MEDIA QUERY
   /*html {
   font-size:14px
   }*/
-  .contactwrap, .lajna {
+  .contactwrap, .footersponzorwrap  {
     border-top: 3px solid #9b2557;
 }
   }
   @media (min-width: 1200px) and (max-width:1599px) {
 
-    .contactwrap, .lajna {
+    .contactwrap, .footersponzorwrap  {
         border-top: 3px solid #9b2557;
     }
 
@@ -624,7 +624,7 @@ MEDIA QUERY
   /*html {
   font-size:18px
   }*/
-  .contactwrap, .lajna {
+  .contactwrap, .footersponzorwrap  {
     border-top: 4px solid #9b2557;
 }
 
@@ -634,7 +634,7 @@ MEDIA QUERY
   /*html {
   font-size:21px
   }*/
-  .contactwrap, .lajna{
+  .contactwrap, .footersponzorwrap {
     border-top: 5px solid #9b2557;
 }
   
@@ -643,7 +643,7 @@ MEDIA QUERY
   /*html {
   font-size:24px
   }*/
-  .contactwrap, .lajna{
+  .contactwrap, .footersponzorwrap {
     border-top: 5px solid #9b2557;
 }
   }
