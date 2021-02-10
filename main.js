@@ -15,7 +15,7 @@ JQUERY NTH GRANDFADER - CHILD
 
     // Using Jquery $( "parent > child" ); selector which returns an array of matches  
     // Iterate through an array of Jquery objects using $(..).each()
-    $('ul > li > a > ul > li').each(function(){
+    $('ul > li > ul > li').each(function(){
     
       console.log($(this).text());
       $(this).addClass('great-great-grandchild');
@@ -24,7 +24,7 @@ JQUERY NTH GRANDFADER - CHILD
     
 
     //This adds the class to all matches as well
-    $('ul > li > ul > li > div').addClass('great-great-grandchild');
+    $('ul > li > ul > li > div > div').addClass('great-great-grandchild');
     
     // element:first selector selects the first occurrence of a given element  
     console.log($('ul:first').attr("value")); //Returns the value attribute of the first <ul> element
