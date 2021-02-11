@@ -275,13 +275,15 @@ NTH CHILDS
 .child:nth-last-child(1) .newname {
   border-bottom: 3px solid #9b2557;
 }
+
+.child:nth-child(1) .grandgrandchild {
+  border-top: 3px solid #259b2f;
+}
 /*
 .link  {
   border-top: 3px solid #259b2f;
 }*/
-.newname:nth-child(-n+3)  {
-  border-top: 3px solid #259b2f;
-}
+
 
 .newswrap:nth-last-child(-n+3) {
   border-bottom: 3px solid #9b2557;
