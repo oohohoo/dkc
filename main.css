@@ -200,6 +200,21 @@ html {
     -webkit-font-smoothing: antialiased
   }
 
+  /*
+================================================================================
+IMAGE PROPORTIONAL
+================================================================================
+*/
+
+  .vertical{
+    width: calc(25vh*21/29.7);
+    height: 25vh;
+  }
+  
+  .horizontal{
+    width: calc(25vh*29.7/21);
+    height: 25vh;
+  }
 
 
 /*
