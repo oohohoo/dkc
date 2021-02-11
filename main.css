@@ -216,8 +216,6 @@ IMAGE BLEND MODE
   mix-blend-mode: screen;
 }
 
-
-
 .newswrapfix:focus .card__blend-colour, .newswrapfix:hover .card__blend-colour {
     background-color: #9B2557;
   }
@@ -225,26 +223,12 @@ IMAGE BLEND MODE
     mix-blend-mode: screen;
   }
 
-
-
 .projektho:focus .card__blend-colour, .projektho:hover .card__blend-colour {
     background-color: #9B2557;
   }
 .projektho:focus .card__image, .projektho:hover .card__image {
     mix-blend-mode: screen;
   }
-/*
-  .projectho:focus .card__blend-colour, .projectwrap:hover .card__blend-colour {
-    background-color: #9B2557;
-  }
-.projectho:focus .card__image, .projectwrap:hover .card__image {
-    mix-blend-mode: screen;
-  }
-*/
-  
-
-
-
 
 .card__image--transition {
   transition: 0.3s ease all;
@@ -267,31 +251,6 @@ NTH CHILDS
 ================================================================================
 */
 
-/*
-.grandchild{
-  border-bottom: 1px solid #9b2557;
-}*/
-/*
-.child2:nth-child(1) .grandchild {
-  border-top: 3px solid #9b2557;
-}
-
-
-.great-great-grandchild{
-  border-bottom: 1px solid #9b2557;
-}
-
-.child:nth-child(1) .grandchild {
-  border-top: 3px solid #9b2557;
-}
-
-.child:nth-last-child(1) .grandchild {
-  border-bottom: 3px solid #9b2557;
-}
-  
-
-
-*/
 .newname{
   border-bottom: 1px solid #9b2557;
 }
@@ -304,25 +263,6 @@ NTH CHILDS
   border-bottom: 3px solid #9b2557;
 }
 
-/*
-.parent:nth-child(-n+2){
-  border-top: 3px solid #1676dd;
-}
-*/
-/*
-.child:nth-last-child(1) .newname {
-  border-bottom: 3px solid #9b2557;
-}*/
-/*
-.parent:nth-child(1) .grandgrandchild {
-  border-top: 3px solid #259b2f;
-}*/
-/*
-.link  {
-  border-top: 3px solid #259b2f;
-}*/
-
-
 .newswrap:nth-last-child(-n+3) {
   border-bottom: 3px solid #9b2557;
 }
@@ -330,48 +270,6 @@ NTH CHILDS
   border-bottom: 3px solid #9b2557;  
 }
 
-
-/*
-.parent:nth-last-child(1) .newname {
-  border-bottom: 3px solid #9b2557;
-}
-*/
-/*
-ODAVDE DOLE JE ORIGINAL
-.child:nth-child(1) .grandchild {
-  border-top: 3px solid #9b2557;
-}
-.child:nth-last-child(1) .grandchild {
-  border-bottom: 3px solid #9b2557;
-}
-
-*/
-
-/*
-
-
-
-*/
-/*
-.child2:nth-child(1) .grandchild {
-  border-top: 3px solid #06dd3c;
-}
-/*
-.child2:nth-last-child(1) .grandchild {
-  border-bottom: 3px solid #9b2557;
-}
-
-*/
-/*
-.child:nth-child(1) .grandchild.projekti {
-  border-top: 3px solid #9b2557;
-}
-
-.projectwrap .childprojekt:nth-last-child(1) .grandchild.projekti {
-  border-bottom: 3px solid #9b2557;
-}
-
-*/
 
 /*
 ================================================================================
