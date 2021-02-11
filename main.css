@@ -276,7 +276,7 @@ NTH CHILDS
   border-bottom: 3px solid #9b2557;
 }
 
-.parent .child2:nth-child(1) .newname {
+.child2:nth-child(1) .link {
   border-top: 3px solid #259b2f;
 }
 
