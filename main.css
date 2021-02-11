@@ -493,11 +493,11 @@ MEDIA QUERY
   .contactwrap, .footersponzorwrap  {
     border-top: 2px solid #9b2557;
 }
-  .child:nth-child(1) .grandchild {
+  .child:nth-child(1) .newname {
     border-top: 2px solid #9b2557;
   }
   
-  .child:nth-last-child(1) .grandchild {
+  .child:nth-last-child(1) .newname {
     border-bottom: 2px solid #9b2557;
   }
   
@@ -527,6 +527,7 @@ MEDIA QUERY
 }
 
 
+
  
   @media (min-width: 700px) and (max-width:999px) {
 
@@ -535,11 +536,11 @@ MEDIA QUERY
     border-top: 2px solid #9b2557;
 }
 
-  .child:nth-child(1) .grandchild {
+  .child:nth-child(1) .newname {
     border-top: 2px solid #9b2557;
   }
   
-  .child:nth-last-child(1) .grandchild {
+  .child:nth-last-child(1) .newname {
     border-bottom: 2px solid #9b2557;
   }
   
@@ -576,11 +577,11 @@ MEDIA QUERY
   .contactwrap, .footersponzorwrap  {
     border-top: 3px solid #9b2557;
 }
-  .child:nth-child(1) .grandchild {
+  .child:nth-child(1) .newname {
     border-top: 3px solid #9b2557;
   }
   
-  .child:nth-last-child(1) .grandchild {
+  .child:nth-last-child(1) .newname {
     border-bottom: 3px solid #9b2557;
   }
   
@@ -613,11 +614,11 @@ MEDIA QUERY
     .contactwrap, .footersponzorwrap  {
       border-top: 3px solid #9b2557;
   }
-    .child:nth-child(1) .grandchild {
+    .child:nth-child(1) .newname {
       border-top: 3px solid #9b2557;
     }
     
-    .child:nth-last-child(1) .grandchild {
+    .child:nth-last-child(1) .newname {
       border-bottom: 3px solid #9b2557;
     }
     
@@ -645,8 +646,8 @@ MEDIA QUERY
     .child2:nth-last-child(1) .newname {
       border-bottom: 3px solid #9b2557;
     }
-
-  }*/
+*/
+  }
 
  
   @media (min-width: 1600px) and (max-width:1999px) {
@@ -654,11 +655,11 @@ MEDIA QUERY
   .contactwrap, .footersponzorwrap  {
     border-top: 4px solid #9b2557;
 }
-  .child:nth-child(1) .grandchild {
+  .child:nth-child(1) .newname {
     border-top: 4px solid #9b2557;
   }
   
-  .child:nth-last-child(1) .grandchild {
+  .child:nth-last-child(1) .newname {
     border-bottom: 4px solid #9b2557;
   }
   
@@ -693,11 +694,11 @@ MEDIA QUERY
   .contactwrap, .footersponzorwrap {
     border-top: 5px solid #9b2557;
 }
-  .child:nth-child(1) .grandchild {
+  .child:nth-child(1) .newname {
     border-top: 5px solid #9b2557;
   }
   
-  .child:nth-last-child(1) .grandchild {
+  .child:nth-last-child(1) .newname {
     border-bottom: 5px solid #9b2557;
   }
   
@@ -734,11 +735,11 @@ MEDIA QUERY
 }
 
   
-  .child:nth-child(1) .grandchild {
+  .child:nth-child(1) .newname {
     border-top: 5px solid #9b2557;
   }
   
-  .child:nth-last-child(1) .grandchild {
+  .child:nth-last-child(1) .newname {
     border-bottom: 5px solid #9b2557;
   }
   
