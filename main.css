@@ -76,7 +76,7 @@ html {
 
     
 
-    
+
 /*
 ================================================================================
 ANIMATE ON RESIZE
@@ -208,13 +208,13 @@ IMAGE PROPORTIONAL
 */
 
   .vertical{
-    width: calc(25vh*21/21);
-    height: 25vh;
+    width: calc(12em*21/29.7);
+    height: 12em;
   }
   
   .horizontal{
-    width: calc(25vh*29.7/21);
-    height: 25vh;
+    width: calc(12em*29.7/21);
+    height: 12vh;
   }
 
 
