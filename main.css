@@ -487,7 +487,7 @@ OHOHO
 MEDIA QUERY
 ================================================================================
 */
-/*
+
 @media (max-width: 699px) {
 
   .contactwrap, .footersponzorwrap  {
@@ -648,7 +648,7 @@ MEDIA QUERY
 
   }*/
 
-  /*
+ 
   @media (min-width: 1600px) and (max-width:1999px) {
 
   .contactwrap, .footersponzorwrap  {
