@@ -254,7 +254,7 @@ IMAGE BLEND MODE
  
 }
 
-*/
+
 .card__image {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
