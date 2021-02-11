@@ -225,7 +225,7 @@ IMAGE PROPORTIONAL
   }
   
   .horizontalx{
-    width: calc(15em*29.7/21);
+    width: calc(17em*29.7/21);
    /* height: 18vh;*/
   }
 
