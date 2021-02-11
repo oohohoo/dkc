@@ -270,15 +270,12 @@ NTH CHILDS
 }
 
 .child:nth-child(1) .newname {
-  border-top: 3px solid #9b2557;
+  border-top: 3px solid #259b2f;
 }
 .child:nth-last-child(1) .newname {
   border-bottom: 3px solid #9b2557;
 }
 
-.newname:nth-child(1){
-  border-top: 3px solid #10ebce;
-}
 /*
 .parent:nth-last-child(1) .newname {
   border-bottom: 3px solid #9b2557;
