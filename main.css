@@ -286,7 +286,7 @@ NTH CHILDS
 }
 
 .child:nth-child(1) .newname {
-  border-top: 3px solid #9b2557;
+  border-top: 3px solid #1676dd;
 }
 /*
 .child:nth-last-child(1) .newname {
