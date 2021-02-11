@@ -276,7 +276,7 @@ NTH CHILDS
   border-bottom: 3px solid #9b2557;
 }
 
-.parent:nth-child(2) .grchildold {
+.parent:nth-child(1) .newname {
   border-top: 3px solid #9b2557;
 }
 /*
