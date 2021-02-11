@@ -18,7 +18,7 @@ JQUERY NTH GRANDFADER - CHILD
     $('ul > li > ul > li ').each(function(){
     
       console.log($(this).text());
-      $(this).addClass('newname');
+      $(this).addClass('newnamexx');
         
     });
     
