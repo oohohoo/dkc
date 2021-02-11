@@ -277,9 +277,14 @@ NTH CHILDS
 }
 
 
+
 .newswrap:nth-last-child(-n+3) {
   border-bottom: 3px solid #9b2557;
 }
+.claniceminigrid:nth-last-child(-n+3) {
+  border-bottom: 3px solid #9b2557;  
+}
+
 
 /*
 .parent:nth-last-child(1) .newname {
@@ -300,9 +305,7 @@ ODAVDE DOLE JE ORIGINAL
 /*
 
 
-.claniceminigrid:nth-last-child(-n+3) {
-  border-bottom: 3px solid #9b2557;  
-}
+
 */
 /*
 .child2:nth-child(1) .grandchild {
