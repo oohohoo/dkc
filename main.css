@@ -208,13 +208,13 @@ IMAGE PROPORTIONAL
 */
 
   .vertical{
-    width: calc(20em*21/29.7);
-    height: 20em;
+    width: calc(18em*21/29.7);
+    height: 18em;
   }
   
   .horizontal{
-    width: calc(12em*29.7/21);
-    height: 12vh;
+    width: calc(15em*29.7/21);
+    height: 15vh;
   }
 
 
