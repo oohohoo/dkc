@@ -276,11 +276,11 @@ NTH CHILDS
   border-bottom: 3px solid #9b2557;
 }
 
-.child2:nth-child(1) .newname {
+.child2:nth-child(1) .grandgrandchild {
   border-top: 3px solid #9b2557;
 }
 
-.child2:nth-last-child(1) .newname {
+.child2:nth-last-child(1) .grandgrandchild {
   border-bottom: 3px solid #9b2557;
 }
 
