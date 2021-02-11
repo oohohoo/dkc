@@ -3,8 +3,8 @@
 FUNCTION INIT
 ================================================================================
 */
-function init() {
-
+/*function init() {
+*/
   $(".card__image").each(function(){
     var $this = $(this);
     if ($this.width() > $this.height()) {
@@ -298,7 +298,7 @@ SWIPER SINGLE PAGE
 
 
 
- 
+/* 
 }
 
 window.addEventListener('load', function() {
@@ -307,7 +307,7 @@ window.addEventListener('load', function() {
 });
 
 
-
+*/
 
 
 
