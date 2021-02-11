@@ -276,6 +276,10 @@ NTH CHILDS
   border-bottom: 3px solid #9b2557;
 }
 
+.child:nth-last-child(1) .grandchild {
+  border-bottom: 3px solid #9b2557;
+}
+
 /*
 .parent:nth-last-child(1) .newname {
   border-bottom: 3px solid #9b2557;
@@ -287,9 +291,7 @@ ODAVDE DOLE JE ORIGINAL
   border-top: 3px solid #9b2557;
 }
 
-.child:nth-last-child(1) .grandchild {
-  border-bottom: 3px solid #9b2557;
-}
+
 */
 
 /*
