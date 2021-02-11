@@ -5,7 +5,7 @@ FUNCTION INIT
 */
 function init() {
 
-  $("img").each(function(){
+  $(".card__image").each(function(){
     var $this = $(this);
     if ($this.width() > $this.height()) {
         $this.addClass("horizontal");
