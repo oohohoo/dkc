@@ -218,6 +218,19 @@ IMAGE PROPORTIONAL
   }
 
 
+
+  .verticalx{
+    width: calc(15em*21/29.7);
+   /* height: 18em; */
+  }
+  
+  .horizontalx{
+    width: calc(15em*29.7/21);
+   /* height: 18vh;*/
+  }
+
+
+
 /*
 ================================================================================
 IMAGE BLEND MODE

@@ -14,6 +14,15 @@ IMAGE ORIENTATION
     }
 });
 
+
+$(".projectimgsizer").each(function(){
+  var $this = $(this);
+  if ($this.width() > $this.height()) {
+      $this.addClass("horizontalx");
+  }else{
+      $this.addClass("verticalx");
+  }
+});
 /*
 ================================================================================
 OPEN CLOSE SEARCH
