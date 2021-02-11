@@ -264,6 +264,22 @@ NTH CHILDS
 .child2:nth-child(1) .grandchild {
   border-top: 3px solid #9b2557;
 }
+
+
+.great-great-grandchild{
+  border-bottom: 1px solid #9b2557;
+}
+
+.child:nth-child(1) .grandchild {
+  border-top: 3px solid #9b2557;
+}
+
+.child:nth-last-child(1) .grandchild {
+  border-bottom: 3px solid #9b2557;
+}
+  
+
+
 */
 .newname{
   border-bottom: 1px solid #9b2557;
@@ -272,9 +288,10 @@ NTH CHILDS
 .child:nth-child(1) .newname {
   border-top: 3px solid #9b2557;
 }
+/*
 .child:nth-last-child(1) .newname {
   border-bottom: 3px solid #9b2557;
-}
+}*/
 /*
 .parent:nth-child(1) .grandgrandchild {
   border-top: 3px solid #259b2f;
