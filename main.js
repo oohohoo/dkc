@@ -5,6 +5,17 @@ FUNCTION INIT
 */
 function init() {
 
+  $("img").each(function(){
+    var $this = $(this);
+    if ($this.width() > $this.height()) {
+        $this.addClass("horizontal");
+    }else{
+        $this.addClass("vertical");
+    }
+});
+
+
+
 /*
 ================================================================================
 JQUERY NTH GRANDFADER - CHILD
