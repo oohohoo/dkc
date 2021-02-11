@@ -245,15 +245,16 @@ IMAGE BLEND MODE
 .projektho:focus .card__image, .projektho:hover .card__image {
     mix-blend-mode: screen;
   }
-
+/*
 .card__image--transition {
   transition: 0.3s ease all;
   transition-delay: 0s;
   mix-blend-mode: normal;
   /*background-color: #000000;*/
+  /*
 }
 
-
+*/
 .card__image {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
