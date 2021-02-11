@@ -285,10 +285,20 @@ NTH CHILDS
   border-bottom: 1px solid #9b2557;
 }
 
+.child:nth-child(1) .newname {
+  border-top: 3px solid #9b2557;
+}
+
+.child:nth-last-child(1) .newname {
+  border-bottom: 3px solid #9b2557;
+}
+
+/*
 .parent:nth-child(-n+2){
   border-top: 3px solid #1676dd;
 }
-/*
+*/
+
 .child:nth-last-child(1) .newname {
   border-bottom: 3px solid #9b2557;
 }*/
