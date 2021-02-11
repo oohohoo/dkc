@@ -280,7 +280,7 @@ NTH CHILDS
   border-top: 3px solid #9b2557;
 }
 
-.child:nth-last-child(1) .newname {
+.child2:nth-last-child(1) .newname {
   border-bottom: 3px solid #9b2557;
 }
 
