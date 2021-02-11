@@ -227,20 +227,20 @@ IMAGE BLEND MODE
 
 
 
-.child:focus .card__blend-colour, .projectwrap:hover .card__blend-colour {
+.projektho:focus .card__blend-colour, .projektho:hover .card__blend-colour {
     background-color: #9B2557;
   }
-.child:focus .card__image, .projectwrap:hover .card__image {
+.projektho:focus .card__image, .projektho:hover .card__image {
     mix-blend-mode: screen;
   }
-
+/*
   .projectho:focus .card__blend-colour, .projectwrap:hover .card__blend-colour {
     background-color: #9B2557;
   }
 .projectho:focus .card__image, .projectwrap:hover .card__image {
     mix-blend-mode: screen;
   }
-
+*/
   
 
 
