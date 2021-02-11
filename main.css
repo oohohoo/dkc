@@ -234,6 +234,17 @@ IMAGE BLEND MODE
     mix-blend-mode: screen;
   }
 
+  .projectho:focus .card__blend-colour, .projectwrap:hover .card__blend-colour {
+    background-color: #9B2557;
+  }
+.projectho:focus .card__image, .projectwrap:hover .card__image {
+    mix-blend-mode: screen;
+  }
+
+  
+
+
+
 
 .card__image--transition {
   transition: 0.3s ease all;
