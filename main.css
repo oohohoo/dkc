@@ -276,7 +276,9 @@ NTH CHILDS
   border-bottom: 3px solid #9b2557;
 }
 
-
+.child2:nth-child(1) .newname {
+  border-top: 3px solid #259b2f;
+}
 
 .newswrap:nth-last-child(-n+3) {
   border-bottom: 3px solid #9b2557;
