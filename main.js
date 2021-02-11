@@ -5,7 +5,7 @@ IMAGE ORIENTATION
 */
 /*function init() {
 */
-  $(".card__image").each(function(){
+  $(".card__blend-colour").each(function(){
     var $this = $(this);
     if ($this.width() > $this.height()) {
         $this.addClass("horizontal");
