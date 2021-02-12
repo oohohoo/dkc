@@ -73,7 +73,7 @@ function add_image_dimensions( $content ) {
     if (count($images) < 1)
         return $content;
 
-    foreach ($images[0] as $image) {
+    foreach ($images[0] as $image); {
         preg_match_all( '/(alt|title|src|width|class|id|height)=("[^"]*")/i', $image, $img );
 
         if ( !in_array( 'src', $img[1] ) )
