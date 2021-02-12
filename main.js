@@ -63,7 +63,7 @@ function closeMenu() {
 ADD WIDTH & HEIGHT ON EVERY PHOTO
 ================================================================================
 */
-
+/*
 add_filter( 'the_content', 'add_image_dimensions' );
 
 function add_image_dimensions( $content ) {
@@ -95,7 +95,7 @@ function add_image_dimensions( $content ) {
     return $content;
 }
 
-
+*/
 
 
 /*
