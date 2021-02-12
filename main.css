@@ -155,6 +155,7 @@ MENU
   }
   
   /* vidi šta je ovo nešto za mobilni menu */
+  /*
   @media only screen and (max-width: 992px) {
     li {
       width: 100%;
@@ -162,7 +163,7 @@ MENU
       margin-bottom: 1rem;
     }
   }
-
+*/
 /*
 ================================================================================
 CURRENT
