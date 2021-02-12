@@ -514,9 +514,11 @@ MEDIA QUERY
   .claniceminigrid:nth-last-child(-n+3) {
     border-bottom: 2px solid #9b2557;  
   }
+  /*
   .claniceminigrid, .newsminigrid {
     border-top: 2px solid #9b2557;  
   }
+  */
   .nav-link.w-inline-block.w--current:before {
   border-bottom: solid 2px #9b2557;
   }
@@ -558,10 +560,10 @@ MEDIA QUERY
   .claniceminigrid:nth-last-child(-n+3) {
     border-bottom: 2px solid #9b2557;  
   }
-
+/*
   .claniceminigrid, .newsminigrid {
     border-top: 2px solid #9b2557;  
-  }
+  }*/
   .nav-link.w-inline-block.w--current:before, .underline::before {
     border-bottom: solid 2px #9b2557;
   }
@@ -599,9 +601,11 @@ MEDIA QUERY
   .claniceminigrid:nth-last-child(-n+3) {
     border-bottom: 3px solid #9b2557;  
   }
+  /*
   .claniceminigrid, .newsminigrid {
     border-top: 3px solid #9b2557;  
   }
+  */
   .nav-link.w-inline-block.w--current:before, .underline::before {
     border-bottom: solid 3px #9b2557;
   }
@@ -636,10 +640,11 @@ MEDIA QUERY
     .claniceminigrid:nth-last-child(-n+3) {
       border-bottom: 3px solid #9b2557;  
     }
+    /*
     .claniceminigrid, .newsminigrid {
       border-top: 3px solid #9b2557;  
     }
-
+*/
     .nav-link.w-inline-block.w--current:before, .underline::before {
       border-bottom: solid 3px #9b2557;
     }
@@ -677,11 +682,11 @@ MEDIA QUERY
   .claniceminigrid:nth-last-child(-n+3) {
     border-bottom: 4px solid #9b2557;  
   }
-
+/*
   .claniceminigrid, .newsminigrid {
     border-top: 4px solid #9b2557;  
   }
-
+*/
   .nav-link.w-inline-block.w--current:before, .underline::before {
     border-bottom: solid 4px #9b2557;
   }
@@ -716,9 +721,11 @@ MEDIA QUERY
   .claniceminigrid:nth-last-child(-n+3) {
     border-bottom: 5px solid #9b2557;  
   }
+  /*
   .claniceminigrid, .newsminigrid {
     border-top: 5px solid #9b2557;  
   }
+  */
   .nav-link.w-inline-block.w--current:before, .underline::before {
     border-bottom: solid 5px #9b2557;
   }
@@ -757,9 +764,11 @@ MEDIA QUERY
   .claniceminigrid:nth-last-child(-n+3) {
     border-bottom: 5px solid #9b2557;  
   }
+  /*
   .claniceminigrid, .newsminigrid {
     border-top: 5px solid #9b2557;  
   }
+  */
   .nav-link.w-inline-block.w--current:before, .underline::before {
     border-bottom: solid 5px #9b2557;
   }
