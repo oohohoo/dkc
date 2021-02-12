@@ -462,30 +462,6 @@ ROTATE OVERTEXT
 ================================================================================
 */
 
-.is--rotate {
-    -webkit-transform-style: preserve-3d;
-   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); 
-
-    -webkit-transform: translateY(-90deg);
-    -webkit-transform: rotate(-90deg);
-    -webkit-transform-origin:left bottom;
-
-
-    -moz-transform: translateY(-90deg);
-    -moz-transform-origin: left bottom; 
-
-    -ms-transform: translateY(-90deg);
-   -ms-transform-origin:left bottom; 
-
-    -o-transform: translateY(-90deg);
-
-    transform: translateY(-90deg);
-    transform: rotate(-90deg);
-
-
-    transform-origin: left bottom;
-
-}
 
 /*
 ================================================================================
@@ -547,6 +523,7 @@ MEDIA QUERY
   .swiper-pagination-bullet {
   height: 2px;
   }
+  
   .child2:nth-child(1) .newname {
     border-top: 2px solid #9b2557;
   }
