@@ -561,6 +561,7 @@ MEDIA QUERY
   height: 2px;
   }
   
+  /*
   .child2:nth-child(1) .newname {
     border-top: 2px solid #9b2557;
   }
@@ -568,7 +569,7 @@ MEDIA QUERY
     border-bottom: 2px solid #9b2557;
   }
 
-
+*/
   .swiper-pagination {
     display: none!important;
 }
@@ -582,7 +583,7 @@ MEDIA QUERY
  
   @media (min-width: 700px) and (max-width:999px) {
 
-
+/*
   .contactwrap, .footersponzorwrap {
     border-top: 2px solid #9b2557;
 }
@@ -618,6 +619,7 @@ MEDIA QUERY
     height: 2px;
   }
 
+  /*
   .child2:nth-child(1) .newname {
     border-top: 2px solid #9b2557;
   }
@@ -625,6 +627,7 @@ MEDIA QUERY
     border-bottom: 2px solid #9b2557;
   }
    
+  */
   .swiper-pagination {
     display: none!important;
 }
@@ -633,6 +636,7 @@ MEDIA QUERY
 }
   @media (min-width: 1000px) and (max-width:1199px) {
 
+    /*
   .contactwrap, .footersponzorwrap  {
     border-top: 3px solid #9b2557;
 }
@@ -668,6 +672,8 @@ MEDIA QUERY
   .swiper-pagination-bullet {
     height: 3px;
   }
+
+  /*
   .child2:nth-child(1) .newname {
     border-top: 3px solid #9b2557;
   }
@@ -675,11 +681,12 @@ MEDIA QUERY
     border-bottom: 3px solid #9b2557;
   }
 
-
+*/
 
 }
   @media (min-width: 1200px) and (max-width:1599px) {
 
+    /*
     .contactwrap, .footersponzorwrap  {
       border-top: 3px solid #9b2557;
   }
@@ -734,6 +741,7 @@ MEDIA QUERY
  
   @media (min-width: 1600px) and (max-width:1999px) {
 
+    /*
   .contactwrap, .footersponzorwrap  {
     border-top: 4px solid #9b2557;
 }
@@ -771,16 +779,19 @@ MEDIA QUERY
   .swiper-pagination-bullet {
     height: 4px;
   }
+
+  /*
   .child2:nth-child(1) .newname {
     border-top: 4px solid #9b2557;
   }
   .child2:nth-last-child(1) .newname {
     border-bottom: 4px solid #9b2557;
   }
-
+*/
 }
   @media (min-width: 2000px) and (max-width:2399px) {
 
+    /*
   .contactwrap, .footersponzorwrap {
     border-top: 5px solid #9b2557;
 }
@@ -815,18 +826,21 @@ MEDIA QUERY
   .swiper-pagination-bullet {
     height: 5px;
   }
+
+  /*
   .child2:nth-child(1) .newname {
     border-top: 5px solid #9b2557;
   }
   .child2:nth-last-child(1) .newname {
     border-bottom: 5px solid #9b2557;
   }
-
+*/
   }
 
   @media (min-width: 2400px) {
   
   
+    /*
   .contactwrap, .footersponzorwrap {
     border-top: 5px solid #9b2557;
 }
@@ -864,12 +878,15 @@ MEDIA QUERY
   .swiper-pagination-bullet {
     height: 5px;
   }
+
+  /*
   .child2:nth-child(1) .newname {
     border-top: 5px solid #9b2557;
   }
   .child2:nth-last-child(1) .newname {
     border-bottom: 5px solid #9b2557;
   }
+  */
   }
 
 /*
