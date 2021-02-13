@@ -547,6 +547,13 @@ MEDIA QUERY
   .child2:nth-last-child(1) .newname {
     border-bottom: 2px solid #9b2557;
   }
+
+
+  .swiper-pagination {
+    display: none!important;
+}
+
+
    
 }
 
@@ -593,6 +600,9 @@ MEDIA QUERY
     border-bottom: 2px solid #9b2557;
   }
    
+  .swiper-pagination {
+    display: none!important;
+}
 
 
 }
@@ -633,6 +643,8 @@ MEDIA QUERY
   .child2:nth-last-child(1) .newname {
     border-bottom: 3px solid #9b2557;
   }
+
+
 
 }
   @media (min-width: 1200px) and (max-width:1599px) {
