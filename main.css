@@ -585,9 +585,16 @@ MEDIA QUERY
 }
 
 
+@media (min-width: 480px) and (max-width:767px) {
+  .mobile-li {
+    margin-bottom: 0;
+}
 
+
+
+}
  
-  @media (min-width: 700px) and (max-width:999px) {
+@media (min-width: 700px) and (max-width:999px) {
 
 /*
   .contactwrap, .footersponzorwrap {
