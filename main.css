@@ -16,19 +16,15 @@ html {
 
 /*
 ================================================================================
-100 vh fix SAFARI?
+100 vh fix / MOBILE MENU
 ================================================================================
 */
-body {
-  min-height: 100vh;
-  min-height: -webkit-fill-available;
+
+.mobilemenu {
+  height: 100vh; /* Use vh as a fallback for browsers that do not support Custom Properties */
+  height: calc(var(--vh, 1vh) * 100);
+  margin: 0 auto;
 }
-
-html {
-  height: -webkit-fill-available;
-}
-
-
 
 /*
 ================================================================================
