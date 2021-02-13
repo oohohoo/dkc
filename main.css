@@ -523,7 +523,7 @@ MEDIA QUERY
   }
 
 
-  .newswrapfix:nth-last-child(-n+3) {
+  .newswrapfix:nth-last-child(1) {
     border-bottom: 3px solid #9b2557;
   }
 
