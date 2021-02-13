@@ -523,6 +523,12 @@ MEDIA QUERY
   }
 
 
+  .newswrap:nth-last-child(1) {
+    border-bottom: 3px solid #9b2557;
+  }
+
+
+
   /*
   .contactwrap, .footersponzorwrap  {
     border-top: 2px solid #9b2557;
