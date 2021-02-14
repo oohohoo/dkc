@@ -607,15 +607,6 @@ MEDIA QUERY
 @media (min-width: 700px) and (max-width:999px) {
 
   /* RICH TXT FOTKA POZICIJA*/
-  .w-richtext figure.w-richtext-align-floatleft {
-    width: 100%;
-    max-width: 100%;
-    text-align: center;
-    clear: both;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-}
 
 
 
