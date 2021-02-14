@@ -552,8 +552,8 @@ MEDIA QUERY
 
 
 .w-richtext figure.w-richtext-align-floatleft:nth-child(1) {
-    text-align: left;
-    border-top: 2px solid #9b2557;
+      margin-top: 0em;
+}
 }
 
 
