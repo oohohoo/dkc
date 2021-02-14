@@ -619,34 +619,6 @@ MEDIA QUERY
 
 
 
-.w-richtext figure.w-richtext-figure-type-image>figcaption, .w-richtext figure[data-rt-type="image"]>figcaption {
-  display: table-caption;
-  caption-side: bottom;
-}
-figcaption {
-  margin-top: 0.5em;
-  font-size: 1.125em;
-  text-align: left;
-}
-figcaption {
-  margin-top: 5px;
-  text-align: center;
-}
-
-.w-richtext figure.w-richtext-align-fullwidth>figcaption {
-  display: block;
-}
-
-**
-
-
-
-figcaption {
-  margin-top: 0.5em;
-  font-size: 1.125em;
-  text-align: left;
-}
-
 
 
 
