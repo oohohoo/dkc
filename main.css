@@ -548,7 +548,7 @@ RICH IMAGE FIX
     }
     
     
-    .navigation-links a, .current-page-item    
+    .nav-link a, .current-page-item    
     {
       color: white;
     }
