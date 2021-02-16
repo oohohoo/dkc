@@ -553,7 +553,7 @@ RICH IMAGE FIX
       color: white;
     }
 */
-    .nav-link.w-inline-block.current-page-item :before {
+    .nav-link.w-inline-block.current-page-item:before {
       border-bottom: solid 2px #9b2557;
       }
     
