@@ -542,6 +542,18 @@ RICH IMAGE FIX
     }
     
 
+    .current_page_item,
+    .current-menu-ancestor {
+      color: white;
+    }
+    
+    
+    .navigation-links a, .current-page-item    
+    {
+      color: white;
+    }
+    
+    
 /*
 ================================================================================
 MEDIA QUERY
