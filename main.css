@@ -557,8 +557,8 @@ RICH IMAGE FIX
       border-bottom: solid 2px #9b2557;
       }
     */
-      .nav-link.w-inline-block .current-page-item:before {
-        border-bottom: solid 2px #9b2557;
+      .current-menu-item:before {
+        border-bottom: solid 4px #9b2557;
         }
       
     
