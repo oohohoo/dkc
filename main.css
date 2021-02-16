@@ -557,7 +557,7 @@ RICH IMAGE FIX
       border-bottom: solid 2px #9b2557;
       }
     */
-      .current-menu-item:before {
+      .underline.menu-item.menu-item-type-post_type.menu-item-object-page.current-menu-item.page_item.page-item-10.current_page_item.menu-item-24:before {
         border-bottom: solid 4px #9b2557;
         }
       
