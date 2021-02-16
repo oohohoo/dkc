@@ -41,6 +41,17 @@ window.addEventListener('resize', () => {
   document.documentElement.style.setProperty('--vh', `${vh}px`);
 });
 
+/*
+================================================================================
+OPEN CLOSE SEARCH
+================================================================================
+*/
+
+$( document ).ready(function() {
+  $( ".previousback" ).click(function() {
+          window.history.back();
+      });
+});
 
 
 /*

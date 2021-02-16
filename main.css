@@ -221,29 +221,29 @@ html {
 IMAGE PROPORTIONAL
 ================================================================================
 */
-
+/*
   .vertical{
     width: calc(11em*21/29.7);
-   /* height: 18em; */
+   
   }
-  
+
   .horizontal{
     width: calc(7em*29.7/21);
-   /* height: 18vh;*/
+
   }
 
 
 
   .verticalx{
     width: calc(15em*21/29.7);
-   /* height: 18em; */
+ 
   }
   
   .horizontalx{
     width: calc(16em*29.7/21);
-   /* height: 18vh;*/
+ 
   }
-
+*/
 
 
 /*
