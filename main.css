@@ -557,9 +557,18 @@ RICH IMAGE FIX
       border-bottom: solid 2px #9b2557;
       }
     */
+
+    /*
+================================================================================
+WP CURRENT MENU
+================================================================================
+*/
+
       .current-menu-item:before {
-        margin-top: 20px;
-        border-bottom: solid 4px #9b2557;
+        border-bottom: solid 3px #9b2557;
+        position: absolute;
+        left: -1.25em;
+        width: 1em;
         }
       
     
