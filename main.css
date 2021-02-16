@@ -541,17 +541,21 @@ RICH IMAGE FIX
       margin-top: 7.1em;
     }
     
-
+/*
     .current_page_item,
     .current-menu-ancestor {
       color: white;
     }
-    
-    
+    */
+    /*
     .nav-link a, .current-page-item    
     {
       color: white;
     }
+*/
+    .nav-link.w-inline-block.current-page-item :before {
+      border-bottom: solid 2px #9b2557;
+      }
     
     
 /*
