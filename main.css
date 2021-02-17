@@ -563,7 +563,7 @@ RICH IMAGE FIX
 WP CURRENT MENU NE RRRRAAAADDDIII
 ================================================================================
 */
-
+/*
       .current-menu-item:before {
         content: "--*";
         border-bottom: solid 3px #9b2557;
@@ -571,7 +571,7 @@ WP CURRENT MENU NE RRRRAAAADDDIII
         left: -1.25em;
         width: 1em;
         }
-      
+      */
     
 /*
 ================================================================================
