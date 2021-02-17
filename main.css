@@ -165,6 +165,8 @@ MENU
 CURRENT
 ================================================================================
 */
+
+/*
 .nav-link.w-inline-block.w--current:before {
     content: "";
   border-bottom: solid 3px #9b2557;
@@ -173,7 +175,10 @@ CURRENT
   width: 1em;
    
 }
+*/
 
+
+/* MOŽDA I OVO TREBA UGASITI */
 .sub-link.w-inline-block.w--current:before {
   content: "";
 border-bottom: solid 3px #9b2557;
