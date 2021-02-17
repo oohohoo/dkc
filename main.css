@@ -646,15 +646,17 @@ MEDIA QUERY
 
 
 
-
-
+/*
+PROVJERI OVO NAKNADNO JE UGAŠENO PA MOŽDA NEŠTO RADI
   .nav-link.w-inline-block.w--current:before {
   border-bottom: solid 2px #9b2557;
   }
   .swiper-pagination-bullet {
   height: 2px;
   }
-  
+  */
+
+
   /*
   .child2:nth-child(1) .newname {
     border-top: 2px solid #9b2557;
@@ -728,11 +730,14 @@ MEDIA QUERY
   }*/
 
 
-
-
+/*
+OVO JE UGAŠENO 
   .nav-link.w-inline-block.w--current:before, .underline::before {
     border-bottom: solid 2px #9b2557;
   }
+  */
+
+
   .swiper-pagination-bullet {
     height: 2px;
   }
@@ -798,10 +803,11 @@ MEDIA QUERY
   */
 
 
-
+/*
   .nav-link.w-inline-block.w--current:before, .underline::before {
     border-bottom: solid 3px #9b2557;
   }
+  */
   .swiper-pagination-bullet {
     height: 3px;
   }
@@ -851,10 +857,11 @@ MEDIA QUERY
 */
 
 
-
+/*
     .nav-link.w-inline-block.w--current:before, .underline::before {
       border-bottom: solid 3px #9b2557;
     }
+    */
     .swiper-pagination-bullet {
       height: 3px;
     }
@@ -910,11 +917,12 @@ MEDIA QUERY
 */
 
 
-
+/*
 
   .nav-link.w-inline-block.w--current:before, .underline::before {
     border-bottom: solid 4px #9b2557;
   }
+  */
   .swiper-pagination-bullet {
     height: 4px;
   }
@@ -960,10 +968,11 @@ MEDIA QUERY
   */
 
 
-  
+/*  
   .nav-link.w-inline-block.w--current:before, .underline::before {
     border-bottom: solid 5px #9b2557;
   }
+  */
   .swiper-pagination-bullet {
     height: 5px;
   }
@@ -1012,10 +1021,11 @@ MEDIA QUERY
   */
 
 
-  
+  /*
   .nav-link.w-inline-block.w--current:before, .underline::before {
     border-bottom: solid 5px #9b2557;
   }
+  */
   .swiper-pagination-bullet {
     height: 5px;
   }
