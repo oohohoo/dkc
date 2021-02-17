@@ -3,7 +3,7 @@
 IMAGE ORIENTATION
 ================================================================================
 */
-/*function init() {
+function init() {
 */
   $(".newsimgsizer").each(function(){
     var $this = $(this);
@@ -411,7 +411,7 @@ SWIPER SINGLE PAGE
 
 
 
-/* 
+
 }
 
 window.addEventListener('load', function() {
@@ -420,7 +420,7 @@ window.addEventListener('load', function() {
 });
 
 
-*/
+
 
 
 
