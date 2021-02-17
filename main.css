@@ -179,6 +179,7 @@ CURRENT
 
 
 /* MOŽDA I OVO TREBA UGASITI */
+/*
 .sub-link.w-inline-block.w--current:before {
   content: "";
 border-bottom: solid 3px #9b2557;
@@ -192,7 +193,7 @@ margin-left: 1.25em;
 
  
 }
-
+*/
 /*
 ================================================================================
 TXT SELECT
