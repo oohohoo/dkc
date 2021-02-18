@@ -331,7 +331,7 @@ IMAGE BLEND MODE
 }
 
 
-.card__image, .image-2, .swiperImg {
+.card__image, .image-2, .swiper-image {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
