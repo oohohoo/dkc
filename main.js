@@ -324,7 +324,7 @@ var menu = ['', '', '', '', '', '']
     slidesPerView: 1,
     observer: true,
   observeParents: true,
-  watchOverflow: true,
+  
     //
    // centeredSlides: true,
     //
@@ -387,6 +387,10 @@ SWIPER SINGLE PAGE
      //scrollbar: '.swiper-scrollbar',
      // "slide", "fade", "cube", "coverflow" or "flip"
      effect: 'fade',
+
+     observer: true,
+  observeParents: true,
+  watchOverflow: true,
      
        
      // Distance between slides in px.
