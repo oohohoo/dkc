@@ -180,13 +180,13 @@ CURRENT
 	color: white;
 }
 */
-/*
+
 .nav-link a,
 .current-page-item
  {
-	color: white;
+	color: rgb(24, 199, 76);
 }
-
+/*
 .nav-link.w-inline-block.current-page-item {
 	color: white;
 }
