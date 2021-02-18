@@ -48,7 +48,7 @@ OPEN CLOSE SEARCH
 */
 
 $( document ).ready(function() {
-  $( ".previousback" ).click(function() {
+  $( ".previousbackxxxxxxxxx" ).click(function() {
           window.history.back();
       });
 });
