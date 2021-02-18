@@ -174,7 +174,7 @@ CURRENT
 ================================================================================
 */
 
-/*
+
 .current_page_item,
 .current-menu-ancestor {
 	color: white;
@@ -186,7 +186,7 @@ CURRENT
  {
 	color: white;
 }
-*/
+
 .nav-link.w-inline-block.current-page-item {
 	color: white;
 }
