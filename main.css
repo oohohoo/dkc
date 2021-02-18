@@ -175,13 +175,13 @@ CURRENT
 */
 
 
-.current_page_item,
+.nav-link,
 .current-menu-ancestor {
 	color: white;
 }
 
 
-.navigation-links a,
+.nav-link a,
 .current-page-item
  {
 	color: white;
