@@ -387,9 +387,9 @@ SWIPER SINGLE PAGE
      //scrollbar: '.swiper-scrollbar',
      // "slide", "fade", "cube", "coverflow" or "flip"
      effect: 'fade',
-
+/*
      observer: true,
-  observeParents: true,
+  observeParents: true,*/
   watchOverflow: true,
      
        
