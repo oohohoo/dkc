@@ -175,6 +175,25 @@ CURRENT
 */
 
 /*
+.current_page_item,
+.current-menu-ancestor {
+	color: white;
+}
+
+
+.navigation-links a,
+.current-page-item
+ {
+	color: white;
+}
+*/
+.nav-link.w-inline-block.w--current{
+	color: white;
+}
+
+
+
+/*
 .nav-link.w-inline-block.w--current:before {
     content: "";
   border-bottom: solid 3px #9b2557;
