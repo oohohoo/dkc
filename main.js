@@ -48,8 +48,9 @@ OPEN CLOSE SEARCH
 */
 
 $( document ).ready(function() {
-  $( ".previousbackxxxxxxxxx" ).click(function() {
-          window.history.back();
+  $( ".previousback" ).click(function() {
+         /* window.history.back(); */
+          javascript:history.back();
       });
 });
 
