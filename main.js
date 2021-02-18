@@ -322,6 +322,9 @@ var menu = ['', '', '', '', '', '']
   //  spaceBetween: 60,
     //
     slidesPerView: 1,
+    observer: true,
+  observeParents: true,
+  watchOverflow: true,
     //
    // centeredSlides: true,
     //
