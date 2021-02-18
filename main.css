@@ -73,6 +73,7 @@ h1 {
 }
 
 
+
 /*
 ================================================================================
 NO SELECTION
@@ -330,7 +331,7 @@ IMAGE BLEND MODE
 }
 
 
-.card__image, .image-2 {
+.card__image, .image-2, .swiperImg {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
@@ -1181,3 +1182,30 @@ color: #f5f4f1 !important;
   height: 0.813em!important;
   margin-right: -0.95em!important;
 }
+
+
+
+/*
+================================================================================
+VARIOUS FIXES
+================================================================================
+*/
+
+.mobile-li:nth-last-child(1) {
+  margin-bottom:0; 
+ }
+
+
+/* HOMEPAGE TAB CRTICA BEFORE*/
+ .tabwrap.w--current:before {
+  color: #9b2557;
+ /* content: "—  ";*/
+  content: "";
+border-bottom: solid 3px #9b2557;
+position: absolute;
+left: 0;
+/*top: 0.9em;*/
+width: 1em;
+}
+
+
