@@ -233,7 +233,7 @@ margin-left: 1.25em;
 }
 */
 
-h1:before {display:none !important;}
+.mainheading:before {display:none !important;}
 
 /*
 ================================================================================
