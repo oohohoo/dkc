@@ -174,14 +174,15 @@ CURRENT
 ================================================================================
 */
 
-/*
+
 .nav-link,
 .current-menu-ancestor {
 	color: white;
 }
-*/
 
-.underline.current-menu-item
+
+.nav-link,
+.current-page-item
  {
 	color: rgb(24, 199, 76);
 }
