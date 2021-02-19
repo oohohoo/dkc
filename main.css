@@ -1215,10 +1215,10 @@ width: 1em;
 /* DOCUMENT EXTENSION FIX POVIŠE 1600*/
 
 
-@media (min-width: 1300px) {
+@media (min-width: 1700px) {
 
 .extension {
-  bottom: 0.4em;
+  bottom: 0.3em;
 }
 
 }
