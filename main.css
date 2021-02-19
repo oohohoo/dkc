@@ -1192,7 +1192,7 @@ VARIOUS FIXES
 */
 
 .mobile-li:nth-last-child(1), .doc-module:nth-last-child(1) {
-  margin-bottom:600; 
+  margin-bottom:0; 
  }
 
 
