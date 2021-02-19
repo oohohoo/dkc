@@ -1039,6 +1039,9 @@ OVO JE UGAŠENO
   @media (min-width: 2400px) {
   
   
+
+
+
     /*
   .contactwrap, .footersponzorwrap {
     border-top: 5px solid #9b2557;
@@ -1208,4 +1211,11 @@ left: 0;
 width: 1em;
 }
 
+
+
+/* DOCUMENT EXTENSION FIX POVIŠE 1600*/
+
+.extension {
+  bottom: 0.4em;
+}
 
