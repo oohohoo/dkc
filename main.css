@@ -1215,7 +1215,7 @@ width: 1em;
 /* DOCUMENT EXTENSION FIX POVIŠE 1600*/
 
 
-@media (min-width: 1700px) {
+@media (min-width: 1500px) {
 
 .extension {
   bottom: 0.4em;
