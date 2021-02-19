@@ -1109,6 +1109,7 @@ COOKIE SKIN
 */
 .ch2-theme-bar .ch2-dialog-content {
   padding-right: 9.5em!important;
+  align-self: flex-end!important;
 }
 .ch2-container, .ch2-icon {
   font-family: 'Nimbussansdot regu', sans-serif!important;
@@ -1222,3 +1223,4 @@ width: 1em;
 }
 
 }
+
