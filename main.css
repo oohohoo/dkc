@@ -592,7 +592,16 @@ RICH IMAGE FIX
   right: 50%;
   left: auto;
 }
+
+
 */
+
+.richtxt p {
+  position: relative;
+}
+
+
+
 .alignleft,
 img.alignleft {
     display: inline;
