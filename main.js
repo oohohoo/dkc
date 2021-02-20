@@ -370,10 +370,10 @@ SWIPER SINGLE PAGE
      // Optional parameters
    //  direction: 'vertical',
        // delay between transitions in ms
-         autoplay: {
+        /* autoplay: {
                  delay: 5000,
                  disableOnInteraction: false,
- },
+ },*/
     // autoplayStopOnLast: false, // loop false also
      // If we need pagination
   
