@@ -598,6 +598,8 @@ img.alignleft {
     display: inline;
     float: left;
   margin-right: 1.5em;
+  position: absolute;
+  right: 50%;
 }
 
 /*
