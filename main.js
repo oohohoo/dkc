@@ -360,7 +360,7 @@ SWIPER SINGLE PAGE
 ================================================================================
 */
   var galSwiper = new Swiper ('.swiper-container-gal', {
-    loop: true,
+    loop: slidesCount > 1,
          speed: 1000,
     // spaceBetween: 100,
     // initialSlide: 0,
