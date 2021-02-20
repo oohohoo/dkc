@@ -582,9 +582,17 @@ RICH IMAGE FIX
 ================================================================================
 */
 
-  .w-richtext figure.w-richtext-align-floatleft {
+  .wp-image-104 {
     max-width: 35em;
 }
+
+.wp-image-104 {
+  float: left;
+  margin-right: 15px;
+  clear: none;
+}
+
+
 
     /* RICH TEXT PRVA FOTKA */
     .w-richtext figure.w-richtext-align-floatleft:nth-child(1) {
