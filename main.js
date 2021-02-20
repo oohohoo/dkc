@@ -360,7 +360,7 @@ SWIPER SINGLE PAGE
 ================================================================================
 */
   var galSwiper = new Swiper ('.swiper-container-gal', {
-   // loop: slidesCount > 1,
+    loop: true,
          speed: 1000,
     // spaceBetween: 100,
     // initialSlide: 0,
@@ -405,6 +405,12 @@ SWIPER SINGLE PAGE
     // grabCursor: true,
  
    })        
+
+/*
+================================================================================
+SOLO SWIPER AKO NEMA SLAJDOVA UGASI STRELICE
+================================================================================
+*/
 
 
    var slider = document.querySelectorAll('.swiper-container-gal')[0];
