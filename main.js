@@ -359,6 +359,7 @@ location.reload();
 SWIPER SINGLE PAGE
 ================================================================================
 */
+/*
   var galSwiper = new Swiper ('.swiper-container-gal', {
     loop: true,
          speed: 1000,
@@ -376,7 +377,7 @@ SWIPER SINGLE PAGE
  },*/
     // autoplayStopOnLast: false, // loop false also
      // If we need pagination
-  
+  /*
       navigation: {
          nextEl: '.swiper-button-p',
          prevEl: '.swiper-button-n',
@@ -390,7 +391,7 @@ SWIPER SINGLE PAGE
 /*
      observer: true,
   observeParents: true,*/
-  watchOverflow: true,
+ /* watchOverflow: true,
      
        
      // Distance between slides in px.
@@ -405,10 +406,10 @@ SWIPER SINGLE PAGE
     // grabCursor: true,
  
    })        
-
+*/
 /*
 ================================================================================
-SOLO SWIPER AKO NEMA SLAJDOVA UGASI STRELICE
+SOLO SWIPER AKO NEMA SLAJDOVA UGASI STRELICE + RADI LOOP
 ================================================================================
 */
 
@@ -417,6 +418,16 @@ SOLO SWIPER AKO NEMA SLAJDOVA UGASI STRELICE
    if (slider) {
      var sliderSwiper = new Swiper(slider, {
        init: false,
+       watchOverflow: true,
+       speed: 1000,
+       slidesPerView: 1,
+       navigation: {
+        nextEl: '.swiper-button-p',
+        prevEl: '.swiper-button-n',
+      },
+      effect: 'fade',
+      updateOnWindowResize: true,
+
        // Options...
      });
      // Hide/Show pagination on initialization (and, if you have breakpoints, on resize)
