@@ -611,12 +611,15 @@ img.alignleft {
 top: 0;
 right: 0;
 bottom: 0;
-margin: 0 1em 1em 0;
+/*margin: 0 1em 1em 0;*/
   max-width: 25em;
   max-height: 45em;
 }
 
-
+.aligncenter {
+  float: none;
+  margin: .5em auto 1em;
+}
 
 
 
