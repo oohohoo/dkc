@@ -601,7 +601,7 @@ img.alignleft {
   position: absolute;
   right: 35.8em;
   max-width: 25em;
-  max-width: 45em;
+  max-height: 45em;
 }
 
 /*
