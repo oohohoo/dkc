@@ -599,6 +599,8 @@ img.alignleft {
     float: left;
   margin-right: 1.5em;
 }
+
+/*
 .alignright,
 img.alignright {
     display: inline;
@@ -615,7 +617,7 @@ img.aligncenter {
 p {
      clear: both;
 }
-
+*/
 /*
     .current_page_item,
     .current-menu-ancestor {
