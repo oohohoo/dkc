@@ -582,8 +582,8 @@ RICH IMAGE FIX
 ================================================================================
 */
 
-  .alignnone {
-    max-width: 35em;
+  .alignleft {
+    max-width: 10em;
 }
 
 .richtxt img {
