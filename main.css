@@ -586,7 +586,7 @@ RICH IMAGE FIX
     max-width: 35em;
 }
 
-.alignnone {
+.richtxt img {
   float: left;
   margin-right: 15px;
   clear: none;
