@@ -409,7 +409,7 @@ SWIPER SINGLE PAGE
 */
 /*
 ================================================================================
-SOLO SWIPER AKO NEMA SLAJDOVA UGASI STRELICE + RADI LOOP
+SOLO SWIPER AKO NEMA SLAJDOVA UGASI STRELICE + RADI LOOP NE RADI
 ================================================================================
 */
 
