@@ -605,16 +605,18 @@ RICH IMAGE FIX
 .alignleft,
 img.alignleft {
     display: inline;
-    float: left;
   margin-right: 1.5em;
   position: absolute;
-  left: auto;
+  left: -45.5vw;
 top: 0;
 right: 0;
 bottom: 0;
   max-width: 25em;
   max-height: 45em;
 }
+
+
+
 
 
 
