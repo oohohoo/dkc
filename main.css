@@ -600,6 +600,7 @@ img.alignleft {
   margin-right: 1.5em;
   position: absolute;
   right: 50%;
+  max-width: 25em;
 }
 
 /*
