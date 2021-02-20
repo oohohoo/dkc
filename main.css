@@ -599,10 +599,16 @@ img.alignleft {
     float: left;
   margin-right: 1.5em;
   position: absolute;
-  right: 35.8em;
+  left: auto;
+top: 0;
+right: 0;
+bottom: 0;
   max-width: 25em;
   max-height: 45em;
 }
+
+
+
 
 /*
 .alignright,
