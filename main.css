@@ -582,23 +582,18 @@ RICH IMAGE FIX
 ================================================================================
 */
 
-  .alignleft {
-    max-width: 35em;
-}
 
 .alignleft {
+  max-width: 25em;
   float: left;
   margin-right: 15px;
   clear: none;
+  position: absolute;
+  right: 50%;
+  left: auto;
 }
 
 
-
-    /* RICH TEXT PRVA FOTKA */
-    .w-richtext figure.w-richtext-align-floatleft:nth-child(1) {
-      margin-top: 20em;
-    }
-    
 /*
     .current_page_item,
     .current-menu-ancestor {
