@@ -360,7 +360,7 @@ SWIPER SINGLE PAGE
 ================================================================================
 */
   var galSwiper = new Swiper ('.swiper-container-gal', {
-    loop: slidesCount > 1,
+   // loop: slidesCount > 1,
          speed: 1000,
     // spaceBetween: 100,
     // initialSlide: 0,
@@ -407,7 +407,24 @@ SWIPER SINGLE PAGE
    })        
 
 
-
+   var slider = document.querySelectorAll('.swiper-container-gal')[0];
+   if (slider) {
+     var sliderSwiper = new Swiper(slider, {
+       init: false,
+       // Options...
+     });
+     // Hide/Show pagination on initialization (and, if you have breakpoints, on resize)
+     sliderSwiper.on('init resize', function() {
+       var sliderRealSlides = slider.querySelectorAll('.swiper-slide:not(.swiper-slide-duplicate)'),
+         sliderPagination = slider.querySelectorAll('.swiper-pagination')[0];
+       if (sliderRealSlides.length <= this.params.slidesPerView) {
+         sliderPagination.style.display = 'none';
+       } else {
+         sliderPagination.style.display = 'block';
+       }
+     });
+     sliderSwiper.init();
+   }
 
 
 
