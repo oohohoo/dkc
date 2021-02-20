@@ -582,11 +582,11 @@ RICH IMAGE FIX
 ================================================================================
 */
 
-  .wp-image-104 {
+  .alignnone {
     max-width: 35em;
 }
 
-.wp-image-104 {
+.alignnone {
   float: left;
   margin-right: 15px;
   clear: none;
