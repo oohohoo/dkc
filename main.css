@@ -582,7 +582,7 @@ RICH IMAGE FIX
 ================================================================================
 */
 
-
+/*
 .alignleft {
   max-width: 25em;
   float: left;
@@ -592,7 +592,29 @@ RICH IMAGE FIX
   right: 50%;
   left: auto;
 }
-
+*/
+.alignleft,
+img.alignleft {
+    display: inline;
+    float: left;
+  margin-right: 1.5em;
+}
+.alignright,
+img.alignright {
+    display: inline;
+    float: right;
+  margin-left: 1.5em;
+}
+.aligncenter,
+img.aligncenter {
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+p {
+     clear: both;
+}
 
 /*
     .current_page_item,
