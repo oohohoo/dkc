@@ -583,10 +583,10 @@ RICH IMAGE FIX
 */
 
   .alignleft {
-    max-width: 10em;
+    max-width: 35em;
 }
 
-.richtxt img {
+.alignleft {
   float: left;
   margin-right: 15px;
   clear: none;
