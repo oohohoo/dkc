@@ -598,6 +598,8 @@ RICH IMAGE FIX
 
 .richtxt p {
   position: relative;
+  margin-bottom: 0em;
+
 }
 
 
