@@ -1208,18 +1208,16 @@ outline: none; } */
   
 
 /** 
- * The default focus style is likely provided by Bootstrap or the browser
- * but here we override everything else with a visually appealing cross-
- * browser solution that works well on all focusable page elements
- * including buttons, links, inputs, textareas, and selects.
- */
- *:focus { 
-  outline: 0 !important;
- /* box-shadow:
+ /* Focusing the button with a keyboard will show a dashed black line. */
+
+ *:focus-visible { 
+  outline: 4px dashed black;
+ /* outline: 0 !important;
+ box-shadow:
     0 0 0 .2rem #fff, /* use site bg color to create whitespace for faux focus ring */
    /* 0 0 0 .35rem #069 !important; /* faux focus ring color */
 }
-*/
+
 /**
  * Undo the above focused button styles when the element received focus
  * via mouse click or touch, but not keyboard navigation.
@@ -1227,6 +1225,20 @@ outline: none; } */
 *:focus:not(:focus-visible) {
   outline: 0 !important;
   box-shadow: none !important;
+}
+
+
+
+
+/* Focusing the button with a keyboard will show a dashed black line. */
+button:focus-visible {
+  outline: 4px dashed black;
+}
+  
+/* Focusing the button with a mouse, touch, or stylus will show a subtle drop shadow. */
+button:focus:not(:focus-visible) {
+  outline: none;
+  box-shadow: 1px 1px 5px rgba(1, 1, 0, .7);
 }
 
 
