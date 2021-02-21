@@ -548,6 +548,7 @@ border-color: transparent;
 
 .image {
 position: absolute;
+user-select: none;
 }
 
 /* SEARCH INPUT TEXT COLOR */ 
