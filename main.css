@@ -1169,7 +1169,7 @@ SWIPER KILL NAV IF NO SLIDES
 }
 
 
-.swiper-button-next, .swiper-button-prev {
+.swiper-button-n, .swiper-button-p {
   transition: opacity .5s;
 }
 
