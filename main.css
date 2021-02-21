@@ -492,7 +492,7 @@ SWIPER FIX
 SEARCH
 ================================================================================
 */
- 
+ /*
 .w-input, .w-select {
     color: #f5f4f1;
 }
@@ -500,13 +500,14 @@ SEARCH
 .w-input:focus, .w-select:focus {
     border-color: #f5f4f1;
 }
-
+*/
 .search-button:focus, .search-field {
 outline: none;
 }
   
 /* SEARCH WORDPRESS FIX */
 .search-field {
+  color: #f5f4f1;
   height: 1.3em;
   padding-right: .5em;
   border-style: solid;
