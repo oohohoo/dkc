@@ -365,7 +365,7 @@ SWIPER SINGLE PAGE + Ovo je možda rješenje za multiple swipers - test further
      var sliderSwiper = new Swiper(slider, {
       //loop: true,
       updateOnWindowResize: true,
-       //*init: false,
+       init: false,
        speed: 1000,
        watchOverflow: true,
        grabCursor: true,
@@ -389,9 +389,9 @@ SWIPER SINGLE PAGE + Ovo je možda rješenje za multiple swipers - test further
        } else {
          sliderPagination.style.display = 'block';
        }
-     });
+     });*/
      sliderSwiper.init();
-   } */
+   }
 
    if($(".slider .slide").length == 1) {
     $('.swiper-wrapper').addClass( "disabled" );
