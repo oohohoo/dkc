@@ -533,6 +533,9 @@ outline: none;
   letter-spacing: -.024em;
 }
 
+.image {
+position: absolute;
+}
 
 /* SEARCH INPUT TEXT COLOR */ 
   input[type="search"]::placeholder {
