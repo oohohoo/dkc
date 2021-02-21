@@ -501,9 +501,9 @@ SEARCH
     border-color: #f5f4f1;
 }
 */
-.search-button:focus, .search-field:focus {
+/* .search-button:focus, .search-field:focus {
 outline: none;
-}
+} */
   
 /* SEARCH WORDPRESS FIX */
 .search-field {
@@ -1199,13 +1199,37 @@ OVO JE UGAŠENO
 
 /*
 ================================================================================
-TEXT SINGLE PAGE
+KILL FOCUS ON ALL BUT WITH ACCESIBILITY
 ================================================================================
 */
-.swiper-button-n:focus,
+/* .swiper-button-n:focus,
 .swiper-button-p:focus { 
-outline: none; }
+outline: none; } */
   
+
+/** 
+ * The default focus style is likely provided by Bootstrap or the browser
+ * but here we override everything else with a visually appealing cross-
+ * browser solution that works well on all focusable page elements
+ * including buttons, links, inputs, textareas, and selects.
+ */
+ *:focus { 
+  outline: 0 !important;
+  box-shadow:
+    0 0 0 .2rem #fff, /* use site bg color to create whitespace for faux focus ring */
+    0 0 0 .35rem #069 !important; /* faux focus ring color */
+}
+
+/**
+ * Undo the above focused button styles when the element received focus
+ * via mouse click or touch, but not keyboard navigation.
+ */
+*:focus:not(:focus-visible) {
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+
 /*
 ================================================================================
 SWIPER KILL NAV IF NO SLIDES
