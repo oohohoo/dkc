@@ -505,6 +505,23 @@ SEARCH
 outline: none;
 }
   
+/* SEARCH WORDPRESS FIX */
+.search-field {
+  height: 1.3em;
+  padding-right: .5em;
+  border-style: solid;
+  border-width: 0 0 3px;
+  border-color: #000 #000 #f5f4f1;
+  background-color: transparent;
+  font-size: 7.75em;
+  line-height: 1;
+  letter-spacing: -.024em;
+}
+
+
+
+
+
 /* SEARCH INPUT TEXT COLOR */ 
   input[type="search"]::placeholder {
     color: #f5f4f1;
@@ -605,7 +622,7 @@ RICH IMAGE FIX
 
 
 .alignleft,
-img.alignleft {
+img.alignleft, .alignone {
     display: inline;
   margin-right: 1.5em;
   position: absolute;
