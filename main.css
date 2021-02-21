@@ -536,18 +536,10 @@ outline: none;
 
 input[type="submit" i] {
   appearance: auto!important;
-  user-select: none;
   color: -internal-light-dark(black, white);
   background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
-  box-sizing: border-box;
-  border-width: 0px;
-  border-top-width: 0px;
-  border-right-width: 0px;
-  border-bottom-width: 0px;
-  border-left-width: 0px;
   border-style: none!important;
 border-color: transparent;  
-border-image: initial;
 }
 
 
