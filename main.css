@@ -501,7 +501,7 @@ SEARCH
     border-color: #f5f4f1;
 }
 
-.search-button:focus {
+.search-button:focus, .search-field {
 outline: none;
 }
   
