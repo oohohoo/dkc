@@ -417,7 +417,7 @@ SOLO SWIPER AKO NEMA SLAJDOVA UGASI STRELICE + RADI LOOP NE RADI
    var slider = document.querySelectorAll('.swiper-container-gal')[0];
    if (slider) {
      var sliderSwiper = new Swiper(slider, {
-     // loop: slidesCount > 1,
+      //loop: true,
        init: false,
        watchOverflow: true,
        speed: 1000,

@@ -1167,6 +1167,17 @@ SWIPER KILL NAV IF NO SLIDES
 .swiper-pagination.disabled {
   display: none;
 }
+
+
+.swiper-button-next, .swiper-button-prev {
+  transition: opacity .5s;
+}
+
+.swiper-button-disabled {
+   opacity: 0 !important;
+}
+
+
 /*
 ================================================================================
 COOKIE SKIN
