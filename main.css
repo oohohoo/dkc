@@ -1210,7 +1210,7 @@ outline: none; } */
 /** 
  /* Focusing the button with a keyboard will show a dashed black line. */
 
- *:focus-visible { 
+ *:focus-visible, input:focus { 
   outline: 4px dashed black;
  /* outline: 0 !important;
  box-shadow:
@@ -1222,7 +1222,7 @@ outline: none; } */
  * Undo the above focused button styles when the element received focus
  * via mouse click or touch, but not keyboard navigation.
  */
-*:focus:not(:focus-visible) {
+*:focus:not(:focus-visible), input:focus:not(:focus-visible) {
   outline: 0 !important;
   box-shadow: none !important;
 }
