@@ -444,7 +444,10 @@ SOLO SWIPER AKO NEMA SLAJDOVA UGASI STRELICE + RADI LOOP NE RADI
      sliderSwiper.init();
    }
 
-
+   if($(".slider .slide").length == 1) {
+    $('.swiper-wrapper').addClass( "disabled" );
+    $('.swiper-pagination').addClass( "disabled" );
+}
 
 
 
