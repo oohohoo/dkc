@@ -523,8 +523,7 @@ outline: none;
 .search-submit{
   width: 6em;
   height: 6em;
-  top: 2.5em;
-  right: -12.35em;
+
   background-color: transparent;
   line-height: 1;
   letter-spacing: -.024em;
@@ -540,7 +539,11 @@ input[type="submit" i] {
 border-color: transparent;  
 }
 
-
+/*SEARCH BUTTON POSITION*/
+.div-block-2 {
+  top: 2.5em;
+  right: -12.35em;
+}
 
 .image {
 position: absolute;
