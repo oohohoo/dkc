@@ -543,7 +543,11 @@ input[type="submit" i] {
 .div-block-2 {
   width: 3em;
   height: 3em;
- 
+  top: 3.85em!important;
+ }
+
+ label {
+  display: none!important;
 }
 
 
