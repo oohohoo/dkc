@@ -366,7 +366,6 @@ SWIPER SINGLE PAGE + Ovo je možda rješenje za multiple swipers - test further
       //loop: true,
       updateOnWindowResize: true,
        init: false,
-       height: 30,
        speed: 1000,
        watchOverflow: true,
        grabCursor: true,

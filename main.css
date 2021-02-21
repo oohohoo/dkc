@@ -1168,6 +1168,11 @@ SWIPER KILL NAV IF NO SLIDES
   display: none;
 }
 
+/*
+================================================================================
+SWIPER HIDE NAV ON START AND END
+================================================================================
+*/
 
 .swiper-button-n, .swiper-button-p {
   transition: opacity .5s;
@@ -1299,6 +1304,11 @@ width: 1em;
 /* ICON TEXT - DOC EXTENSION */
 .extension {
   font-size: 1.0em;
+}
+
+/* DATUM U TEXT TEMPLATEU FIX */
+.div-block-4 {
+  top: 0.4em;
 }
 
 
