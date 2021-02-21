@@ -551,8 +551,8 @@ input[type="submit" i] {
   border-bottom-width: 0px;
   border-left-width: 0px;
   border-style: none!important;
-  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
-  border-image: initial;
+border-color: transparent;  
+border-image: initial;
 }
 
 
