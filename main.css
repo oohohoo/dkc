@@ -501,7 +501,7 @@ SEARCH
     border-color: #f5f4f1;
 }
 */
-.search-button:focus, .search-field {
+.search-button:focus, .search-field:focus {
 outline: none;
 }
   
@@ -523,10 +523,8 @@ outline: none;
 .search-submit{
   width: 6em;
   height: 6em;
-  /*padding-right: .5em;
-  border-style: solid;
-  border-width: 0 0 3px;
-  border-color: #000 #000 #f5f4f1;*/
+  top: 2.5em;
+  right: -12.35em;
   background-color: transparent;
   line-height: 1;
   letter-spacing: -.024em;
