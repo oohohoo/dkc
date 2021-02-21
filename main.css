@@ -1211,7 +1211,8 @@ outline: none; } */
  /* Focusing the button with a keyboard will show a dashed black line. */
 
  *:focus-visible  { 
-  outline: 1px black;
+ /* outline: 1px black; */
+  border-color: #000 #000 #f5f4f18e;
  /* outline: 0 !important;
  box-shadow:
     0 0 0 .2rem #fff, /* use site bg color to create whitespace for faux focus ring */
