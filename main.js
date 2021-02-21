@@ -356,70 +356,19 @@ location.reload();
 
 /*
 ================================================================================
-SWIPER SINGLE PAGE
+SWIPER SINGLE PAGE + Ovo je možda rješenje za multiple swipers - test further
 ================================================================================
 */
-/*
-  var galSwiper = new Swiper ('.swiper-container-gal', {
-    loop: true,
-         speed: 1000,
-    // spaceBetween: 100,
-    // initialSlide: 0,
-     //truewrapper adoptsheight of active slide
-     //autoHeight: false,
-     updateOnWindowResize: true,
-     // Optional parameters
-   //  direction: 'vertical',
-       // delay between transitions in ms
-        /* autoplay: {
-                 delay: 5000,
-                 disableOnInteraction: false,
- },*/
-    // autoplayStopOnLast: false, // loop false also
-     // If we need pagination
-  /*
-      navigation: {
-         nextEl: '.swiper-button-p',
-         prevEl: '.swiper-button-n',
-       },
- 
-     
-     // And if we need scrollbar
-     //scrollbar: '.swiper-scrollbar',
-     // "slide", "fade", "cube", "coverflow" or "flip"
-     effect: 'fade',
-/*
-     observer: true,
-  observeParents: true,*/
- /* watchOverflow: true,
-     
-       
-     // Distance between slides in px.
-   //  spaceBetween: 60,
-     //
-     slidesPerView: 1,
-     //
-    // centeredSlides: true,
-     //
-    // slidesOffsetBefore: 0,
-     //
-    // grabCursor: true,
- 
-   })        
-*/
-/*
-================================================================================
-SOLO SWIPER AKO NEMA SLAJDOVA UGASI STRELICE + RADI LOOP NE RADI
-================================================================================
-*/
-
 
    var slider = document.querySelectorAll('.swiper-container-gal')[0];
    if (slider) {
      var sliderSwiper = new Swiper(slider, {
       //loop: true,
+      updateOnWindowResize: true,
        init: false,
+       speed: 1000,
        watchOverflow: true,
+       grabCursor: true,
        speed: 1000,
        slidesPerView: 1,
        navigation: {
@@ -432,7 +381,7 @@ SOLO SWIPER AKO NEMA SLAJDOVA UGASI STRELICE + RADI LOOP NE RADI
        // Options...
      });
      // Hide/Show pagination on initialization (and, if you have breakpoints, on resize)
-     sliderSwiper.on('init resize', function() {
+     /*sliderSwiper.on('init resize', function() {
        var sliderRealSlides = slider.querySelectorAll('.swiper-slide:not(.swiper-slide-duplicate)'),
          sliderPagination = slider.querySelectorAll('.swiper-pagination')[0];
        if (sliderRealSlides.length <= this.params.slidesPerView) {
@@ -442,7 +391,7 @@ SOLO SWIPER AKO NEMA SLAJDOVA UGASI STRELICE + RADI LOOP NE RADI
        }
      });
      sliderSwiper.init();
-   }
+   } */
 
    if($(".slider .slide").length == 1) {
     $('.swiper-wrapper').addClass( "disabled" );
