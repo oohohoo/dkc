@@ -541,9 +541,8 @@ input[type="submit" i] {
 
 /*SEARCH BUTTON POSITION*/
 .div-block-2 {
-  width: 3em;
-  height: 3em;
-  top: 3.85em!important;
+  top: 1.3em!important;
+  right: -1.3em!important;
  }
 
  label {
