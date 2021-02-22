@@ -544,11 +544,11 @@ input[type="submit" i] {
   top: 1.3em!important;
   right: -2.35em!important;
  }
-
+/*
  label {
   display: none!important;
 }
-
+*/
 
 .image {
 position: absolute;
