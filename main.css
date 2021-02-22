@@ -241,16 +241,17 @@ margin-left: 1.25em;
 TXT SELECT
 ================================================================================
 */
+/*
 ::selection {
-background: #9b2557; /* Safari */
+background: #9b2557; 
 color: #f5f4f1; 
 text-shadow: none;}
 
 ::-moz-selection {
-   background: #9b2557; /* Firefox */
+   background: #9b2557;
    color: #f5f4f1;
 }
-
+*/
 
 
 /*
