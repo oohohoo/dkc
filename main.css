@@ -105,7 +105,7 @@ html {
 ANIMATE ON RESIZE
 ================================================================================
 */
- 
+ /*
   section, h1, h2, h3, p, li, img {
     -moz-transition: width 1s ease-in-out, left 1.5s ease-in-out;
     -webkit-transition: width 1s ease-in-out, left 1.5s ease-in-out;
@@ -113,7 +113,7 @@ ANIMATE ON RESIZE
     -o-transition: width 1s ease-in-out, left 1.5s ease-in-out;
     transition: width 1s ease-in-out, left 1.5s ease-in-out;
 }
-
+*/
 
 
 /*
