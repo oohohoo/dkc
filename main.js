@@ -324,6 +324,7 @@ var menu = ['', '', '', '', '', '']
     slidesPerView: 1,
     observer: true,
   observeParents: true,
+  longSwipes: false,
   
     //
    // centeredSlides: true,
@@ -369,7 +370,7 @@ SWIPER SINGLE PAGE + Ovo je možda rješenje za multiple swipers - test further
        speed: 1000,
        watchOverflow: true,
        grabCursor: true,
-       speed: 1000,
+       longSwipes: false,
        slidesPerView: 1,
        navigation: {
         nextEl: '.swiper-button-p',
