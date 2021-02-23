@@ -1392,6 +1392,10 @@ width: 1em;
   top: 0.4em;
 }
 
+/* SCROLL UP KONTAKT PAGE ICON*/
+.upwrap.kontakt.w--current {
+  margin-top: 9.9em;
+}
 
 
 /* DOCUMENT EXTENSION FIX POVIŠE 1600*/
