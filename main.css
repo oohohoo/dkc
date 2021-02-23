@@ -241,7 +241,7 @@ margin-left: 1.25em;
 TXT SELECT
 ================================================================================
 */
-/*
+
 ::selection {
 background: #9b2557; 
 color: #f5f4f1; 
@@ -251,7 +251,9 @@ text-shadow: none;}
    background: #9b2557;
    color: #f5f4f1;
 }
-*/
+
+
+
 
 
 /*
@@ -366,7 +368,9 @@ NTH CHILDS
   border-bottom: 3px solid #9b2557;  
 }
 
-
+.contactwrap:nth-last-child(-n+3) {
+  border-bottom: 3px solid #9b2557;  
+}
 /*
 ================================================================================
 HOME TAB BEFORE
