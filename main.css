@@ -368,7 +368,7 @@ NTH CHILDS
   border-bottom: 3px solid #9b2557;  
 }
 
-.contactwrap:nth-last-child(-n+3) {
+.contactwrap:nth-last-child(-n+4) {
   border-bottom: 3px solid #9b2557;  
 }
 /*
@@ -1391,6 +1391,7 @@ width: 1em;
 .div-block-4 {
   top: 0.4em;
 }
+
 
 
 /* DOCUMENT EXTENSION FIX POVIŠE 1600*/
