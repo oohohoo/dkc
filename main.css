@@ -372,7 +372,7 @@ NTH CHILDS
   border-bottom: 3px solid #9b2557;  
 }
 
-.searchcontentwrap:nth-child(1) .newname {
+.searchcontentwrap:nth-child(1) {
   border-top: 3px solid #9b2557;
 }
 
