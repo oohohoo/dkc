@@ -546,9 +546,11 @@ input[type="submit" i] {
 
 /*SEARCH BUTTON POSITION*/
 .div-block-2 {
-  top: 1.3em!important;
-  right: -2.35em!important;
+  top: 6em!important;
+ right: -1em!important;
  }
+
+
 /*
  label {
   display: none!important;
