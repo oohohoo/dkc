@@ -368,7 +368,7 @@ NTH CHILDS
   border-bottom: 3px solid #9b2557;  
 }
 
-.contactwrap:nth-last-child(-n+2) {
+.contactwrap:nth-last-child(-n+3) {
   border-bottom: 3px solid #9b2557;  
 }
 /*
