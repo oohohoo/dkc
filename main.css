@@ -1411,3 +1411,12 @@ width: 1em;
 
 }
 
+/* DATUM NOVOSTI */
+.home-sub {
+  margin-left: -0.125em;
+}
+
+/* GLAVNI NASLOV */
+.mainheading {
+  margin-left: -0.06em;
+}
