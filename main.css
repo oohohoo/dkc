@@ -492,6 +492,79 @@ SWIPER FIX
     z-index: 1 !important;
 }
 
+/*
+================================================================================
+SEARCH
+================================================================================
+*/
+ /*
+.w-input, .w-select {
+    color: #f5f4f1;
+}
+
+.w-input:focus, .w-select:focus {
+    border-color: #f5f4f1;
+}
+*/
+/* .search-button:focus, .search-field:focus {
+outline: none;
+} */
+  
+/* SEARCH WORDPRESS FIX */
+.search-field {
+  color: #f5f4f1;
+  height: 1.3em;
+  padding-right: .5em;
+  border-style: solid;
+  border-width: 0 0 3px;
+  border-color: #000 #000 #f5f4f1;
+  background-color: transparent;
+  font-size: 6.75em;
+  line-height: 1;
+  letter-spacing: -.024em;
+}
+
+
+.search-submit{
+  width: 6em;
+  height: 6em;
+z-index: 10;
+  background-color: transparent;
+  line-height: 1;
+  letter-spacing: -.024em;
+  cursor: pointer;
+ 
+}
+
+input[type="submit" i] {
+  appearance: auto!important;
+  color: -internal-light-dark(black, white);
+  background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+  border-style: none!important;
+  border-color: transparent;  
+}
+
+/*SEARCH BUTTON POSITION*/
+.div-block-2 {
+  top: 1.3em!important;
+  right: -2.35em!important;
+ }
+/*
+ label {
+  display: none!important;
+}
+*/
+/*
+.image {
+position: absolute;
+user-select: none;
+
+}
+*/
+/* SEARCH INPUT TEXT COLOR */ 
+  input[type="search"]::placeholder {
+    color: #f5f4f1;
+}
 
 /*
 ================================================================================
