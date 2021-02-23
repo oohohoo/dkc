@@ -376,7 +376,7 @@ NTH CHILDS
   border-top: 3px solid #9b2557;
 }
 
-.searchcontentwrap:nth-last-child(1) .newname {
+.search-grid-auto:nth-last-child(1) .newname {
   border-bottom: 3px solid #9b2557;
 }
 
