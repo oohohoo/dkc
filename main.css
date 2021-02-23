@@ -371,6 +371,17 @@ NTH CHILDS
 .contactwrap:nth-last-child(-n+4) {
   border-bottom: 3px solid #9b2557;  
 }
+
+.search-grid-auto:nth-child(1) .newname {
+  border-top: 3px solid #9b2557;
+}
+
+.search-grid-auto:nth-last-child(1) .newname {
+  border-bottom: 3px solid #9b2557;
+}
+
+
+
 /*
 ================================================================================
 HOME TAB BEFORE
