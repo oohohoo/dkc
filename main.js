@@ -139,7 +139,7 @@ JQUERY NTH GRANDFADER - CHILD
 
     // Using Jquery $( "parent > child" ); selector which returns an array of matches  
     // Iterate through an array of Jquery objects using $(..).each()
-    /*$('ul > li > ul > li ').each(function(){
+    $('ul > li').each(function(){
     
       console.log($(this).text());
       $(this).addClass('newname');
