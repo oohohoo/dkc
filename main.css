@@ -329,7 +329,7 @@ IMAGE BLEND MODE
   transition: 0.3s ease;
   transition-delay: 0s;
   mix-blend-mode: normal;
-  background-color: #000000;
+ /* background-color: #000000;*/
  
 }
 
