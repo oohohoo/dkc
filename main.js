@@ -145,7 +145,7 @@ JQUERY NTH GRANDFADER - CHILD
       $(this).addClass('newname');
         
     });
-    */
+   
 
     //This adds the class to all matches as well
     $('ul > li > ul > li').addClass('newname');
