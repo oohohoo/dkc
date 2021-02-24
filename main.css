@@ -1442,6 +1442,6 @@ width: 1em;
 /* SEARCH RESULTS HIGHLIGHT */
 .searchcontentwrap .search-excerpt {
  background-color: #9b2557;
- color:#f5f4f1
-
+ color:#f5f4f1;
+ padding: 0.3em 0.3em;
 }
