@@ -1424,7 +1424,7 @@ width: 1em;
 @media (min-width: 1500px) {
 
 .extension {
-  bottom: 0.4em;
+ /*  bottom: 0.4em; */
 }
 
 }
