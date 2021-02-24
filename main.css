@@ -681,18 +681,17 @@ RICH IMAGE FIX
 
 
 
-.alignleft,
-img.alignleft, .alignone {
-    display: inline;
-  margin-right: 1.5em;
-  position: absolute;
-  left: -45.5vw;
-top: 0;
-right: 0;
-bottom: 0;
+.alignleft, img.alignleft, .alignone {
+    display: inline!important;
+  margin-right: 1.5em!important;
+  position: absolute!important;
+  left: -45.5vw!important;
+top: 0!important;
+right: 0!important;
+bottom: 0!important;
 /*margin: 0 1em 1em 0;*/
-  max-width: 25em;
-  max-height: 45em;
+  max-width: 25em!important;
+  max-height: 45em!important;
 }
 
 .aligncenter, .alignright  {
