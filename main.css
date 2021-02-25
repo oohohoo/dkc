@@ -955,7 +955,7 @@ COOKIE SKIN
 ================================================================================
 */
 .ch2-theme-bar .ch2-dialog-content {
-  padding-right: 9.5em!important;
+  padding-right: 2em!important;
   align-self: flex-end!important;
 }
 
@@ -1030,6 +1030,11 @@ color: #f5f4f1 !important;
 .ch2-dialog-actions button {
   height: 0.813em!important;
   margin-right: -0.95em!important;
+}
+
+.ch2-theme-bar .ch2-dialog-content {
+
+  align-self: center;
 }
 
 
@@ -1159,8 +1164,8 @@ width: 1em;
 
  @media (min-width: 1026px) {
 
-  .ch2-theme-bar .ch2-dialog-actions {
+ /*  .ch2-theme-bar .ch2-dialog-actions {
     margin-left: 2em!important;
- }
+ } */
 
  }
