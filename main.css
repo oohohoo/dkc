@@ -972,7 +972,7 @@ COOKIE SKIN
     box-shadow: 0 0 0px 0 rgba(0,0,0,0) !important;
 }
 .ch2-theme-bar .ch2-dialog p {
-    /* font-size: 1.125em  !important; */
+     font-size: 1vw!important; 
     line-height: 1.1;
 color: #f5f4f1 !important;
 }
