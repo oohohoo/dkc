@@ -960,6 +960,15 @@ COOKIE SKIN
   align-self: center!important;
 }
 
+.ch2-theme-bar .ch2-dialog.ch2-visible {
+  display: flex!important;
+  -webkit-box-pack: justify!important;
+  -webkit-justify-content: space-between!important;
+  -ms-flex-pack: justify!important;
+  justify-content: space-between!important;
+}
+
+
 
 .ch2-style-light .ch2-dialog {
   background: #9b2557!important;
