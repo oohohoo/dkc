@@ -742,14 +742,8 @@ PROVJERI OVO NAKNADNO JE UGAŠENO PA MOŽDA NEŠTO RADI
 @media (min-width: 700px) and (max-width:999px) {
 
 
-  .child:nth-child(1) .newname, .search-grid-auto:nth-child(1) {
-    border-top: 2px solid #9b2557;
-  }
-  
-  .child:nth-last-child(1) .newname, .newswrap:nth-last-child(-n+3), .claniceminigrid:nth-last-child(-n+3),
-  .claniceminigrid:nth-last-child(-n+3), .contactwrap:nth-last-child(-n+4), .search-grid-auto:nth-last-child(1)  {
-    border-bottom: 2px solid #9b2557;
-  }
+2
+
 
 /* RICH TEXT FOTKA CENTAR*/
 .w-richtext figure.w-richtext-align-floatleft {
@@ -785,14 +779,7 @@ OVO JE UGAŠENO
 }
   @media (min-width: 1000px) and (max-width:1199px) {
 
-    .child:nth-child(1) .newname, .search-grid-auto:nth-child(1) {
-      border-top: 3px solid #9b2557;
-    }
-    
-    .child:nth-last-child(1) .newname, .newswrap:nth-last-child(-n+3), .claniceminigrid:nth-last-child(-n+3),
-    .claniceminigrid:nth-last-child(-n+3), .contactwrap:nth-last-child(-n+4), .search-grid-auto:nth-last-child(1)  {
-      border-bottom: 3px solid #9b2557;
-    }
+ 3
 
 
     /* RICH TEXT FOTKA CENTAR*/
@@ -817,15 +804,7 @@ OVO JE UGAŠENO
 }
   @media (min-width: 1200px) and (max-width:1599px) {
 
-    .child:nth-child(1) .newname, .search-grid-auto:nth-child(1) {
-      border-top: 3px solid #9b2557;
-    }
-    
-    .child:nth-last-child(1) .newname, .newswrap:nth-last-child(-n+3), .claniceminigrid:nth-last-child(-n+3),
-    .claniceminigrid:nth-last-child(-n+3), .contactwrap:nth-last-child(-n+4), .search-grid-auto:nth-last-child(1)  {
-      border-bottom: 3px solid #9b2557;
-    }
-
+3
 /*
     .nav-link.w-inline-block.w--current:before, .underline::before {
       border-bottom: solid 3px #9b2557;
@@ -843,14 +822,7 @@ OVO JE UGAŠENO
  
   @media (min-width: 1600px) and (max-width:1999px) {
 
-    .child:nth-child(1) .newname, .search-grid-auto:nth-child(1) {
-      border-top: 4px solid #9b2557;
-    }
-    
-    .child:nth-last-child(1) .newname, .newswrap:nth-last-child(-n+3), .claniceminigrid:nth-last-child(-n+3),
-    .claniceminigrid:nth-last-child(-n+3), .contactwrap:nth-last-child(-n+4), .search-grid-auto:nth-last-child(1)  {
-      border-bottom: 4px solid #9b2557;
-    }
+ 4
 
 
 /*
@@ -868,14 +840,7 @@ OVO JE UGAŠENO
   @media (min-width: 2000px) and (max-width:2399px) {
 
 
-    .child:nth-child(1) .newname, .newswrap:nth-child(1) .newname, .claniceminigrid:nth-child(1) .newname, .contactwrap:nth-child(1) .newname,.search-grid-auto:nth-child(1) .newname {
-      border-top: 5px solid #9b2557;
-    }
-    
-    .child:nth-last-child(1) .newname, .newswrap:nth-last-child(-n+3), .claniceminigrid:nth-last-child(-n+3),
-    .contactwrap:nth-last-child(-n+4), .search-grid-auto:nth-last-child(1)  {
-      border-bottom: 5px solid #9b2557;
-    }
+   6
 
 
 /*  
@@ -892,15 +857,7 @@ OVO JE UGAŠENO
 
   @media (min-width: 2400px) {
   
-    .child:nth-child(1) .newname, .newswrap:nth-child(1), .claniceminigrid:nth-child(1), .contactwrap:nth-child(1),.search-grid-auto:nth-child(1) {
-      border-top: 5px solid #9b2557;
-    }
-    
-    .child:nth-last-child(1) .newname, .newswrap:nth-last-child(-n+3), .claniceminigrid:nth-last-child(-n+3),
-    .contactwrap:nth-last-child(-n+4), .search-grid-auto:nth-last-child(1)  {
-      border-bottom: 5px solid #9b2557;
-    }
-
+   5
 
   /*
   .nav-link.w-inline-block.w--current:before, .underline::before {
