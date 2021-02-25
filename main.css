@@ -356,7 +356,7 @@ NTH CHILDS
 
 
 .child:nth-child(1) .newname, .search-grid-auto:nth-child(1), .newswrap {
-  border-top: 3px solid #9b2557;
+  border-top: 3px solid #55f007;
 }
 
 .child:nth-last-child(1) .newname, .newswrap:nth-last-child(-n+3), .claniceminigrid:nth-last-child(-n+3),
