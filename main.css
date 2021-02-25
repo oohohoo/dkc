@@ -1145,7 +1145,7 @@ width: 1em;
 
 .ch2-theme-bar .ch2-dialog-content {
   padding-right: 0em!important;
-
+  max-width: 69ch!important;
 }
 
 .ch2-theme-bar .ch2-dialog-actions button:first-child {
