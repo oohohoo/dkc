@@ -1118,6 +1118,7 @@ width: 1em;
 
  .ch2-theme-bar .ch2-dialog-actions {
        margin-top: 0px!important; 
+       margin-left: 15em!important;
     }
 
     .ch2-container, .ch2-icon {
@@ -1135,6 +1136,9 @@ width: 1em;
   padding-right: 0em!important;
 
 }
+
+
+
 
 
   /*
