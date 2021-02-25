@@ -868,12 +868,12 @@ OVO JE UGAŠENO
   @media (min-width: 2000px) and (max-width:2399px) {
 
 
-    .child:nth-child(1) .newname, .search-grid-auto:nth-child(1) {
+    .child:nth-child(1) .newname, .newswrap:nth-child(1), .claniceminigrid:nth-child(1), .contactwrap:nth-child(1),.search-grid-auto:nth-child(1) {
       border-top: 5px solid #9b2557;
     }
     
     .child:nth-last-child(1) .newname, .newswrap:nth-last-child(-n+3), .claniceminigrid:nth-last-child(-n+3),
-    .claniceminigrid:nth-last-child(-n+3), .contactwrap:nth-last-child(-n+4), .search-grid-auto:nth-last-child(1)  {
+    .contactwrap:nth-last-child(-n+4), .search-grid-auto:nth-last-child(1)  {
       border-bottom: 5px solid #9b2557;
     }
 
@@ -892,12 +892,12 @@ OVO JE UGAŠENO
 
   @media (min-width: 2400px) {
   
-    .child:nth-child(1) .newname, .search-grid-auto:nth-child(1) {
+    .child:nth-child(1) .newname, .newswrap:nth-child(1), .claniceminigrid:nth-child(1), .contactwrap:nth-child(1),.search-grid-auto:nth-child(1) {
       border-top: 5px solid #9b2557;
     }
     
     .child:nth-last-child(1) .newname, .newswrap:nth-last-child(-n+3), .claniceminigrid:nth-last-child(-n+3),
-    .claniceminigrid:nth-last-child(-n+3), .contactwrap:nth-last-child(-n+4), .search-grid-auto:nth-last-child(1)  {
+    .contactwrap:nth-last-child(-n+4), .search-grid-auto:nth-last-child(1)  {
       border-bottom: 5px solid #9b2557;
     }
 
