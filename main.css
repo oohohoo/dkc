@@ -353,39 +353,19 @@ NTH CHILDS
   border-bottom: 1px solid #9b2557;
 }
 
-.child:nth-child(1) .newname {
+
+
+.child:nth-child(1) .newname, .search-grid-auto:nth-child(1) {
   border-top: 3px solid #9b2557;
 }
 
-.child:nth-last-child(1) .newname {
-  border-bottom: 3px solid #9b2557;
-}
-
-/* NEWS BOX HOMEPAGE I ?*/
-.newswrap:nth-last-child(-n+3) {
-  border-bottom: 3px solid #9b2557;
-}
-
-.claniceminigrid:nth-last-child(-n+3) {
-  border-bottom: 3px solid #9b2557;  
-}
-
-.contactwrap:nth-last-child(-n+4) {
-  border-bottom: 3px solid #9b2557;  
-}
-
-.search-grid-auto:nth-child(1) {
-  border-top: 3px solid #9b2557;
-}
-
-.search-grid-auto:nth-last-child(1) {
+.child:nth-last-child(1) .newname, .newswrap:nth-last-child(-n+3), .claniceminigrid:nth-last-child(-n+3),
+.claniceminigrid:nth-last-child(-n+3), .contactwrap:nth-last-child(-n+4), .search-grid-auto:nth-last-child(1)  {
   border-bottom: 3px solid #9b2557;
 }
 
 
-.searchresultswrap ul {
-  list-style-type: none;
-}
+
 
 /*
 ================================================================================
@@ -504,7 +484,6 @@ SWIPER FIX
 */
 
 .swiper-pagination {
-
     z-index: 1 !important;
 }
 
@@ -522,9 +501,9 @@ SEARCH
     border-color: #f5f4f1;
 }
 */
-/* .search-button:focus, .search-field:focus {
+.search-button:focus, .search-field:focus {
 outline: none;
-} */
+} 
   
 /* SEARCH WORDPRESS FIX */
 .search-field {
@@ -626,7 +605,6 @@ ROTATE OVERTEXT
 }
 
 
-
 /*
 ================================================================================
 OHOHO
@@ -656,27 +634,10 @@ RICH IMAGE FIX
 ================================================================================
 */
 
-/*
-.alignleft {
-  max-width: 25em;
-  float: left;
-  margin-right: 15px;
-  clear: none;
-  position: absolute;
-  right: 50%;
-  left: auto;
-}
-
-
-*/
-
 .richtxt p {
   position: relative;
   margin-bottom: 1em;
-
 }
-
-
 
 .alignleft, img.alignleft, .alignone {
     display: inline;
@@ -695,10 +656,6 @@ margin: 0 1em 1em 0;
   float: none;
   margin: 1.5em auto 1.5em;
 }
-
-
-
-
 
 /*
 .alignright,
@@ -1447,4 +1404,9 @@ width: 1em;
 /*REDNI BROJ BOTTOM RAZMAK SEARCH RESILTS*/
 .searchredni.bottom {
   margin-bottom: 0.8em;
+}
+
+/* KILL UL BULLET */
+.searchresultswrap ul {
+  list-style-type: none;
 }
