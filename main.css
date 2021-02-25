@@ -1188,6 +1188,14 @@ width: 1em;
 
  }
 
+
+ @media (max-width: 699px) {
+.ch2-theme-bar .ch2-dialog.ch2-visible {
+     display: block!important; 
+}
+
+ }
+
  @media (min-width: 1026px) {
 
  /*  .ch2-theme-bar .ch2-dialog-actions {
