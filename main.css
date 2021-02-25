@@ -1124,7 +1124,12 @@ width: 1em;
        font-size: 14px!important;
   
   }
-/*
+  .ch2-theme-bar .ch2-dialog {
+    padding: 0.850em 1.5em !important;
+}
+
+  /*
+
 
 
     .ch2-container, .ch2-icon {
