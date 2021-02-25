@@ -1189,9 +1189,13 @@ width: 1em;
  }
 
 
- @media (max-width: 699px) {
+ @media (max-width: 600px) {
 .ch2-theme-bar .ch2-dialog.ch2-visible {
      display: block!important; 
+}
+
+.ch2-theme-bar .ch2-dialog-actions {
+  display: inline-flex!important; 
 }
 
  }
