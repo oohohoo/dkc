@@ -1121,7 +1121,7 @@ width: 1em;
 /* SEARCH RESULTS MARGIN LEFT FIX */
 .searchresultswrap {
   list-style-type: none;
-  margin-left: -2.8em;
+  /* margin-left: -2.8em; */
 }
 
 /* SEARCH RESULTS HIGHLIGHT */
