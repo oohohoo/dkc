@@ -1137,6 +1137,10 @@ width: 1em;
   list-style-type: none;
 }
 
+/*SEARCH IKONA POSITION */
+.div-block-2 svg:not(:root) {
+    position: absolute;
+}
 
  /*COOKIE*/
  @media (max-width: 1300px) {
