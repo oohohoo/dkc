@@ -356,12 +356,12 @@ NTH CHILDS
 
 
 .child:nth-child(1) .newname, .search-grid-auto:nth-child(1), .newswrap {
-  border-top: 3px solid #55f007;
+  border-top: 3px solid #9b2557;
 }
 
 .child:nth-last-child(1) .newname, .newswrap:nth-last-child(-n+3), .claniceminigrid:nth-last-child(-n+3),
 .claniceminigrid:nth-last-child(-n+3), .contactwrap:nth-last-child(-n+4), .search-grid-auto:nth-last-child(1)  {
-  border-bottom: 3px solid #9b2557;
+  border-bottom: 3px solid #399b25;
 }
 
 
