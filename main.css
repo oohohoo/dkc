@@ -876,6 +876,9 @@ OVO JE UGAŠENO
     .claniceminigrid:nth-last-child(-n+3), .contactwrap:nth-last-child(-n+4), .search-grid-auto:nth-last-child(1)  {
       border-bottom: 5px solid #9b2557;
     }
+    .newname{
+      border-bottom: 2px solid #9b2557;
+    }
 
 /*  
   .nav-link.w-inline-block.w--current:before, .underline::before {
@@ -900,6 +903,9 @@ OVO JE UGAŠENO
       border-bottom: 5px solid #9b2557;
     }
 
+    .newname{
+      border-bottom: 2px solid #9b2557;
+    }
 
 
   /*
