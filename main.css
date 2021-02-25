@@ -972,7 +972,7 @@ COOKIE SKIN
     box-shadow: 0 0 0px 0 rgba(0,0,0,0) !important;
 }
 .ch2-theme-bar .ch2-dialog p {
-    font-size: 1.125em  !important;
+    /* font-size: 1.125em  !important; */
     line-height: 1.1;
 color: #f5f4f1 !important;
 }
@@ -997,8 +997,8 @@ color: #f5f4f1 !important;
     display: none !important;
 }
 .ch2-dialog-content a {
-   font-size: 1.125em !important;
-    color: #9b2557 !important;
+/*    font-size: 1.125em !important;
+ */    color: #9b2557 !important;
     cursor: pointer !important;
 }
 .ch2-style-light .ch2-dialog-content a {
@@ -1008,7 +1008,7 @@ color: #f5f4f1 !important;
 .ch2-container, .ch2-icon {
   font-family: 'Nimbussansdot regu', sans-serif!important;
   /* font-size: 1vw  !important; */
-  font-size: 14px!important;
+ /*  font-size: 14px!important; */
   line-height: 1.3em !important;
 }
 
