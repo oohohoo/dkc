@@ -1140,6 +1140,7 @@ width: 1em;
 /* KILL UL BULLET */
 .searchresultswrap ul {
   list-style-type: none;
+  padding-left: 0;
 }
 
 /*SEARCH IKONA POSITION */
