@@ -1142,7 +1142,7 @@ width: 1em;
  @media (max-width: 1025px) {
 
  .ch2-theme-bar .ch2-dialog-actions {
-       margin-top: 0px!important; 
+  margin-top: -0.438em!important;
        margin-left: -1.1em!important;
     }
 
