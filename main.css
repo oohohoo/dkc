@@ -690,12 +690,7 @@ MEDIA QUERY
    /* height: 18vh;*/
   }
 
-/*
-  .newswrapfix:nth-last-child(-n+1) .newsminigrid {
-    border-bottom: 3px solid #9b2557;
-  }
 
-*/
 /* RICH TEXT FOTKA CENTAR*/
   .w-richtext figure.w-richtext-align-floatleft {
     width: 100%;
@@ -709,26 +704,12 @@ MEDIA QUERY
 
 
 
-
-
-
-
-
-
-
-/*
-PROVJERI OVO NAKNADNO JE UGAŠENO PA MOŽDA NEŠTO RADI
   .nav-link.w-inline-block.w--current:before {
   border-bottom: solid 2px #9b2557;
   }
-  .swiper-pagination-bullet {
-  height: 2px;
-  }
-  */
+ 
 
 
-
-*/
   .swiper-pagination {
     display: none!important;
 }
@@ -758,6 +739,11 @@ PROVJERI OVO NAKNADNO JE UGAŠENO PA MOŽDA NEŠTO RADI
     border-bottom: 2px solid #9b2557;
   }
 
+  .nav-link.w-inline-block.w--current:before, .underline::before {
+    border-bottom: solid 2px #9b2557;
+  }
+
+
 /* RICH TEXT FOTKA CENTAR*/
 .w-richtext figure.w-richtext-align-floatleft {
   width: 100%;
@@ -769,17 +755,6 @@ PROVJERI OVO NAKNADNO JE UGAŠENO PA MOŽDA NEŠTO RADI
   margin-left: auto;
 }
 
-
-
-
-
-
-/*
-OVO JE UGAŠENO 
-  .nav-link.w-inline-block.w--current:before, .underline::before {
-    border-bottom: solid 2px #9b2557;
-  }
-  */
 
 
   .swiper-pagination-bullet {
@@ -807,12 +782,6 @@ OVO JE UGAŠENO
 }
 
 
-
-
-/*
-  .nav-link.w-inline-block.w--current:before, .underline::before {
-    border-bottom: solid 3px #9b2557;
-  }
   */
   .swiper-pagination-bullet {
     height: 3px;
@@ -853,13 +822,10 @@ OVO JE UGAŠENO
       border-bottom: 4px solid #9b2557;
     }
 
-
-/*
-
   .nav-link.w-inline-block.w--current:before, .underline::before {
     border-bottom: solid 4px #9b2557;
   }
-  */
+
   .swiper-pagination-bullet {
     height: 4px;
   }
@@ -880,11 +846,11 @@ OVO JE UGAŠENO
       border-bottom: 2px solid #9b2557;
     }
 
-/*  
+  
   .nav-link.w-inline-block.w--current:before, .underline::before {
     border-bottom: solid 5px #9b2557;
   }
-  */
+ 
   .swiper-pagination-bullet {
     height: 5px;
   }
@@ -908,11 +874,10 @@ OVO JE UGAŠENO
     }
 
 
-  /*
   .nav-link.w-inline-block.w--current:before, .underline::before {
     border-bottom: solid 5px #9b2557;
   }
-  */
+
   .swiper-pagination-bullet {
     height: 5px;
   }
