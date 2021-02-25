@@ -1007,7 +1007,7 @@ color: #f5f4f1 !important;
 
 .ch2-container, .ch2-icon {
   font-family: 'Nimbussansdot regu', sans-serif!important;
-  /* font-size: 1vw  !important; */
+   font-size: 1vw  !important; 
  /*  font-size: 14px!important; */
   line-height: 1.3em !important;
 }
