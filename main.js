@@ -365,7 +365,7 @@ SWIPER SINGLE PAGE + Ovo je možda rješenje za multiple swipers - test further
    if (slider) {
      var sliderSwiper = new Swiper(slider, {
       //loop: true,
-      updateOnWindowResize: true,
+      /* updateOnWindowResize: true, */
        init: false,
        speed: 1000,
        watchOverflow: true,
