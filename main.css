@@ -1130,6 +1130,13 @@ width: 1em;
 .ch2-theme-bar .ch2-dialog.ch2-visible {
   display: flex!important;
 }
+
+.ch2-theme-bar .ch2-dialog-content {
+  padding-right: 0em!important;
+
+}
+
+
   /*
 
 
