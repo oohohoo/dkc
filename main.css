@@ -958,6 +958,7 @@ COOKIE SKIN
   padding-right: 2em!important;
   max-width: 69ch!important;
   align-self: center!important;
+  line-height: 1!important;
 }
 
 .ch2-theme-bar .ch2-dialog.ch2-visible {
