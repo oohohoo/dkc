@@ -1137,6 +1137,10 @@ width: 1em;
 
 }
 
+.ch2-theme-bar .ch2-dialog-actions button:first-child {
+  margin-right: 1em !important;
+}
+
 
 
 
