@@ -354,16 +354,64 @@ NTH CHILDS
 }
 
 
-/*
+
 .child:nth-child(1) .newname, .search-grid-auto:nth-child(1) {
   border-top: 3px solid #9b2557;
 }
-*/
+
 .child:nth-last-child(1) .newname, .newswrap:nth-last-child(-n+3), .claniceminigrid:nth-last-child(-n+3),
 .claniceminigrid:nth-last-child(-n+3), .contactwrap:nth-last-child(-n+4), .search-grid-auto:nth-last-child(1)  {
   border-bottom: 3px solid #9b2557;
 }
 
+
+
+
+/*
+================================================================================
+HOME TAB BEFORE
+================================================================================
+*/
+
+
+
+
+ 
+
+  /*
+  .doc-grid-item:nth-of-type(1) {
+    border-top: 3px solid #9b2557;
+    
+  }
+  
+  .doc-grid-item:nth-last-of-type(1) {
+    border-bottom: 3px solid #9b2557;
+    
+  }
+  
+  .docsolowrap:nth-last-of-type(n+1) {
+    border-bottom: 3px solid #9b2557;
+    
+  }
+
+  .projectsolowrapfix:nth-last-of-type(-n+2) {
+    border-bottom: 3px solid #9b2557;
+   }
+  
+  .projectsolowrapfix:nth-of-type(1) {
+    border-top: 3px solid #9b2557;
+   }
+
+   .contactwrap:nth-last-child(-n+2) {
+    border-bottom: 3px solid #9b2557;
+    padding-bottom: 3rem;
+  }
+
+  .searchcontentwrap:nth-last-child(1) {
+    border-bottom: 3px solid #9b2557;
+    
+  }
+  
   
 /*
 ================================================================================
@@ -667,15 +715,6 @@ MEDIA QUERY
 
 @media (max-width: 699px) {
 
-  .child:nth-child(1) .newname, .search-grid-auto:nth-child(1) {
-    border-top: 2px solid #9b2557;
-  }
-  
-  .child:nth-last-child(1) .newname, .newswrap:nth-last-child(-n+3), .claniceminigrid:nth-last-child(-n+3),
-  .claniceminigrid:nth-last-child(-n+3), .contactwrap:nth-last-child(-n+4), .search-grid-auto:nth-last-child(1)  {
-    border-bottom: 2px solid #9b2557;
-  }
-
 
   .verticalx{
     width: calc(7em*21/29.7);
@@ -708,6 +747,38 @@ MEDIA QUERY
 
 
 
+
+
+
+  /*
+  .contactwrap, .footersponzorwrap  {
+    border-top: 2px solid #9b2557;
+}
+  .child:nth-child(1) .newname {
+    border-top: 2px solid #9b2557;
+  }
+  
+  .child:nth-last-child(1) .newname {
+    border-bottom: 2px solid #9b2557;
+  }
+  
+  .newswrap:nth-last-child(-n+3) {
+    border-bottom: 2px solid #9b2557;
+  }
+  
+  .claniceminigrid:nth-last-child(-n+3) {
+    border-bottom: 2px solid #9b2557;  
+  }
+*/
+
+  /*
+  .claniceminigrid, .newsminigrid {
+    border-top: 2px solid #9b2557;  
+  }
+  */
+
+
+
 /*
 PROVJERI OVO NAKNADNO JE UGAŠENO PA MOŽDA NEŠTO RADI
   .nav-link.w-inline-block.w--current:before {
@@ -719,8 +790,15 @@ PROVJERI OVO NAKNADNO JE UGAŠENO PA MOŽDA NEŠTO RADI
   */
 
 
+  /*
+  .child2:nth-child(1) .newname {
+    border-top: 2px solid #9b2557;
+  }
+  .child2:nth-last-child(1) .newname {
+    border-bottom: 2px solid #9b2557;
+  }
 
-
+*/
   .swiper-pagination {
     display: none!important;
 }
@@ -741,10 +819,6 @@ PROVJERI OVO NAKNADNO JE UGAŠENO PA MOŽDA NEŠTO RADI
  
 @media (min-width: 700px) and (max-width:999px) {
 
-
-/* 2 */
-
-
 /* RICH TEXT FOTKA CENTAR*/
 .w-richtext figure.w-richtext-align-floatleft {
   width: 100%;
@@ -759,6 +833,36 @@ PROVJERI OVO NAKNADNO JE UGAŠENO PA MOŽDA NEŠTO RADI
 
 
 
+
+
+
+/*
+  .contactwrap, .footersponzorwrap {
+    border-top: 2px solid #9b2557;
+}
+
+  .child:nth-child(1) .newname {
+    border-top: 2px solid #9b2557;
+  }
+  
+  .child:nth-last-child(1) .newname {
+    border-bottom: 2px solid #9b2557;
+  }
+  
+  .newswrap:nth-last-child(-n+3) {
+    border-bottom: 2px solid #9b2557;
+  }
+  
+  .claniceminigrid:nth-last-child(-n+3) {
+    border-bottom: 2px solid #9b2557;  
+  }
+
+/*
+  .claniceminigrid, .newsminigrid {
+    border-top: 2px solid #9b2557;  
+  }*/
+
+
 /*
 OVO JE UGAŠENO 
   .nav-link.w-inline-block.w--current:before, .underline::before {
@@ -771,6 +875,15 @@ OVO JE UGAŠENO
     height: 2px;
   }
 
+  /*
+  .child2:nth-child(1) .newname {
+    border-top: 2px solid #9b2557;
+  }
+  .child2:nth-last-child(1) .newname {
+    border-bottom: 2px solid #9b2557;
+  }
+   
+  */
   .swiper-pagination {
     display: none!important;
 }
@@ -778,8 +891,6 @@ OVO JE UGAŠENO
 
 }
   @media (min-width: 1000px) and (max-width:1199px) {
-
- /* 3 */
 
 
     /* RICH TEXT FOTKA CENTAR*/
@@ -795,16 +906,90 @@ OVO JE UGAŠENO
 
 
 
+
+    /*
+  .contactwrap, .footersponzorwrap  {
+    border-top: 3px solid #9b2557;
+}
+  .child:nth-child(1) .newname {
+    border-top: 3px solid #9b2557;
+  }
+  
+  .child:nth-last-child(1) .newname {
+    border-bottom: 3px solid #9b2557;
+  }
+  
+  .newswrap:nth-last-child(-n+3) {
+    border-bottom: 3px solid #9b2557;
+  }
+  
+  .claniceminigrid:nth-last-child(-n+3) {
+    border-bottom: 3px solid #9b2557;  
+  }
+
+
+
+  /*
+  .claniceminigrid, .newsminigrid {
+    border-top: 3px solid #9b2557;  
+  }
+  */
+
+
+/*
+  .nav-link.w-inline-block.w--current:before, .underline::before {
+    border-bottom: solid 3px #9b2557;
+  }
+  */
   .swiper-pagination-bullet {
     height: 3px;
   }
 
-  
+  /*
+  .child2:nth-child(1) .newname {
+    border-top: 3px solid #9b2557;
+  }
+  .child2:nth-last-child(1) .newname {
+    border-bottom: 3px solid #9b2557;
+  }
+
+*/
 
 }
   @media (min-width: 1200px) and (max-width:1599px) {
 
-/* 3 */
+
+
+    /*
+    .contactwrap, .footersponzorwrap  {
+      border-top: 3px solid #9b2557;
+  }
+    .child:nth-child(1) .newname {
+      border-top: 3px solid #9b2557;
+    }
+    
+    .child:nth-last-child(1) .newname {
+      border-bottom: 3px solid #9b2557;
+    }
+    
+    .newswrap:nth-last-child(-n+3) {
+      border-bottom: 3px solid #9b2557;
+    }
+    
+    .claniceminigrid:nth-last-child(-n+3) {
+      border-bottom: 3px solid #9b2557;  
+    }
+
+
+
+
+    /*
+    .claniceminigrid, .newsminigrid {
+      border-top: 3px solid #9b2557;  
+    }
+*/
+
+
 /*
     .nav-link.w-inline-block.w--current:before, .underline::before {
       border-bottom: solid 3px #9b2557;
@@ -816,13 +1001,53 @@ OVO JE UGAŠENO
 
 
 
+    /* OVO JR UGAŠENO */
+    /*
+    .child2:nth-child(1) .newname {
+      border-top: 3px solid #9b2557;
+    }
+    .child2:nth-last-child(1) .newname {
+      border-bottom: 3px solid #9b2557;
+    }
+*/
 
   }
 
  
   @media (min-width: 1600px) and (max-width:1999px) {
 
- /* 4 */
+    /* RICH TEXT PRVA FOTKA */
+
+
+
+    /*
+  .contactwrap, .footersponzorwrap  {
+    border-top: 4px solid #9b2557;
+}
+  .child:nth-child(1) .newname {
+    border-top: 4px solid #9b2557;
+  }
+  
+  .child:nth-last-child(1) .newname {
+    border-bottom: 4px solid #9b2557;
+  }
+  
+  .newswrap:nth-last-child(-n+3) {
+    border-bottom: 4px solid #9b2557;
+  }
+  
+  .claniceminigrid:nth-last-child(-n+3) {
+    border-bottom: 4px solid #9b2557;  
+  }
+
+
+
+
+/*
+  .claniceminigrid, .newsminigrid {
+    border-top: 4px solid #9b2557;  
+  }
+*/
 
 
 /*
@@ -835,12 +1060,45 @@ OVO JE UGAŠENO
     height: 4px;
   }
 
-
+  /*
+  .child2:nth-child(1) .newname {
+    border-top: 4px solid #9b2557;
+  }
+  .child2:nth-last-child(1) .newname {
+    border-bottom: 4px solid #9b2557;
+  }
+*/
 }
   @media (min-width: 2000px) and (max-width:2399px) {
 
 
-   /* 6 */
+
+    /*
+  .contactwrap, .footersponzorwrap {
+    border-top: 5px solid #9b2557;
+}
+  .child:nth-child(1) .newname {
+    border-top: 5px solid #9b2557;
+  }
+  
+  .child:nth-last-child(1) .newname {
+    border-bottom: 5px solid #9b2557;
+  }
+  
+  .newswrap:nth-last-child(-n+3) {
+    border-bottom: 5px solid #9b2557;
+  }
+  
+  .claniceminigrid:nth-last-child(-n+3) {
+    border-bottom: 5px solid #9b2557;  
+  }
+
+
+  /*
+  .claniceminigrid, .newsminigrid {
+    border-top: 5px solid #9b2557;  
+  }
+  */
 
 
 /*  
@@ -852,12 +1110,52 @@ OVO JE UGAŠENO
     height: 5px;
   }
 
-
+  /*
+  .child2:nth-child(1) .newname {
+    border-top: 5px solid #9b2557;
+  }
+  .child2:nth-last-child(1) .newname {
+    border-bottom: 5px solid #9b2557;
+  }
+*/
   }
 
   @media (min-width: 2400px) {
   
-   /* 5 */
+  
+
+
+
+    /*
+  .contactwrap, .footersponzorwrap {
+    border-top: 5px solid #9b2557;
+}
+
+  
+  .child:nth-child(1) .newname {
+    border-top: 5px solid #9b2557;
+  }
+  
+  .child:nth-last-child(1) .newname {
+    border-bottom: 5px solid #9b2557;
+  }
+  
+  .newswrap:nth-last-child(-n+3) {
+    border-bottom: 5px solid #9b2557;
+  }
+  
+  .claniceminigrid:nth-last-child(-n+3) {
+    border-bottom: 5px solid #9b2557;  
+  }
+
+
+
+  /*
+  .claniceminigrid, .newsminigrid {
+    border-top: 5px solid #9b2557;  
+  }
+  */
+
 
   /*
   .nav-link.w-inline-block.w--current:before, .underline::before {
@@ -868,6 +1166,14 @@ OVO JE UGAŠENO
     height: 5px;
   }
 
+  /*
+  .child2:nth-child(1) .newname {
+    border-top: 5px solid #9b2557;
+  }
+  .child2:nth-last-child(1) .newname {
+    border-bottom: 5px solid #9b2557;
+  }
+  */
   }
 
 /*
