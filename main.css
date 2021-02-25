@@ -1152,6 +1152,12 @@ width: 1em;
   margin-right: 1em !important;
 }
 
+.ch2-theme-bar .ch2-dialog p {
+  font-size: 13px!important;
+  line-height: 1;
+
+}
+
 
 
 
