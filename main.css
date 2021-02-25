@@ -868,7 +868,7 @@ OVO JE UGAŠENO
   @media (min-width: 2000px) and (max-width:2399px) {
 
 
-    .child:nth-child(1) .newname, .newswrap:nth-child(1), .claniceminigrid:nth-child(1), .contactwrap:nth-child(1),.search-grid-auto:nth-child(1) {
+    .child:nth-child(1) .newname, .newswrap:nth-child(1) .newname, .claniceminigrid:nth-child(1) .newname, .contactwrap:nth-child(1) .newname,.search-grid-auto:nth-child(1) .newname {
       border-top: 5px solid #9b2557;
     }
     
