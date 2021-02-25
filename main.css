@@ -1007,7 +1007,7 @@ color: #f5f4f1 !important;
 
 .ch2-container, .ch2-icon {
   font-family: 'Nimbussansdot regu', sans-serif!important;
-  /*font-size: 1vw  !important;*/
+  /* font-size: 1vw  !important; */
   line-height: 1.3em !important;
 }
 
@@ -1120,10 +1120,15 @@ width: 1em;
 
  /*COOKIE*/
  @media (max-width: 980px) {
-  body {
-    font-size: 13px;
-}
+
  .ch2-theme-bar .ch2-dialog-actions {
        margin-top: 0px; 
     }
+/*
+    .ch2-container, .ch2-icon {
+  
+      font-size: 13px!important;
+ 
+    }    */
+
  }
