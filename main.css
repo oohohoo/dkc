@@ -1048,6 +1048,12 @@ VARIOUS FIXES
   margin-bottom:0; 
  }
 
+/*LAST DOCUMENT BOTTOM FIX*/
+ .fixmodule:nth-last-child(1) {
+  margin-bottom: 0em;
+}
+
+
 
 /* HOMEPAGE TAB CRTICA BEFORE*/
  .tabwrap.w--current:before {
