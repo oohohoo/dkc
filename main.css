@@ -968,6 +968,10 @@ COOKIE SKIN
   justify-content: space-between!important;
 }
 
+.ch2-learn-more {
+
+  display: none!important;  
+}
 
 
 .ch2-style-light .ch2-dialog {
