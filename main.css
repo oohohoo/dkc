@@ -132,7 +132,7 @@ MENU
     content: "";
     border-bottom: solid 3px #9b2557;
    position: absolute;
-   /* bottom: 0.8em;*/
+   bottom: 45%;
     left: -1.25em;
     width: 1em;
     
@@ -299,7 +299,7 @@ select:-webkit-autofill:focus {
   content: "";
   border-bottom: solid 3px #9b2557;
   position: absolute;
-  bottom: 0.6em;
+  bottom: 45%;
   left: -1.25em;
   width: 1em;
 }
@@ -773,9 +773,7 @@ MEDIA QUERY
 
 
 
-  .nav-link.w-inline-block.w--current:before {
-  border-bottom: solid 2px #9b2557;
-  }
+  
  
 
 
@@ -1146,7 +1144,7 @@ VARIOUS FIXES
 border-bottom: solid 3px #9b2557;
 position: absolute;
 left: 0;
-/*top: 0.9em;*/
+bottom: 45%;
 width: 1em;
 }
 
