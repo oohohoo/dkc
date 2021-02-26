@@ -758,7 +758,7 @@ MEDIA QUERY
       max-height: 45em;
   }
 
-  
+
 
   .verticalx{
     width: calc(7em*21/29.7);
@@ -1265,16 +1265,12 @@ width: 1em;
 }
 
 
+/*HOME BOTTOM MARGIN DOKUMENTI*/
+.home-bot-fix {
+margin-bottom: 5em;
 
-  /*
+}
 
-
-
-    .ch2-container, .ch2-icon {
-  
-      font-size: 13px!important;
- 
-    }    */
 
  }
 
