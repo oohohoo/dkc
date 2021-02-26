@@ -814,21 +814,9 @@ MEDIA QUERY
     margin-right: 1.5em;
      position: static; 
      margin: 0 1em 1em 0;
-    max-width: auto; 
+        max-width: 100%!important; 
     max-height: 45em;
 }
-/* 
-.richtxt img {
-    /* position: absolute; */
-    left: auto;
-    top: 0%;
-    right: 0%;
-    bottom: 0%;
-    margin-left: 45vw;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-}
- */
 
 
 
