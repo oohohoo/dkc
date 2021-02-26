@@ -259,6 +259,17 @@ text-shadow: none;}
 }
 
 
+.search-field::selection {
+  background: #f5f4f1; 
+  color: #9b2557; 
+  text-shadow: none;}
+  
+  .search-field::-moz-selection {
+     background: #f5f4f1;
+     color: #9b2557;
+  }
+  
+
 
 
 
