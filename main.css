@@ -808,9 +808,6 @@ MEDIA QUERY
     border-bottom: 2px solid #9b2557;
   }
 
-  .nav-link.w-inline-block.w--current:before, .underline::before {
-    border-bottom: solid 2px #9b2557;
-  }
 
 
  
@@ -897,9 +894,7 @@ MEDIA QUERY
       border-bottom: 4px solid #9b2557;
     }
 
-  .nav-link.w-inline-block.w--current:before, .underline::before {
-    border-bottom: solid 4px #9b2557;
-  }
+
 
   .swiper-pagination-bullet {
     height: 4px;
@@ -925,9 +920,7 @@ MEDIA QUERY
     }
 
   
-  .nav-link.w-inline-block.w--current:before, .underline::before {
-    border-bottom: solid 5px #9b2557;
-  }
+ 
  
   .swiper-pagination-bullet {
     height: 5px;
@@ -952,9 +945,7 @@ MEDIA QUERY
     }
 
 
-  .nav-link.w-inline-block.w--current:before, .underline::before {
-    border-bottom: solid 5px #9b2557;
-  }
+ 
 
   .swiper-pagination-bullet {
     height: 5px;
