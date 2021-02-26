@@ -295,7 +295,7 @@ select:-webkit-autofill:focus {
   
 } */
 
-.current-menu-item > a  {
+.current-menu-item > a::before  {
   content: "";
   border-bottom: solid 3px #9b2557;
   position: absolute;
