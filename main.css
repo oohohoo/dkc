@@ -795,6 +795,26 @@ MEDIA QUERY
  
 @media (min-width: 700px) and (max-width:999px) {
 
+  .child:nth-child(1) .newname, .search-grid-auto:nth-child(1), .newswrap {
+    border-top: 2px solid #9b2557;
+  }
+  
+  .child:nth-last-child(1) .newname, .newswrap:nth-last-child(-n+3), .claniceminigrid:nth-last-child(-n+3),
+  .claniceminigrid:nth-last-child(-n+3), .contactwrap:nth-last-child(-n+4), .search-grid-auto:nth-last-child(1)  {
+    border-bottom: 2px solid #9b2557;
+  }
+
+
+
+  /* IPAD RICH TXT FOTKA */
+  .alignleft, img.alignleft, .alignone {
+    display: inline;
+    margin-right: 1.5em;
+     position: static; 
+     margin: 0 1em 1em 0;
+        max-width: 100%!important; 
+    max-height: 45em;
+}
 
 
 
