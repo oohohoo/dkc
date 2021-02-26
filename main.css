@@ -747,10 +747,6 @@ MEDIA QUERY
     border-bottom: 2px solid #9b2557;
   }
 
-/*MENU CURRENT LINE */
-.current-menu-item > a::before  {
-  border-bottom: solid 6px #9b2557;
-}
 
 
   .verticalx{
@@ -886,6 +882,11 @@ MEDIA QUERY
  
   @media (min-width: 1600px) and (max-width:1999px) {
 
+
+/*MENU CURRENT LINE */
+.current-menu-item > a::before  {
+  border-bottom: solid 10px #9b2557;
+}
 
     .child:nth-child(1) .newname, .search-grid-auto:nth-child(1), .newswrap {
       border-top: 4px solid #9b2557;
