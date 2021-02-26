@@ -314,7 +314,12 @@ select:-webkit-autofill:focus {
 }
 
 .current-menu-parent a, .current-menu-ancestor a {
-  color: #7dca8d;
+  content: "";
+  border-bottom: solid 3px #9b2557;
+  position: absolute;
+  bottom: 0.6em;
+  left: -1.25em;
+  width: 1em;
  }
 /* 
 .current_page_item > a {
