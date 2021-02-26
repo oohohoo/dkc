@@ -270,6 +270,13 @@ text-shadow: none;}
   }
   
 
+  input:-internal-autofill-selected {
+    appearance: menulist-button;
+    background-color: #f5f4f1 !important;
+    background-image: none !important;
+    color: #9b2557 !important;
+}
+
 
 
 
