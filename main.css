@@ -739,6 +739,11 @@ MEDIA QUERY
     border-bottom: 2px solid #9b2557;
   }
 
+  h1 {
+
+    font-size: 5vw;
+
+}
 
     /* IPAD RICH TXT FOTKA */
     .alignleft, img.alignleft, .alignone {
