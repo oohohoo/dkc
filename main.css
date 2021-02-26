@@ -290,8 +290,9 @@ select:-webkit-autofill:focus {
 
 
 
-.underline .current_page_item > a  {
+.underline .current-menu-item > a  {
   color: greenyellow!important;
+  
 }
 
 
