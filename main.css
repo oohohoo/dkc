@@ -748,6 +748,17 @@ MEDIA QUERY
   }
 
 
+    /* IPAD RICH TXT FOTKA */
+    .alignleft, img.alignleft, .alignone {
+      display: inline;
+      margin-right: 1.5em;
+       position: static; 
+       margin: 0 1em 1em 0;
+          max-width: 100%!important; 
+      max-height: 45em;
+  }
+
+  
 
   .verticalx{
     width: calc(7em*21/29.7);
