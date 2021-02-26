@@ -307,7 +307,7 @@ select:-webkit-autofill:focus {
   transition: transform 0.25s; */
 }
   
-.subitem .current-menu-item {
+.submenu-list .current-menu-item > a {
 
   left: 3em;
 }
