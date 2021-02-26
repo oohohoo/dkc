@@ -295,7 +295,7 @@ select:-webkit-autofill:focus {
   
 } */
 
-.underline .current-menu-item > a  {
+.current-menu-item > a  {
   color: greenyellow!important;
   
 }
