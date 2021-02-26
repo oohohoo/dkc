@@ -1225,9 +1225,8 @@ width: 1em;
   margin-bottom: 5em;
   }
   
-.newsfix {
-
-  bottom:-3em;
+ .newsfix {
+  margin-bottom:5em;
 }
 
 
