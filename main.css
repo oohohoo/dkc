@@ -742,10 +742,7 @@ MEDIA QUERY
     border-top: 2px solid #9b2557;
   }
   
-  .child:nth-last-child(1) .newname, .newswrap:nth-last-child(1), .claniceminigrid:nth-last-child(1),
-  .claniceminigrid:nth-last-child(1), .contactwrap:nth-last-child(1), .search-grid-auto:nth-last-child(1)  {
-    border-bottom: 2px solid #9b2557;
-  }
+ 
 
 
     /* IPAD RICH TXT FOTKA */
