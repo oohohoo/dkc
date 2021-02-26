@@ -313,7 +313,7 @@ select:-webkit-autofill:focus {
   width: 1em;
 }
 
-.current-page-item a {
+.current-page-item > a {
 
   background: red;
   
