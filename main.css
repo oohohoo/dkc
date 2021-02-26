@@ -302,9 +302,9 @@ select:-webkit-autofill:focus {
   /* bottom: 0.8em; */
   left: -1.25em;
   width: 1em;
-  transform: scaleX(0);
+  /* transform: scaleX(0);
   transform-origin: right;
-  transition: transform 0.25s;
+  transition: transform 0.25s; */
 }
   
 
