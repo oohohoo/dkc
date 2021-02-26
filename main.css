@@ -308,8 +308,7 @@ select:-webkit-autofill:focus {
 }
   
 .submenu-list .current-menu-item > a {
-
-  left: 1em;
+  left: 1.3em;
 }
 
 
