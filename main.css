@@ -975,6 +975,14 @@ MEDIA QUERY
 
   }
 
+  @media (min-width: 991px) {
+/* MOBILE MENU */
+  .mobilemenu {
+    display: block;
+   
+  }
+
+  }
 /*
 ================================================================================
 KILL FOCUS ON ALL BUT WITH ACCESIBILITY
