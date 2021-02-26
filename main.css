@@ -302,10 +302,22 @@ select:-webkit-autofill:focus {
   bottom: 0.6em;
   left: -1.25em;
   width: 1em;
-  /* transform: scaleX(0);
-  transform-origin: right;
-  transition: transform 0.25s; */
 }
+
+.current_page_item > a::before  {
+  content: "";
+  border-bottom: solid 3px #9b2557;
+  position: absolute;
+  bottom: 0.6em;
+  left: -1.25em;
+  width: 1em;
+}
+
+.current_page_item a {
+
+  background: red;
+  
+  }
   
 .submenu-list .current-menu-item > a {
   left: 1.3em;
