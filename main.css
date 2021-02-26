@@ -296,9 +296,18 @@ select:-webkit-autofill:focus {
 } */
 
 .current-menu-item > a  {
-  color: greenyellow!important;
-  
+  content: "";
+  border-bottom: solid 3px #9b2557;
+  position: absolute;
+  /* bottom: 0.8em; */
+  left: -1.25em;
+  width: 1em;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.25s;
 }
+  
+
 
 
 
