@@ -805,9 +805,7 @@ MEDIA QUERY
   .claniceminigrid:nth-last-child(-n+3), .contactwrap:nth-last-child(-n+4), .search-grid-auto:nth-last-child(1)  {
     border-bottom: 2px solid #9b2557;
   }
-  .current-menu-item > a::before  {
-    border-bottom: solid 2px #9b2557;
-  }
+
 
 
  
@@ -930,9 +928,6 @@ MEDIA QUERY
 
   @media (min-width: 2400px) {
   
-    .current-menu-item > a::before  {
-      border-bottom: solid 5px #9b2557;
-    }
   
     .child:nth-child(1) .newname, .search-grid-auto:nth-child(1), .newswrap {
       border-top: 5px solid #9b2557;
