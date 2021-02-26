@@ -830,6 +830,12 @@ MEDIA QUERY
     display: none!important;
 }
 
+/*SWIPER VISINA*/
+.swiper-container-gal {
+   max-height: 52vh;
+}
+
+
 
 }
   @media (min-width: 1000px) and (max-width:1199px) {
