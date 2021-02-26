@@ -182,7 +182,7 @@ CURRENT
 */
 
 
-.active:before {
+/* .active:before {
   content: "";
 border-bottom: solid 3px #9b2557;
 position: absolute;
@@ -190,7 +190,7 @@ left: -1.25em;
 width: 1em;
  
 }
-
+ */
 
 
 /*
