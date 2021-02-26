@@ -1219,6 +1219,17 @@ width: 1em;
     position: absolute;
 }
 
+
+/*HOME BOTTOM MARGIN DOKUMENTI*/
+.parent {
+  margin-bottom: 5em;
+  }
+  
+
+
+
+
+
  /*COOKIE*/
  @media (max-width: 1300px) {
 
@@ -1265,10 +1276,6 @@ width: 1em;
 }
 
 
-/*HOME BOTTOM MARGIN DOKUMENTI*/
-.parent {
-margin-bottom: 5em;
-}
 
 
  }
