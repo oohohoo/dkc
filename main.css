@@ -313,7 +313,7 @@ select:-webkit-autofill:focus {
   width: 1em;
 }
 
-.current-menu-parent a, .current-menu-ancestor a {
+.current-menu-parent a, .current-post-ancestor a {
   content: "";
   border-bottom: solid 3px #9b2557;
   position: absolute;
