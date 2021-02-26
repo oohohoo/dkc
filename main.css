@@ -554,13 +554,13 @@ z-index: 10;
  
 }
 
-input[type="submit" i] {
+/* input[type="submit" i] {
   appearance: auto!important;
   color: -internal-light-dark(black, white);
   background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
   border-style: none!important;
   border-color: transparent;  
-}
+} */
 
 /*SEARCH BUTTON POSITION*/
 .div-block-2 {
