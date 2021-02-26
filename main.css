@@ -299,7 +299,7 @@ select:-webkit-autofill:focus {
   content: "";
   border-bottom: solid 3px #9b2557;
   position: absolute;
-  /* bottom: 0.8em; */
+  bottom: 0.6em;
   left: -1.25em;
   width: 1em;
   /* transform: scaleX(0);
