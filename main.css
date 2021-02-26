@@ -295,14 +295,14 @@ select:-webkit-autofill:focus {
   
 } */
 
-.current-menu-item > a::before  {
+/* .current-menu-item > a::before  {
   content: "";
   border-bottom: solid 3px #9b2557;
   position: absolute;
   bottom: 0.6em;
   left: -1.25em;
   width: 1em;
-}
+} */
 
 .current_page_item > a::before  {
   content: "";
@@ -312,7 +312,7 @@ select:-webkit-autofill:focus {
   left: -1.25em;
   width: 1em;
 }
-
+/* 
 .current-menu-parent a, .current-post-ancestor a {
   content: "";
   border-bottom: solid 3px #9b2557;
@@ -320,7 +320,7 @@ select:-webkit-autofill:focus {
   bottom: 0.6em;
   left: -1.25em;
   width: 1em;
- }
+ } */
 /* 
 .current_page_item > a {
 
