@@ -730,6 +730,12 @@ MEDIA QUERY
 
 @media (max-width: 699px) {
 
+   /* RICH TXT FULL WIDTH*/
+   .richtxt {
+    margin-left: 0;
+   }
+
+   
   .child:nth-child(1) .newname, .search-grid-auto:nth-child(1), .newswrap {
     border-top: 2px solid #9b2557;
   }
