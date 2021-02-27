@@ -1220,6 +1220,11 @@ width: 1em;
  
 }
 
+.searchheader-bot-fix {
+margin-bottom: 0.2em;
+}
+
+
 /*REDNI BROJ BOTTOM RAZMAK SEARCH RESILTS*/
 .searchredni.bottom {
   margin-bottom: 0.8em;
