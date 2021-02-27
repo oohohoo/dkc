@@ -900,7 +900,7 @@ MEDIA QUERY
 
 /*MENU CURRENT LINE */
 .current-menu-item > a::before  {
-  border-bottom: solid 4px #9b2557;
+  border-bottom: solid 3px #9b2557;
 }
 
     .child:nth-child(1) .newname, .search-grid-auto:nth-child(1), .newswrap {
@@ -923,7 +923,7 @@ MEDIA QUERY
   @media (min-width: 2000px) and (max-width:2399px) {
 
     .current-menu-item > a::before  {
-      border-bottom: solid 5px #9b2557;
+      border-bottom: solid 4px #9b2557;
     }
 
     .child:nth-child(1) .newname, .search-grid-auto:nth-child(1), .newswrap {
@@ -949,7 +949,10 @@ MEDIA QUERY
 
   @media (min-width: 2400px) {
   
-  
+    .current-menu-item > a::before  {
+      border-bottom: solid 4px #9b2557;
+    }
+    
     .child:nth-child(1) .newname, .search-grid-auto:nth-child(1), .newswrap {
       border-top: 5px solid #9b2557;
     }
