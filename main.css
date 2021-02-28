@@ -924,6 +924,14 @@ MEDIA QUERY
       margin-bottom: 1em;
     }
     
+   /*SUBMENI HOME*/ 
+   .tabwrap {
+  
+      margin-bottom: -0.09em;
+    
+  }
+
+
 
   .swiper-pagination-bullet {
     height: 4px;
