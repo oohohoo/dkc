@@ -304,8 +304,17 @@ NTH CHILDS
 SWIPER HOME
 ================================================================================
 */
-
 */
+/*
+.swiper-pagination {
+	/*position: absolute;
+	bottom: 2.000em;
+	right: "50%";
+	width: auto !important;
+	left: auto !important;
+	margin: 0;
+}
+*/*/
 .swiper-pagination-bullet {
 transform-origin: top left;
    margin-right: 1.200em;
@@ -347,11 +356,11 @@ transform-origin: top left;
 @keyframes fade-in {
   from {
     opacity: 0;
-   
+    /* transform: translateY(100px);*/
   }
   to {
     opacity: 1;
-  
+  /*  transform: translateY(0); */
   }
 }
 
@@ -644,8 +653,11 @@ MEDIA QUERY
     .claniceminigrid:nth-last-child(-n+3), .contactwrap:nth-last-child(-n+4), .search-grid-auto:nth-last-child(1)  {
       border-bottom: 3px solid #9b2557;
     }
-
-    .swiper-pagination-bullet {
+/*
+    .nav-link.w-inline-block.w--current:before, .underline::before {
+      border-bottom: solid 3px #9b2557;
+    }
+    */    .swiper-pagination-bullet {
       height: 3px;
     }
   }
