@@ -44,25 +44,6 @@ background:rgb(155, 37, 87);
 }
 
 /*
-body {overflow-y:hidden;}
-body:hover {overflow-y:scroll;}
-*/
-/*track
-::-webkit-scrollbar-track {
-  background:rgb(245, 244, 241);
-}
-*/
-
-/*FIREFOX SCROLLBAR */
-/*
-body {
-    scrollbar-width: thin;
-    scrollbar-color: #9b2557;
-  }
-
-*/
-
-/*
 ================================================================================
 TRANSFORM ALL TO LOWERCASE
 ================================================================================
@@ -105,15 +86,7 @@ html {
 ANIMATE ON RESIZE
 ================================================================================
 */
- /*
-  section, h1, h2, h3, p, li, img {
-    -moz-transition: width 1s ease-in-out, left 1.5s ease-in-out;
-    -webkit-transition: width 1s ease-in-out, left 1.5s ease-in-out;
-    -moz-transition: width 1s ease-in-out, left 1.5s ease-in-out;
-    -o-transition: width 1s ease-in-out, left 1.5s ease-in-out;
-    transition: width 1s ease-in-out, left 1.5s ease-in-out;
-}
-*/
+
 /*
 body {
 -webkit-transition: all 1000ms ease-in-out;
@@ -164,86 +137,10 @@ MENU
       transform: scaleX(1);
     }
   }
-  
-  /* vidi šta je ovo nešto za mobilni menu */
-  /*
-  @media only screen and (max-width: 992px) {
-    li {
-      width: 100%;
-      text-align: center;
-      margin-bottom: 1rem;
-    }
-  }
-*/
-/*
-================================================================================
-CURRENT
-================================================================================
-*/
-
-
-/* .active:before {
-  content: "";
-border-bottom: solid 3px #9b2557;
-position: absolute;
-left: -1.25em;
-width: 1em;
- 
-}
- */
-
-
-/*
-.current-menu-ancestor {
-	color: white;
-}
-
-
-
-.current-page-item
- {
-	color: rgb(24, 199, 76);
-}
-/*
-.nav-link.w-inline-block.current-page-item {
-	color: white;
-}
-
-*/
-
-/*
-.nav-link.w-inline-block.w--current:before {
-    content: "";
-  border-bottom: solid 3px #9b2557;
- position: absolute;
-  left: -1.25em;
-  width: 1em;
-   
-}
-*/
-
-
-/* MOŽDA I OVO TREBA UGASITI */
-/*
-.sub-link.w-inline-block.w--current:before {
-  content: "";
-border-bottom: solid 3px #9b2557;
-position: absolute;
-left: -1.25em;
-width: 1em;
- }
-
-.sub-link.w-inline-block.w--current  {
-margin-left: 1.25em;
-
- 
-}
-*/
-
-
 
 /*
 ================================================================================
+
 TXT SELECT
 ================================================================================
 */
@@ -257,7 +154,6 @@ text-shadow: none;}
    background: #9b2557;
    color: #f5f4f1;
 }
-
 
 .search-field::selection {
   background: #f5f4f1; 
@@ -286,15 +182,6 @@ select:-webkit-autofill:focus {
   transition: background-color 5000s ease-in-out 0s;
 }
 
-
-
-
-
-/* .underline .current-menu-item > a  {
-  color: greenyellow!important;
-  
-} */
-
 .current-menu-item > a::before  {
   content: "";
   border-bottom: solid 3px #9b2557;
@@ -305,21 +192,6 @@ select:-webkit-autofill:focus {
 }
 
 
-/* 
-.current-menu-parent a, .current-post-ancestor a {
-  content: "";
-  border-bottom: solid 3px #9b2557;
-  position: absolute;
-  bottom: 0.6em;
-  left: -1.25em;
-  width: 1em;
- } */
-/* 
-.current_page_item > a {
-
-  background: red;
-  
-  } */
   
 .submenu-list .current-menu-item > a {
   left: 1.3em;
@@ -433,6 +305,7 @@ NTH CHILDS
 SWIPER HOME
 ================================================================================
 */
+*/
 /*
 .swiper-pagination {
 	/*position: absolute;
@@ -442,7 +315,7 @@ SWIPER HOME
 	left: auto !important;
 	margin: 0;
 }
-*/
+*/*/
 .swiper-pagination-bullet {
 transform-origin: top left;
    margin-right: 1.200em;
@@ -484,7 +357,7 @@ transform-origin: top left;
 @keyframes fade-in {
   from {
     opacity: 0;
-   /* transform: translateY(100px);*/
+    /* transform: translateY(100px);*/
   }
   to {
     opacity: 1;
@@ -507,15 +380,7 @@ SWIPER FIX
 SEARCH
 ================================================================================
 */
- /*
-.w-input, .w-select {
-    color: #f5f4f1;
-}
 
-.w-input:focus, .w-select:focus {
-    border-color: #f5f4f1;
-}
-*/
 .search-button:focus, .search-field:focus {
 outline: none;
 } 
@@ -561,19 +426,6 @@ input[type="submit" i] {
     right: -3em!important;
  }
 
-
-/*
- label {
-  display: none!important;
-}
-*/
-/*
-.image {
-position: absolute;
-user-select: none;
-
-}
-*/
 /* SEARCH INPUT TEXT COLOR */ 
   input[type="search"]::placeholder {
     color: #f5f4f1;
@@ -674,56 +526,6 @@ margin: 0 1em 1em 0;
 }
 
 /*
-.alignright,
-img.alignright {
-    display: inline;
-    float: right;
-  margin-left: 1.5em;
-}
-.aligncenter,
-img.aligncenter {
-    clear: both;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-p {
-     clear: both;
-}
-*/
-/*
-    .current_page_item,
-    .current-menu-ancestor {
-      color: white;
-    }
-    */
-    /*
-    .nav-link a, .current-page-item    
-    {
-      color: white;
-    }
-*//*
-    .nav-link.w-inline-block.current-page-item:before {
-      border-bottom: solid 2px #9b2557;
-      }
-    */
-
-    /*
-================================================================================
-WP CURRENT MENU NE RRRRAAAADDDIII
-================================================================================
-*/
-/*
-      .current-menu-item:before {
-        content: "--*";
-        border-bottom: solid 3px #9b2557;
-        position: absolute;
-        left: -1.25em;
-        width: 1em;
-        }
-      */
-    
-/*
 ================================================================================
 MEDIA QUERY
 ================================================================================
@@ -758,8 +560,6 @@ MEDIA QUERY
       max-height: 45em;
   }
 
-
-
   .verticalx{
     width: calc(7em*21/29.7);
    /* height: 18em; */
@@ -770,37 +570,14 @@ MEDIA QUERY
    /* height: 18vh;*/
   }
 
-
-
-
-/*   #w-node-_06947a7d-4cf2-979c-5875-64d3a71f697a-15b2ef31 {
-    -ms-grid-column-span: 5!important;
-    grid-column-end: 6!important;
-    -ms-grid-column: 1!important;
-    grid-column-start: 1!important;
-    -ms-grid-row-span: 1!important;
-    grid-row-end: 5!important;
-    -ms-grid-row: 4!important;
-    grid-row-start: 4!important;
-}
-  */
-
-
   .swiper-pagination {
     display: none!important;
 }
 
 
-   
 }
 
 
-
-
-
-
-
- 
 @media (min-width: 700px) and (max-width:999px) {
 
   .child:nth-child(1) .newname, .search-grid-auto:nth-child(1), .newswrap {
@@ -811,7 +588,6 @@ MEDIA QUERY
   .claniceminigrid:nth-last-child(-n+3), .contactwrap:nth-last-child(-n+4), .search-grid-auto:nth-last-child(1)  {
     border-bottom: 2px solid #9b2557;
   }
-
 /*   h1 {
 
     font-size: 12.8vw;
@@ -827,13 +603,6 @@ MEDIA QUERY
         max-width: 100%!important; 
     max-height: 45em;
 }
-
-
-
- 
-
-
-
   .swiper-pagination-bullet {
     height: 2px;
   }
@@ -861,7 +630,6 @@ MEDIA QUERY
       border-bottom: 3px solid #9b2557;
     }
     
-
     /* RICH TEXT FOTKA CENTAR*/
   .w-richtext figure.w-richtext-align-floatleft {
     width: 100%;
@@ -872,19 +640,12 @@ MEDIA QUERY
     margin-right: auto;
     margin-left: auto;
 }
-
-
-  */
   .swiper-pagination-bullet {
     height: 3px;
   }
 
-  
-
 }
   @media (min-width: 1200px) and (max-width:1599px) {
-
-
     .child:nth-child(1) .newname, .search-grid-auto:nth-child(1), .newswrap {
       border-top: 3px solid #9b2557;
     }
@@ -893,23 +654,12 @@ MEDIA QUERY
     .claniceminigrid:nth-last-child(-n+3), .contactwrap:nth-last-child(-n+4), .search-grid-auto:nth-last-child(1)  {
       border-bottom: 3px solid #9b2557;
     }
-    
 
-
-/*
-    .nav-link.w-inline-block.w--current:before, .underline::before {
-      border-bottom: solid 3px #9b2557;
-    }
-    */
-    .swiper-pagination-bullet {
+      .swiper-pagination-bullet {
       height: 3px;
     }
-
-
-
   }
 
- 
   @media (min-width: 1600px) and (max-width:1999px) {
 
 
@@ -917,7 +667,6 @@ MEDIA QUERY
 .current-menu-item > a::before  {
   border-bottom: solid 3px #9b2557;
 }
-
     .child:nth-child(1) .newname, .search-grid-auto:nth-child(1), .newswrap {
       border-top: 4px solid #9b2557;
     }
@@ -927,7 +676,6 @@ MEDIA QUERY
       border-bottom: 4px solid #9b2557;
     }
 
-   
 /*SUBMENI OMREZI*/
     .subitem.submargin {
       margin-bottom: 1em;
@@ -939,8 +687,6 @@ MEDIA QUERY
       margin-bottom: -0.09em;
     
   }
-
-
 
   .swiper-pagination-bullet {
     height: 4px;
@@ -965,9 +711,6 @@ MEDIA QUERY
       border-bottom: 2px solid #9b2557;
     }
 
-  
- 
- 
   .swiper-pagination-bullet {
     height: 5px;
   }
@@ -992,9 +735,6 @@ MEDIA QUERY
     .newname{
       border-bottom: 2px solid #9b2557;
     }
-
-
- 
 
   .swiper-pagination-bullet {
     height: 5px;
@@ -1088,10 +828,8 @@ COOKIE SKIN
 }
 
 .ch2-learn-more {
-
   display: none!important;  
 }
-
 
 .ch2-style-light .ch2-dialog {
   background: #9b2557!important;
@@ -1156,10 +894,6 @@ color: #f5f4f1 !important;
   padding: 0.850em 5em !important;
 }
 
-/* .ch2-theme-bar .ch2-dialog-actions {
-  margin-left: 15em!important;
-} */
-
 .ch2-dialog-actions button {
   height: 0.813em!important;
   margin-right: -0.95em!important;
@@ -1186,8 +920,6 @@ VARIOUS FIXES
   margin-bottom: 0em;
 }
 
-
-
 /* HOMEPAGE TAB CRTICA BEFORE*/
  .tabwrap.w--current:before {
   color: #9b2557;
@@ -1199,7 +931,6 @@ left: 0;
 bottom: 45%;
 width: 1em;
 }
-
 
 /* ICON TEXT - DOC EXTENSION */
 .extension {
@@ -1221,12 +952,6 @@ width: 1em;
   bottom: 0.85em; 
 } 
 
-
-/* DATUM NOVOSTI */
-/* .home-sub {
-  margin-left: -0.125em;
-} */
-
 /* GLAVNI NASLOV */
 .mainheading {
   margin-left: -0.06em;
@@ -1243,14 +968,11 @@ width: 1em;
  background-color: #9b2557;
  color:#f5f4f1;
  padding: 0.3em 0.3rem 0.2em;
- 
- 
 }
 
 .searchheader-bot-fix {
 margin-bottom: 0.5em;
 }
-
 
 /*REDNI BROJ BOTTOM RAZMAK SEARCH RESILTS*/
 .searchredni.bottom {
@@ -1268,37 +990,28 @@ margin-bottom: 0.5em;
     position: absolute;
 }
 
-
 /*HOME BOTTOM MARGIN DOKUMENTI*/
 #w-node-_5c565c49-4d35-3141-74dc-234310b8f725-5fb2ef26 {
   margin-bottom: 5em;
-  }
+}
   
  .newsfix {
   margin-bottom:5em;
 }
 
-
-
-
-
-
  /*COOKIE*/
  @media (max-width: 1300px) {
 
- .ch2-theme-bar .ch2-dialog-actions {
+.ch2-theme-bar .ch2-dialog-actions {
   margin-top: -0.438em!important;
-       margin-left: -1.1em!important;
+  margin-left: -1.1em!important;
     }
 
-    
-
-    .ch2-container, .ch2-icon p {
-       font-size: 14px!important;
-  
+.ch2-container, .ch2-icon p {
+  font-size: 14px!important;
   }
-  .ch2-theme-bar .ch2-dialog {
-    padding: 0.850em 1.5em !important;
+.ch2-theme-bar .ch2-dialog {
+  padding: 0.850em 1.5em !important;
 }
 .ch2-theme-bar .ch2-dialog.ch2-visible {
   display: flex!important;
@@ -1306,7 +1019,6 @@ margin-bottom: 0.5em;
 
 .ch2-theme-bar .ch2-dialog-content {
   padding-right: 0em!important;
-  
 }
 
 .ch2-theme-bar .ch2-dialog-actions button:first-child {
@@ -1316,23 +1028,16 @@ margin-bottom: 0.5em;
 .ch2-theme-bar .ch2-dialog p { 
   font-size: 13px!important;
   line-height: 1;
-
 }
 
 .ch2-theme-bar .ch2-dialog {
   padding: 0.850em 1.45em !important;
 }
 
-
 .thegrid.home3 {
   margin-bottom: 3em !important;
 }
-
-
-
-
- }
-
+}
 
  @media (max-width: 600px) {
 .ch2-theme-bar .ch2-dialog.ch2-visible {
@@ -1347,8 +1052,4 @@ margin-bottom: 0.5em;
   padding: 0.850em 1.5em !important;
 }
 
-
-
-
-
- }
+}
