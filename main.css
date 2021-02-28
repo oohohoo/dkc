@@ -140,6 +140,7 @@ MENU
 
 /*
 ================================================================================
+
 TXT SELECT
 ================================================================================
 */
@@ -653,11 +654,8 @@ MEDIA QUERY
     .claniceminigrid:nth-last-child(-n+3), .contactwrap:nth-last-child(-n+4), .search-grid-auto:nth-last-child(1)  {
       border-bottom: 3px solid #9b2557;
     }
-/*
-    .nav-link.w-inline-block.w--current:before, .underline::before {
-      border-bottom: solid 3px #9b2557;
-    }
-    */    .swiper-pagination-bullet {
+
+      .swiper-pagination-bullet {
       height: 3px;
     }
   }
