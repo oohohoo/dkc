@@ -44,6 +44,25 @@ background:rgb(155, 37, 87);
 }
 
 /*
+body {overflow-y:hidden;}
+body:hover {overflow-y:scroll;}
+*/
+/*track
+::-webkit-scrollbar-track {
+  background:rgb(245, 244, 241);
+}
+*/
+
+/*FIREFOX SCROLLBAR */
+/*
+body {
+    scrollbar-width: thin;
+    scrollbar-color: #9b2557;
+  }
+
+*/
+
+/*
 ================================================================================
 TRANSFORM ALL TO LOWERCASE
 ================================================================================
@@ -86,7 +105,15 @@ html {
 ANIMATE ON RESIZE
 ================================================================================
 */
-
+ /*
+  section, h1, h2, h3, p, li, img {
+    -moz-transition: width 1s ease-in-out, left 1.5s ease-in-out;
+    -webkit-transition: width 1s ease-in-out, left 1.5s ease-in-out;
+    -moz-transition: width 1s ease-in-out, left 1.5s ease-in-out;
+    -o-transition: width 1s ease-in-out, left 1.5s ease-in-out;
+    transition: width 1s ease-in-out, left 1.5s ease-in-out;
+}
+*/
 /*
 body {
 -webkit-transition: all 1000ms ease-in-out;
@@ -139,7 +166,7 @@ MENU
   }
   
   /* vidi šta je ovo nešto za mobilni menu */
-  
+  /*
   @media only screen and (max-width: 992px) {
     li {
       width: 100%;
@@ -147,7 +174,7 @@ MENU
       margin-bottom: 1rem;
     }
   }
-
+*/
 /*
 ================================================================================
 CURRENT
