@@ -732,9 +732,9 @@ MEDIA QUERY
 @media (max-width: 699px) {
 
    /* RICH TXT FULL WIDTH*/
-   .richtxt {
+   /* .richtxt {
     margin-left: 0;
-   }
+   } */
 
    
   .child:nth-child(1) .newname, .search-grid-auto:nth-child(1), .newswrap {
