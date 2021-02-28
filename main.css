@@ -776,8 +776,16 @@ MEDIA QUERY
 
 
 
-
-  
+  #w-node-_06947a7d-4cf2-979c-5875-64d3a71f697a-15b2ef31 {
+    -ms-grid-column-span: 5!important;
+    grid-column-end: 6!important;
+    -ms-grid-column: 1!important;
+    grid-column-start: 1!important;
+    -ms-grid-row-span: 1!important;
+    grid-row-end: 5!important;
+    -ms-grid-row: 4!important;
+    grid-row-start: 4!important;
+}
  
 
 
