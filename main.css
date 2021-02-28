@@ -919,6 +919,10 @@ MEDIA QUERY
     }
 
    
+/*SUBMENI OMREZI*/
+    .subitem.submargin {
+      margin-bottom: 1em;
+    }
     
 
   .swiper-pagination-bullet {
