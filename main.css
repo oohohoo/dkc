@@ -1345,7 +1345,9 @@ margin-bottom: 0.5em;
 
  @media (max-width: 991px) {
  .allnewslink {
- margin-top:-2em;
+ 
+  bottom: -5em;
+  
 }
 
 
