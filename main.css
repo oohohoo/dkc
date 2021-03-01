@@ -1411,7 +1411,7 @@ margin-bottom: 0.5em;
     }
 
 
-    @media (min-width: 21600px) {
+    @media (min-width: 1600px) {
       .tabwrap {
         margin-bottom: 1em;
       }
