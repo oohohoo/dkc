@@ -362,7 +362,7 @@ IMAGE PROPORTIONAL
   }
   
   .horizontalx{
-    width: calc(15em*29.7/21);
+    width: calc(18em*29.7/21);
  
   }
 
@@ -758,12 +758,12 @@ MEDIA QUERY
 
 
   .verticalx{
-    width: calc(7em*21/29.7);
+    width: calc(8em*21/29.7);
    /* height: 18em; */
   }
   
   .horizontalx{
-    width: calc(5em*29.7/21);
+    width: calc(6em*29.7/21);
    /* height: 18vh;*/
   }
 
