@@ -1297,9 +1297,9 @@ margin-bottom: 0.5em;
        font-size: 14px!important;
   
   }
- /*  .ch2-theme-bar .ch2-dialog {
-    padding: 0.850em 1.5em !important;
-} */
+  .ch2-theme-bar .ch2-dialog {
+    padding: 3em 1.5em !important;
+}
 .ch2-theme-bar .ch2-dialog.ch2-visible {
   display: flex!important;
 }
@@ -1320,7 +1320,7 @@ margin-bottom: 0.5em;
 }
 
 .ch2-theme-bar .ch2-dialog {
-  padding: 3em 1.45em !important;
+  padding: 0.850em 1.45em !important;
 }
 
 
