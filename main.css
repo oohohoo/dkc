@@ -1341,11 +1341,15 @@ margin-bottom: 0.5em;
   padding: 0.850em 1.5em !important;
 }
 
-
-
-
-
  }
+
+ @media (max-width: 991px) {
+ .allnewslink {
+ margin-top:-2em;
+}
+
+
+
 
  @media (min-width: 991px) and (max-width:1300px) {
   .ch2-theme-bar .ch2-dialog {
