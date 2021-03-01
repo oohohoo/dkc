@@ -1011,7 +1011,7 @@ MEDIA QUERY
 
   @media (max-width: 475px) {
    h1 {
-    font-size: 14vw;
+    font-size: 13vw;
 
 }
   }
