@@ -728,19 +728,23 @@ WP CURRENT MENU NE RRRRAAAADDDIII
 MEDIA QUERY
 ================================================================================
 */
+/*FIX CRTE NTH CHILD*/
+@media (max-width: 480px) {
+.child:nth-child(1) .newname, .search-grid-auto:nth-child(1), .newswrap {
+  border-top: 2px solid #9b2557;
+}
+
+.child:nth-last-child(1) .newname, .newswrap:nth-last-child(1), .claniceminigrid:nth-last-child(1),
+.claniceminigrid:nth-last-child(1), .contactwrap:nth-last-child(1), .search-grid-auto:nth-last-child(1)  {
+  border-bottom: 2px solid #9b2557;
+}
+}
+
+
 
 @media (max-width: 699px) {
-
  
-   
-  .child:nth-child(1) .newname, .search-grid-auto:nth-child(1), .newswrap {
-    border-top: 2px solid #9b2557;
-  }
-  
-  .child:nth-last-child(1) .newname, .newswrap:nth-last-child(1), .claniceminigrid:nth-last-child(1),
-  .claniceminigrid:nth-last-child(1), .contactwrap:nth-last-child(1), .search-grid-auto:nth-last-child(1)  {
-    border-bottom: 2px solid #9b2557;
-  }
+
 
 /*   h1 {
 
@@ -1328,10 +1332,7 @@ margin-bottom: 0.5em;
   margin-bottom: 3em !important;
 }
 
-
-
-
- }
+}
 
 
  @media (max-width: 600px) {
