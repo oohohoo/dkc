@@ -1409,3 +1409,11 @@ margin-bottom: 0.5em;
         margin-top: 0.3em;
       }
     }
+
+
+    @media (min-width: 21600px) {
+      .tabwrap {
+        margin-bottom: 1em;
+      }
+    
+      }
