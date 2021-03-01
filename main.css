@@ -1371,10 +1371,10 @@ margin-bottom: 0.5em;
 
   @media (max-width: 992px) {
     .richsubmeni {
-      margin-top: 0.16em;
+      margin-top: 0.3em;
     }
     .subitem.submargin {
-      margin-bottom: 0.4em;
+      margin-bottom: 0.6em;
       
   }
     }
