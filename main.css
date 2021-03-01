@@ -729,7 +729,7 @@ MEDIA QUERY
 ================================================================================
 */
 
-@media (max-width: 699px) {
+@media (max-width: 479px) {
   .child:nth-child(1) .newname, .search-grid-auto:nth-child(1), .newswrap {
     border-top: 2px solid #9b2557;
   }
