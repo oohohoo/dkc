@@ -1388,3 +1388,14 @@ margin-bottom: 0.5em;
         
     }
       }
+
+
+      @media (max-width: 991px) {
+      /*HOMEPAGE SUBMENU*/
+      .tabwrap {
+        margin-bottom: 0.6em;
+      }
+      .tabs-menu {
+        margin-top: 0.3em;
+      }
+    }
