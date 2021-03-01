@@ -1379,3 +1379,12 @@ margin-bottom: 0.5em;
   }
     }
   
+    @media (min-width: 2000px) {
+      .richsubmeni {
+        margin-top: 0.6em;
+      }
+      .subitem.submargin {
+        margin-bottom: 1.1em;
+        
+    }
+      }
