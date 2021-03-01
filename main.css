@@ -1355,10 +1355,15 @@ margin-bottom: 0.5em;
 
  @media (max-width: 991px) {
  .allnewslink {
- 
-  bottom: -5em;
+   bottom: -5em;
+  }
+   .logotxt.nosel.white {
+     margin-top: -2em
+  }
   
-}
+
+
+ }
 
 
 
