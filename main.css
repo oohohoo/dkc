@@ -1284,54 +1284,7 @@ margin-bottom: 0.5em;
 
 
  /*COOKIE*/
- @media (max-width: 1300px) {
 
- .ch2-theme-bar .ch2-dialog-actions {
-  margin-top: -0.438em!important;
-       margin-left: -1.1em!important;
-    }
-
-    
-
-    .ch2-container, .ch2-icon p {
-       font-size: 14px!important;
-  
-  }
-  .ch2-theme-bar .ch2-dialog {
-    padding: 1.5em 1.5em !important;
-}
-.ch2-theme-bar .ch2-dialog.ch2-visible {
-  display: flex!important;
-}
-
-.ch2-theme-bar .ch2-dialog-content {
-  padding-right: 0em!important;
-  
-}
-
-.ch2-theme-bar .ch2-dialog-actions button:first-child {
-  margin-right: 1em !important;
-}
-
-.ch2-theme-bar .ch2-dialog p { 
-  font-size: 13px!important;
-  line-height: 1;
-
-}
-
-.ch2-theme-bar .ch2-dialog {
-  padding: 0.850em 1.45em !important;
-}
-
-
-.thegrid.home3 {
-  margin-bottom: 3em !important;
-}
-
-
-
-
- }
 
 
  @media (max-width: 600px) {
