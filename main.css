@@ -1359,7 +1359,7 @@ margin-bottom: 0.5em;
 }
 }
 
-@media (min-width: 1000px) and (max-width:1199px) {
+@media (min-width: 992px) and (max-width:1199px) {
   .richsubmeni {
     margin-top: 0.16em;
   }
@@ -1368,4 +1368,14 @@ margin-bottom: 0.5em;
     
 }
   }
+
+  @media (max-width: 992px) {
+    .richsubmeni {
+      margin-top: 3em;
+    }
+    .subitem.submargin {
+      margin-bottom: 0.4em;
+      
+  }
+    }
   
