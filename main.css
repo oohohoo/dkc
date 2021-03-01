@@ -1352,3 +1352,9 @@ margin-bottom: 0.5em;
 
 
  }
+
+ @media (min-width: 991px) and (max-width:1299px) {
+  .ch2-theme-bar .ch2-dialog {
+    padding: 0.850em 4.3em !important;
+} 
+}
