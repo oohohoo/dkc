@@ -1009,10 +1009,9 @@ MEDIA QUERY
 
   }
 
-  @media (max-width: 900px) {
+  @media (max-width: 475px) {
    h1 {
-
-    font-size: 11vw;
+    font-size: 14vw;
 
 }
   }
