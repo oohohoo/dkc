@@ -736,7 +736,7 @@ MEDIA QUERY
   
   .child:nth-last-child(1) .newname, .newswrap:nth-last-child(1), .claniceminigrid:nth-last-child(1),
   .claniceminigrid:nth-last-child(1), .contactwrap:nth-last-child(1), .search-grid-auto:nth-last-child(1)  {
-    border-bottom: 2px solid #9b2557;
+    border-bottom: 6px solid #9b2557;
   }
 
 /*   h1 {
