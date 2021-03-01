@@ -1009,7 +1009,14 @@ MEDIA QUERY
 
   }
 
-  
+  @media (min-width: 900px) {
+   h1 {
+
+    font-size: 12.8vw;
+
+}
+  }
+
 /*
 ================================================================================
 KILL FOCUS ON ALL BUT WITH ACCESIBILITY
@@ -1431,3 +1438,4 @@ margin-bottom: 0.5em;
       }
     
       }
+    }
