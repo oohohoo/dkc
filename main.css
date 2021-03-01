@@ -1018,7 +1018,7 @@ MEDIA QUERY
 
   @media (min-width: 476px) and (max-width:991px) {
     h1 {
-      font-size: 9vw;
+      font-size: 11vw;
   
   }
 
