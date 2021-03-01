@@ -801,12 +801,12 @@ MEDIA QUERY
 @media (min-width: 480px) and (max-width:999px) {
 
   .child:nth-child(1) .newname, .search-grid-auto:nth-child(1), .newswrap,  .claniceminigrid {
-    border-top: 8px solid #9b2557;
+    border-top: 2px solid #9b2557;
   }
   
   .child:nth-last-child(1) .newname, .newswrap:nth-last-child(-n+3), .claniceminigrid:nth-last-child(-n+3),
  .contactwrap:nth-last-child(-n+4), .search-grid-auto:nth-last-child(1)  {
-    border-bottom: 8px solid #9b2557;
+    border-bottom: 2px solid #9b2557;
   }
 
 /*   h1 {
