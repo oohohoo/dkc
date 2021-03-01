@@ -800,7 +800,7 @@ MEDIA QUERY
  
 @media (min-width: 480px) and (max-width:999px) {
 
-  .child:nth-child(1) .newname, .search-grid-auto:nth-child(1), .newswrap,  .claniceminigrid:nth-child(1) {
+  .child:nth-child(1) .newname, .search-grid-auto:nth-child(1), .newswrap,  .claniceminigrid {
     border-top: 8px solid #9b2557;
   }
   
