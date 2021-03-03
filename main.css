@@ -777,6 +777,11 @@ MEDIA QUERY
    /* height: 18vh;*/
   }
 
+  /*SEARCH ICON FIX*/
+  .searchwrap {
+    margin-right: -2.1em;
+}
+
 
   .m-menu-close.fix {
     margin-top: 16.2em;
