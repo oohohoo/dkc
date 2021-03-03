@@ -5,7 +5,7 @@ IMAGE ORIENTATION
 */
 /*function init() {
 */
-$(".homeimgsizer").each(function(){
+$(".homeimgsizer img").each(function(){
   var $this = $(this);
   if ($this.width() > $this.height()) {
       $this.addClass("horizontaly");
