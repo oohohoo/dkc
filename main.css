@@ -371,7 +371,7 @@ IMAGE PROPORTIONAL
 
   .horizontalyyy{
     width: calc(2em*29.7/21);
- 
+ rotate: 25;
   }
 
 /*
