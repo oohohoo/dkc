@@ -1437,7 +1437,6 @@ margin-bottom: 0.5em;
     }
       }
 
-
       @media (max-width: 991px) {
       /*HOMEPAGE SUBMENU*/
       .tabwrap {
@@ -1448,7 +1447,6 @@ margin-bottom: 0.5em;
       }
     }
 
-
     @media (min-width: 1600px) {
       .tabwrap {
         margin-bottom: 1em;
@@ -1457,7 +1455,6 @@ margin-bottom: 0.5em;
       }
     }
 
-
     @media screen and (max-width: 767px) {
 .mobile-menu-content, .section, .overlayx {
     padding-left: 1.5em;
@@ -1465,12 +1462,9 @@ margin-bottom: 0.5em;
 }
     }
 
-
     /* HORIZONTAL MENU FIX*/
 
     @media (min-width: 480px) and (max-width:767px) {
-
-
       .mobile-menu-content {
         height: 100vh;
     }
@@ -1492,7 +1486,9 @@ margin-bottom: 0.5em;
         align-self: center; */
     }
     
-   
+    .bodys {
+      margin-bottom: 1em;
+  }
 
 
-    }
+ }
