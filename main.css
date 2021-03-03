@@ -345,12 +345,12 @@ IMAGE PROPORTIONAL
 */
 
   .vertical{
-    width: calc(12em*21/29.7);
+    width: calc(6em*21/29.7);
    
   }
 
   .horizontal{
-    width: calc(6em*29.7/21);
+    width: calc(12em*29.7/21);
 
   }
 
@@ -367,12 +367,7 @@ IMAGE PROPORTIONAL
   }
 
 
-  /*DELETE*/
 
-  .horizontalyyy{
-    width: calc(2em*29.7/21);
- rotate: 25;
-  }
 
 /*
 ================================================================================
