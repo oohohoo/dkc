@@ -44,25 +44,6 @@ background:rgb(155, 37, 87);
 }
 
 /*
-body {overflow-y:hidden;}
-body:hover {overflow-y:scroll;}
-*/
-/*track
-::-webkit-scrollbar-track {
-  background:rgb(245, 244, 241);
-}
-*/
-
-/*FIREFOX SCROLLBAR */
-/*
-body {
-    scrollbar-width: thin;
-    scrollbar-color: #9b2557;
-  }
-
-*/
-
-/*
 ================================================================================
 TRANSFORM ALL TO LOWERCASE
 ================================================================================
@@ -165,82 +146,6 @@ MENU
     }
   }
   
-  /* vidi šta je ovo nešto za mobilni menu */
-  /*
-  @media only screen and (max-width: 992px) {
-    li {
-      width: 100%;
-      text-align: center;
-      margin-bottom: 1rem;
-    }
-  }
-*/
-/*
-================================================================================
-CURRENT
-================================================================================
-*/
-
-
-/* .active:before {
-  content: "";
-border-bottom: solid 3px #9b2557;
-position: absolute;
-left: -1.25em;
-width: 1em;
- 
-}
- */
-
-
-/*
-.current-menu-ancestor {
-	color: white;
-}
-
-
-
-.current-page-item
- {
-	color: rgb(24, 199, 76);
-}
-/*
-.nav-link.w-inline-block.current-page-item {
-	color: white;
-}
-
-*/
-
-/*
-.nav-link.w-inline-block.w--current:before {
-    content: "";
-  border-bottom: solid 3px #9b2557;
- position: absolute;
-  left: -1.25em;
-  width: 1em;
-   
-}
-*/
-
-
-/* MOŽDA I OVO TREBA UGASITI */
-/*
-.sub-link.w-inline-block.w--current:before {
-  content: "";
-border-bottom: solid 3px #9b2557;
-position: absolute;
-left: -1.25em;
-width: 1em;
- }
-
-.sub-link.w-inline-block.w--current  {
-margin-left: 1.25em;
-
- 
-}
-*/
-
-
 
 /*
 ================================================================================
@@ -287,14 +192,6 @@ select:-webkit-autofill:focus {
 }
 
 
-
-
-
-/* .underline .current-menu-item > a  {
-  color: greenyellow!important;
-  
-} */
-
 .current-menu-item > a::before  {
   content: "";
   border-bottom: solid 3px #9b2557;
@@ -304,22 +201,6 @@ select:-webkit-autofill:focus {
   width: 1em;
 }
 
-
-/* 
-.current-menu-parent a, .current-post-ancestor a {
-  content: "";
-  border-bottom: solid 3px #9b2557;
-  position: absolute;
-  bottom: 0.6em;
-  left: -1.25em;
-  width: 1em;
- } */
-/* 
-.current_page_item > a {
-
-  background: red;
-  
-  } */
   
 .submenu-list .current-menu-item > a {
   left: 1.3em;
@@ -443,16 +324,7 @@ NTH CHILDS
 SWIPER HOME
 ================================================================================
 */
-/*
-.swiper-pagination {
-	/*position: absolute;
-	bottom: 2.000em;
-	right: "50%";
-	width: auto !important;
-	left: auto !important;
-	margin: 0;
-}
-*/
+
 .swiper-pagination-bullet {
 transform-origin: top left;
    margin-right: 1.200em;
@@ -517,15 +389,7 @@ SWIPER FIX
 SEARCH
 ================================================================================
 */
- /*
-.w-input, .w-select {
-    color: #f5f4f1;
-}
 
-.w-input:focus, .w-select:focus {
-    border-color: #f5f4f1;
-}
-*/
 .search-button:focus, .search-field:focus {
 outline: none;
 } 
@@ -565,25 +429,7 @@ input[type="submit" i] {
   border-color: transparent;  
 }
 
-/*SEARCH BUTTON POSITION*/
-/* .div-block-2 {
-  top: 1.3em!important;
-    right: -3em!important;
- } */
 
-
-/*
- label {
-  display: none!important;
-}
-*/
-/*
-.image {
-position: absolute;
-user-select: none;
-
-}
-*/
 /* SEARCH INPUT TEXT COLOR */ 
   input[type="search"]::placeholder {
     color: #f5f4f1;
@@ -682,56 +528,6 @@ margin: 0 1em 1em 0;
   float: none;
   margin: 1.5em auto 1.5em;
 }
-
-/*
-.alignright,
-img.alignright {
-    display: inline;
-    float: right;
-  margin-left: 1.5em;
-}
-.aligncenter,
-img.aligncenter {
-    clear: both;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-p {
-     clear: both;
-}
-*/
-/*
-    .current_page_item,
-    .current-menu-ancestor {
-      color: white;
-    }
-    */
-    /*
-    .nav-link a, .current-page-item    
-    {
-      color: white;
-    }
-*//*
-    .nav-link.w-inline-block.current-page-item:before {
-      border-bottom: solid 2px #9b2557;
-      }
-    */
-
-    /*
-================================================================================
-WP CURRENT MENU NE RRRRAAAADDDIII
-================================================================================
-*/
-/*
-      .current-menu-item:before {
-        content: "--*";
-        border-bottom: solid 3px #9b2557;
-        position: absolute;
-        left: -1.25em;
-        width: 1em;
-        }
-      */
     
 /*
 ================================================================================
@@ -769,19 +565,12 @@ MEDIA QUERY
 
   .verticalx{
     width: calc(8em*21/29.7);
-   /* height: 18em; */
   }
   
   .horizontalx{
     width: calc(6em*29.7/21);
-   /* height: 18vh;*/
   }
 
-  /*SEARCH ICON FIX*/
-/*   .searchwrap {
-    margin-right: -2.1em;
-}
- */
 
   .m-menu-close.fix {
     margin-top: 15.7em;
