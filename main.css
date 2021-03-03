@@ -1468,7 +1468,7 @@ margin-bottom: 0.5em;
 
     @media (min-width: 480px) and (max-width:767px) {
 
-      _00820dfd-3a36-be78-7e07-6ec89ffee8b8-9ffee8ac {
+      #w-node-_00820dfd-3a36-be78-7e07-6ec89ffee8b8-9ffee8ac {
         -ms-grid-column-span: 7;
         grid-column-end: 6;
         -ms-grid-column: 1;
@@ -1481,6 +1481,7 @@ margin-bottom: 0.5em;
         align-self: center;
     }
     
+   
 
 
     }
