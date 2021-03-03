@@ -4,7 +4,9 @@ IMAGE ORIENTATION
 ================================================================================
 */
 /*function init() {
+
 */
+$(window).load(function(){
 $(".homeimgsizer").each(function(){
   var $this = $(this);
   if ($this.width() > $this.height()) {
@@ -33,7 +35,8 @@ $(".projectimgsizer").each(function(){
       $this.addClass("verticalx");
   }
 });
-
+});
+console.log("Hello world!");
 
 
 
