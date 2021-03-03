@@ -9,7 +9,7 @@ IMAGE ORIENTATION
   $(".newsimgsizer").each(function(){
     var $this = $(this);
     if ($this.width() > $this.height()) {
-        $this.addClass("horizontalYYY");
+        $this.addClass("horizontalyyy");
    /*  }else{
         $this.addClass("vertical");
     } */
