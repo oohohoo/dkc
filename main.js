@@ -5,7 +5,7 @@ IMAGE ORIENTATION
 */
 /*function init() {
 */
-$(window).load(function(){
+
   $(".newsimgsizer").each(function(){
     var $this = $(this);
     if ($this.width() > $this.height()) {
@@ -25,7 +25,7 @@ $(".projectimgsizer").each(function(){
   }
 });
 
-});
+
 /*
 ================================================================================
 100 vh FIX - MOBILE MENU
