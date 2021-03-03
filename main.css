@@ -778,10 +778,10 @@ MEDIA QUERY
   }
 
   /*SEARCH ICON FIX*/
-  .searchwrap {
+/*   .searchwrap {
     margin-right: -2.1em;
 }
-
+ */
 
   .m-menu-close.fix {
     margin-top: 15.7em;
