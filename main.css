@@ -1488,3 +1488,12 @@ margin-bottom: 0.5em;
 
 
  }
+
+ .overlay.docover {
+ margin-top: 0px;
+ margin-bottom: 0px;
+ font-family: Nimbussansdot, sans-serif;
+ font-size: 1.125em;
+ line-height: 1;
+ font-weight: 700;
+}
