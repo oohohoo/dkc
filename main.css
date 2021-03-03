@@ -357,12 +357,12 @@ IMAGE PROPORTIONAL
 
 
   .verticalx{
-    width: calc(15em*21/29.7);
+    width: calc(13em*21/29.7);
  
   }
   
   .horizontalx{
-    width: calc(15em*29.7/21);
+    width: calc(13em*29.7/21);
  
   }
 
