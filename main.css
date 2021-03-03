@@ -1488,8 +1488,8 @@ margin-bottom: 0.5em;
         grid-row-end: 2;
         -ms-grid-row: 2;
         grid-row-start: 1;
-        -ms-grid-row-align: start;
-        align-self: center;
+        /* -ms-grid-row-align: start;
+        align-self: center; */
     }
     
    
