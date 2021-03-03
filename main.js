@@ -38,6 +38,12 @@ $(".projectimgsizer").each(function(){
 /* }); */
 console.log("Hello world!");
 
+}
+
+window.addEventListener('load', function() {
+    console.log("RESIZE LOADED");
+	init();
+});
 
 
 /*
@@ -386,12 +392,6 @@ SWIPER SINGLE PAGE + Ovo je možda rješenje za multiple swipers - test further
 
 
 
-}
-
-window.addEventListener('load', function() {
-    console.log("PAGE LOADED");
-	init();
-});
 
 
 
