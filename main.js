@@ -3,10 +3,10 @@
 IMAGE ORIENTATION
 ================================================================================
 */
-/*function init() {
+function init() {
 
-*/
-$(window).load(function(){
+
+/* $(window).load(function(){ */
 $(".homeimgsizer").each(function(){
   var $this = $(this);
   if ($this.width() > $this.height()) {
@@ -35,7 +35,7 @@ $(".projectimgsizer").each(function(){
       $this.addClass("verticalx");
   }
 });
-});
+/* }); */
 console.log("Hello world!");
 
 
@@ -422,7 +422,7 @@ SWIPER SINGLE PAGE + Ovo je možda rješenje za multiple swipers - test further
 
 
 
-/* 
+
 }
 
 window.addEventListener('load', function() {
@@ -431,7 +431,7 @@ window.addEventListener('load', function() {
 });
 
 
-*/
+
 
 
 
