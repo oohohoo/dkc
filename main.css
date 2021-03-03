@@ -1466,7 +1466,15 @@ margin-bottom: 0.5em;
     }
 
 
+    /* HORIZONTAL MENU FIX*/
+
     @media (min-width: 480px) and (max-width:767px) {
+
+
+      .mobile-menu-content {
+        height: 100vh;
+    }
+
 
       #w-node-_00820dfd-3a36-be78-7e07-6ec89ffee8b8-9ffee8ac {
         -ms-grid-column-span: 7;
