@@ -10,7 +10,8 @@ IMAGE ORIENTATION
     var $this = $(this);
     if ($this.width() > $this.height()) {
         $this.addClass("horizontalyyy");
-   /*  }else{
+   }
+   /*  else{
         $this.addClass("vertical");
     } */
 });
