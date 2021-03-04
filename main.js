@@ -340,7 +340,7 @@ var menu = ['', '', '', '', '', '']
     slidesPerView: 1,
     observer: true,
   observeParents: true,
-  observeSlideChildren: true;
+  observeSlideChildren: true,
   longSwipes: false,
   
     //
