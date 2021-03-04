@@ -395,6 +395,9 @@ SWIPER SINGLE PAGE + Ovo je možda rješenje za multiple swipers - test further
       },
       effect: 'fade',
       updateOnWindowResize: true,
+      observer: true,
+      observeParents: true,
+      observeSlideChildren: true,
 
        // Options...
      });
