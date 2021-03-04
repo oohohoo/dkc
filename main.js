@@ -306,7 +306,7 @@ var menu = ['', '', '', '', '', '']
    // initialSlide: 0,
     //truewrapper adoptsheight of active slide
     autoHeight: false,
-    updateOnWindowResize: true,
+    updateOnWindowResize: false,
     // Optional parameters
   //  direction: 'vertical',
       // delay between transitions in ms
