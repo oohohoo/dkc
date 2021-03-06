@@ -122,7 +122,7 @@ transition: all 1000ms ease-in-out;
 -o-transition: all 1000ms ease-in-out;
 }
 */
-/*
+/*vr
 ================================================================================
 MENU 
 ================================================================================
@@ -1460,10 +1460,10 @@ margin-bottom: 0.5em;
 
     /* HORIZONTAL MENU FIX*/
 
-    @media (min-width: 480px) and (max-width:767px) {
+  /*   @media (min-width: 480px) and (max-width:767px) {
       .mobile-menu-content {
         height: 100vh;
-    }
+    } */
 
     .mobilenav {
       margin-top: 12em;
