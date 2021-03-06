@@ -1373,6 +1373,12 @@ margin-bottom: 0.5em;
   padding: 0.850em 1.5em !important;
 }
 
+ /* SWIPER cont visina*/
+ .swiper-container {
+  height: 25em;
+}
+
+
  }
 
  @media (max-width: 991px) {
