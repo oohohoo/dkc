@@ -26,8 +26,17 @@ html {
   margin: 0 auto;
 }
 
+/*
+================================================================================
+SWIPER CONTAINER ASPECT RATIO
+================================================================================
+*/
 
 
+  .swiper-container .swiper-container-gal {
+    aspect-ratio: 3/2;
+   
+}
 
 /*
 ================================================================================
@@ -1484,14 +1493,9 @@ margin-bottom: 0.5em;
       margin-top: 0.7em;
   }
 
-  /* SWIPER cont visina*/
-  .swiper-container {
-    height: 19em;
-}
 
-/* .swiper-container-gal {
-  height: 19em;
-} */
+ 
+
 
 /*DOKUMENTI IKONA MARGIN*/
 .dociconwrap {
