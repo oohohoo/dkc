@@ -811,6 +811,11 @@ MEDIA QUERY
 
 }
 
+/*SEARCHRESULT FIX*/
+.resultcount {
+  margin-bottom: 0.6em;
+
+}
 
 
  
