@@ -569,11 +569,11 @@ input[type="submit" i] {
 }
 
 
-.btn.focus, .btn:focus {
+/* .swiper-button-p.focus, .swiper-button-n:focus {
   outline: 0;
   box-shadow: none!important;
 }
-
+ */
 
 /*SEARCH BUTTON POSITION*/
 /* .div-block-2 {
@@ -1050,9 +1050,9 @@ MEDIA QUERY
 KILL FOCUS ON ALL BUT WITH ACCESIBILITY
 ================================================================================
 */
-/* .swiper-button-n:focus,
+ .swiper-button-n:focus,
 .swiper-button-p:focus { 
-outline: none; } */
+outline: none; } 
   
 
 /** 
