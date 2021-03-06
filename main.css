@@ -1499,6 +1499,12 @@ margin-bottom: 0.5em;
       margin-top: 12em;
   }
 
+
+
+
+
+
+  
       #w-node-_00820dfd-3a36-be78-7e07-6ec89ffee8b8-9ffee8ac {
         -ms-grid-column-span: 7;
         grid-column-end: 6;
@@ -1534,6 +1540,15 @@ margin-bottom: 0.5em;
   width: 100%;
 }
 }
+
+@media (min-width: 480px) and (max-width:1200px) {
+  .artlogo {
+  
+    width: 70%;
+  }
+  }
+
+
 
 .futfix {
 margin-top: 0.7em;
