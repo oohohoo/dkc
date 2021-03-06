@@ -817,10 +817,7 @@ MEDIA QUERY
 
 }
 
-/*članice logo*/
-.artlogo {
-  width: 100%;
-}
+
 
 
 
@@ -1531,7 +1528,7 @@ margin-bottom: 0.5em;
  font-weight: 700;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 479px) {
 .artlogo {
 
   width: 70%;
