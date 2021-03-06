@@ -1544,6 +1544,11 @@ margin-bottom: 0.5em;
   font-size: 4em;
 }
 
+/*search ikona fix*/
+.div-block-2 {
+  top: -1.4em;
+}
+
 
 }
 
