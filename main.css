@@ -1498,7 +1498,7 @@ margin-bottom: 0.5em;
  font-weight: 700;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
 .artlogo {
 
   width: 60%;
