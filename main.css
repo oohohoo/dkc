@@ -26,6 +26,9 @@ html {
   margin: 0 auto;
 }
 
+
+
+
 /*
 ================================================================================
 SCROLLBAR STYLE
@@ -564,6 +567,13 @@ input[type="submit" i] {
   border-style: none!important;
   border-color: transparent;  
 }
+
+
+.btn.focus, .btn:focus {
+  outline: 0;
+  box-shadow: none!important;
+}
+
 
 /*SEARCH BUTTON POSITION*/
 /* .div-block-2 {
