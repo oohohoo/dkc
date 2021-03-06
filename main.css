@@ -817,6 +817,12 @@ MEDIA QUERY
 
 }
 
+/*članice logo*/
+.artlogo {
+  width: 100%;
+}
+
+
 
  
 @media (min-width: 480px) and (max-width:999px) {
