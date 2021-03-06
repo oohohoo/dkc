@@ -887,7 +887,7 @@ MEDIA QUERY
 }
 
 
-  */
+ 
   .swiper-pagination-bullet {
     height: 3px;
   }
@@ -909,11 +909,11 @@ MEDIA QUERY
     
 
 
-/*
+
     .nav-link.w-inline-block.w--current:before, .underline::before {
       border-bottom: solid 3px #9b2557;
     }
-    */
+   
     .swiper-pagination-bullet {
       height: 3px;
     }
