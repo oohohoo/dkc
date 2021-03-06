@@ -874,6 +874,9 @@ MEDIA QUERY
       border-bottom: 2px solid #9b2557;
     }
     
+  .nav-link.w-inline-block.w--current:before, .underline::before {
+      border-bottom: solid 2px #9b2557;
+    } 
 
     /* RICH TEXT FOTKA CENTAR*/
   .w-richtext figure.w-richtext-align-floatleft {
