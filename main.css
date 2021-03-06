@@ -1375,7 +1375,8 @@ margin-bottom: 0.5em;
 
  /* SWIPER cont visina*/
  .swiper-container {
-  height: 25em;
+ /*  height: 25em; */
+  aspect-ratio: 16/9;
 }
 
 
