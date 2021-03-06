@@ -1536,17 +1536,25 @@ margin-bottom: 0.5em;
 
 @media screen and (max-width: 479px) {
 .artlogo {
-
   width: 100%;
 }
+
+/*search field txt*/
+.search-field {
+  font-size: 4em;
+}
+
+
 }
 
 @media (min-width: 480px) and (max-width:1200px) {
   .artlogo {
-  
-    width: 70%;
+      width: 70%;
   }
   }
+
+
+
 
 
 
