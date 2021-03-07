@@ -812,13 +812,12 @@ MEDIA QUERY
   }
   
   .child:nth-last-child(1) .newname, .newswrap:nth-last-child(-n+3), .claniceminigrid:nth-last-child(-n+3),
- .contactwrap:nth-last-child(-n+4), .search-grid-auto:nth-last-child(1)  {
+ .contactwrap:nth-last-child(-n+4), .search-grid-auto:nth-last-child(1), .nav-link.w-inline-block.w--current:before, .underline::before, .current-menu-item > a::before  {
     border-bottom: 2px solid #9b2557;
   }
 
-/*   .nav-link.w-inline-block.w--current:before, .underline::before {
-    border-bottom: solid 2px #9b2557;
-  }  */
+
+
   /* IPAD RICH TXT FOTKA */
   .alignleft, img.alignleft, .alignone {
     display: inline;
@@ -852,13 +851,11 @@ MEDIA QUERY
     }
     
     .child:nth-last-child(1) .newname, .newswrap:nth-last-child(-n+3), .claniceminigrid:nth-last-child(-n+3),
-    .claniceminigrid:nth-last-child(-n+3), .contactwrap:nth-last-child(-n+4), .search-grid-auto:nth-last-child(1)  {
+    .claniceminigrid:nth-last-child(-n+3), .contactwrap:nth-last-child(-n+4), .search-grid-auto:nth-last-child(1), .nav-link.w-inline-block.w--current:before, .underline::before,  .current-menu-item > a::before   {
       border-bottom: 2px solid #9b2557;
     }
     
-   .nav-link.w-inline-block.w--current:before, .underline::before,  .current-menu-item > a::before  {
-      border-bottom: solid 2px #9b2557;
-    }  
+   
 
 
    
