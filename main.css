@@ -1598,6 +1598,13 @@ margin-bottom: 0.5em;
   margin-bottom: -1.45em;
 }
 
+.logo-link-backwhite.w--current {
+  padding-top: 2.9em;
+}
+
+
+
+
 /*search field txt*/
 .search-field {
   font-size: 4em;
