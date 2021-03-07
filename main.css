@@ -26,17 +26,7 @@ html {
   margin: 0 auto;
 }
 
-/*
-================================================================================
-SWIPER CONTAINER ASPECT RATIO
-================================================================================
-*/
 
-
-  .swiper-container .swiper-container-gal {
-    aspect-ratio: 3/2;
-   
-}
 
 /*
 ================================================================================
@@ -350,6 +340,9 @@ html {
     -webkit-font-smoothing: antialiased
   }
 
+
+
+
   /*
 ================================================================================
 IMAGE PROPORTIONAL
@@ -575,6 +568,9 @@ input[type="submit" i] {
   background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
   border-style: none!important;
   border-color: transparent;  
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  border-radius: 0;
 }
 
 
