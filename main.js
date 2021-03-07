@@ -30,9 +30,9 @@ $(".homeimgsizer").each(function(){
 $(".projectimgsizer").each(function(){
   var $this = $(this);
   if ($this.width() > $this.height()) {
-      $this.addClass("horizontalAH");
+      $this.addClass("horizontalx");
   }else{
-      $this.addClass("verticalOH");
+      $this.addClass("verticalx");
   }
 });
 /* }); */
