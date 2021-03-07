@@ -828,7 +828,7 @@ MEDIA QUERY
 
 
   .logo.nosel {
-    /* margin-bottom: 1em; */
+    margin-bottom: 0em;
     width: 8.313em;
   } 
 
