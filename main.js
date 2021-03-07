@@ -2,9 +2,9 @@
 ================================================================================
 IMAGE ORIENTATION
 ================================================================================
-*//*
-function init() {
 */
+function init() {
+
 
 /* $(window).load(function(){ */
 $(".homeimgsizer").each(function(){
@@ -30,13 +30,21 @@ $(".homeimgsizer").each(function(){
 $(".projectimgsizer").each(function(){
   var $this = $(this);
   if ($this.width() > $this.height()) {
-      $this.addClass("horizontalx");
+      $this.addClass("horizontalAH");
   }else{
-      $this.addClass("verticalx");
+      $this.addClass("verticalOH");
   }
 });
 /* }); */
 console.log("Hello world!");
+
+
+}
+
+window.addEventListener('load', function() {
+    console.log("PAGE LOADED");
+	init();
+});
 
 
 
@@ -105,44 +113,7 @@ function closeMenu() {
   $("#open-menu").show();
 }
 
-/*
-================================================================================
-ADD WIDTH & HEIGHT ON EVERY PHOTO
-================================================================================
-*/
-/*
-add_filter( 'the_content', 'add_image_dimensions' );
 
-function add_image_dimensions( $content ) {
-
-    preg_match_all( '/<img[^>]+>/i', $content, $images);
-
-    if (count($images) < 1)
-        return $content;
-
-    foreach ($images[0] as $image); {
-        preg_match_all( '/(alt|title|src|width|class|id|height)=("[^"]*")/i', $image, $img );
-
-        if ( !in_array( 'src', $img[1] ) )
-            continue;
-
-        if ( !in_array( 'width', $img[1] ) || !in_array( 'height', $img[1] ) ) {
-            $src = $img[2][ array_search('src', $img[1]) ];
-            $alt = in_array( 'alt', $img[1] ) ? ' alt=' . $img[2][ array_search('alt', $img[1]) ] : '';
-            $title = in_array( 'title', $img[1] ) ? ' title=' . $img[2][ array_search('title', $img[1]) ] : '';
-            $class = in_array( 'class', $img[1] ) ? ' class=' . $img[2][ array_search('class', $img[1]) ] : '';
-            $id = in_array( 'id', $img[1] ) ? ' id=' . $img[2][ array_search('id', $img[1]) ] : '';
-            list( $width, $height, $type, $attr ) = getimagesize( str_replace( "\"", "" , $src ) );
-
-            $image_tag = sprintf( '<img src=%s%s%s%s%s width="%d" height="%d" />', $src, $alt, $title, $class, $id, $width, $height );
-            $content = str_replace($image, $image_tag, $content);
-        }
-    }
-
-    return $content;
-}
-
-*/
 
 
 /*
@@ -424,18 +395,11 @@ SWIPER SINGLE PAGE + Ovo je možda rješenje za multiple swipers - test further
 
 
 
-/*
 
 
-}
-
-window.addEventListener('load', function() {
-    console.log("PAGE LOADED");
-	init();
-});
 
 
-*/
+
 
 
 
