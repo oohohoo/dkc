@@ -300,27 +300,27 @@ IMAGE PROPORTIONAL
 */
 
   .vertical{
-    width: calc(11em*21/29.7);
+    width: calc(10em*21/29.7);
    
   }
 
   .horizontal{
-    width: calc(8em*29.7/21);
+    width: calc(6em*29.7/21);
 
   }
 
 
   .verticalx{
-    width: calc(15em*21/29.7);
+    width: calc(17em*21/29.7);
  
   }
   
   .horizontalx{
-    width: calc(12em*29.7/21);
+    width: calc(13em*29.7/21);
  
   }
 
-  .verticaly{
+   .verticaly{
     width: calc(10em*21/29.7);
  
   }
@@ -328,7 +328,7 @@ IMAGE PROPORTIONAL
   .horizontaly{
     width: calc(6em*29.7/21);
  
-  }
+  } 
 
 
 
