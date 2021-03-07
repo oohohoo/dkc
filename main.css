@@ -830,6 +830,12 @@ MEDIA QUERY
     width: 8.313em;
   } 
 
+  .logotxt {
+    font-size: 1;
+}
+
+
+
 /*SEARCHRESULT FIX*/
 .resultcount {
   margin-bottom: 0.6em;
