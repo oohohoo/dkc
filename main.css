@@ -773,9 +773,9 @@ MEDIA QUERY
     border-bottom: 2px solid #9b2557;
   }
 
-  .nav-link.w-inline-block.w--current:before, .underline::before {
+/*   .nav-link.w-inline-block.w--current:before, .underline::before {
     border-bottom: solid 2px #9b2557;
-  } 
+  }  */
   .logo.nosel {
     margin-bottom: 0em;
     width: 8.313em;
@@ -816,9 +816,9 @@ MEDIA QUERY
     border-bottom: 2px solid #9b2557;
   }
 
-  .nav-link.w-inline-block.w--current:before, .underline::before {
+/*   .nav-link.w-inline-block.w--current:before, .underline::before {
     border-bottom: solid 2px #9b2557;
-  } 
+  }  */
   /* IPAD RICH TXT FOTKA */
   .alignleft, img.alignleft, .alignone {
     display: inline;
