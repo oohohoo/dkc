@@ -765,15 +765,17 @@ MEDIA QUERY
 
 @media (max-width: 479px) {
   .child:nth-child(1) .newname, .search-grid-auto:nth-child(1), .newswrap,  .claniceminigrid, .contactwrap {
-    border-top: 3px solid #9b2557;
+    border-top: 2px solid #9b2557;
   }
   
   .child:nth-last-child(1) .newname, .newswrap:nth-last-child(1), .claniceminigrid:nth-last-child(1),
  .contactwrap:nth-last-child(1), .search-grid-auto:nth-last-child(1)  {
-    border-bottom: 3px solid #9b2557;
+    border-bottom: 2px solid #9b2557;
   }
 
-
+  .nav-link.w-inline-block.w--current:before, .underline::before {
+    border-bottom: solid 2px #9b2557;
+  } 
   .logo.nosel {
     margin-bottom: 0em;
     width: 8.313em;
@@ -814,12 +816,9 @@ MEDIA QUERY
     border-bottom: 2px solid #9b2557;
   }
 
-/*   h1 {
-
-    font-size: 12.8vw;
-
-} */
-
+  .nav-link.w-inline-block.w--current:before, .underline::before {
+    border-bottom: solid 2px #9b2557;
+  } 
   /* IPAD RICH TXT FOTKA */
   .alignleft, img.alignleft, .alignone {
     display: inline;
@@ -857,9 +856,9 @@ MEDIA QUERY
       border-bottom: 2px solid #9b2557;
     }
     
- /*  .nav-link.w-inline-block.w--current:before, .underline::before {
+   .nav-link.w-inline-block.w--current:before, .underline::before {
       border-bottom: solid 2px #9b2557;
-    }  */
+    }  
 
     /* RICH TEXT FOTKA CENTAR*/
   .w-richtext figure.w-richtext-align-floatleft {
@@ -894,11 +893,9 @@ MEDIA QUERY
     }
     
 
-
-
-    /* .nav-link.w-inline-block.w--current:before, .underline::before {
-      border-bottom: solid 3px #9b2557;
-    } */
+    .nav-link.w-inline-block.w--current:before, .underline::before {
+      border-bottom: solid 2px #9b2557;
+    } 
    
     .swiper-pagination-bullet {
       height: 3px;
@@ -926,6 +923,9 @@ MEDIA QUERY
       border-bottom: 4px solid #9b2557;
     }
 
+    .nav-link.w-inline-block.w--current:before, .underline::before {
+      border-bottom: solid 3px #9b2557;
+    } 
    
 /*SUBMENI OMREZI*/
     .subitem.submargin {
@@ -964,7 +964,9 @@ MEDIA QUERY
       border-bottom: 2px solid #9b2557;
     }
 
-  
+    .nav-link.w-inline-block.w--current:before, .underline::before {
+      border-bottom: solid 3px #9b2557;
+    } 
  
  
   .swiper-pagination-bullet {
@@ -992,7 +994,9 @@ MEDIA QUERY
       border-bottom: 2px solid #9b2557;
     }
 
-
+    .nav-link.w-inline-block.w--current:before, .underline::before {
+      border-bottom: solid 3px #9b2557;
+    } 
  
 
   .swiper-pagination-bullet {
