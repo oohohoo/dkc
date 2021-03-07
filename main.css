@@ -126,59 +126,7 @@ transition: all 1000ms ease-in-out;
 -o-transition: all 1000ms ease-in-out;
 }
 */
-/*vr
-================================================================================
-MENU 
-================================================================================
-*/
-  
-.underline::before {
-    content: "X";
-    border-bottom: solid 3px #9b2557;
-   position: absolute;
- /*   bottom: 45%;
-    left: -1.25em; */
-    width: 1em;
-    
-    
-    transform: scaleX(0);
-    transform-origin: right;
-    transition: transform 0.25s;
-  }
-  .underline:hover::before {
-    transform-origin: left;
-    transform: scaleX(1);
-    
-  }
 
-
-  @-webkit-keyframes underline {
-    from {
-      transform: scaleX(0);
-    }
-    to {
-      transform: scaleX(1);
-    }
-  }
-  @keyframes underline {
-    from {
-      transform: scaleX(0);
-    }
-    to {
-      transform: scaleX(1);
-    }
-  }
-  
-  /* vidi šta je ovo nešto za mobilni menu */
-  /*
-  @media only screen and (max-width: 992px) {
-    li {
-      width: 100%;
-      text-align: center;
-      margin-bottom: 1rem;
-    }
-  }
-*/
 /*
 ================================================================================
 CURRENT
