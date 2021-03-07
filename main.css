@@ -1468,6 +1468,11 @@ margin-bottom: 0.5em;
       .tabs-menu {
         margin-top: 0.3em;
       }
+/*ohoho fix*/
+      .ohohowrap {
+        margin-top: -0.3em; 
+      }
+
     }
 
     @media (min-width: 1600px) {
