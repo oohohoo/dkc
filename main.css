@@ -1051,16 +1051,16 @@ MEDIA QUERY
 
   }
 
-  @media (max-width: 475px) {
+  @media (max-width: 479px) {
    h1 {
-    font-size: 12vw;
+    font-size: 14vw;
 
 }
   }
 
-  @media (min-width: 476px) and (max-width:991px) {
+  @media (min-width: 480px) and (max-width:991px) {
     h1 {
-      font-size: 11vw;
+      font-size: 13vw;
   
   }
 
@@ -1592,6 +1592,10 @@ margin-bottom: 0.5em;
 @media screen and (max-width: 479px) {
 .artlogo {
   width: 100%;
+}
+/*mobmenu icon fix*/
+.m-menu-open {
+  margin-bottom: -1.45em;
 }
 
 /*search field txt*/
