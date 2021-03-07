@@ -1062,6 +1062,12 @@ MEDIA QUERY
   
   }
 
+
+  
+
+  
+ 
+  
   }
 
 /*
@@ -1486,6 +1492,23 @@ margin-bottom: 0.5em;
       .ohohowrap {
         margin-top: 0.05em;
       }
+
+      /*menu open absolute*/
+      .m-menu-open{
+        position: absolute;
+        left: auto;
+        top: auto;
+        right: 0%;
+        bottom: 0%;
+        display: block;
+        width: auto;
+        margin-bottom: -0.9em;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        padding-left: 0em;
+      }
+
+
 
     }
 
