@@ -1426,7 +1426,7 @@ margin-bottom: 0.5em;
  .allnewslink {
    bottom: -5em;
  }
- }d
+ }
 
 
 
@@ -1435,8 +1435,8 @@ margin-bottom: 0.5em;
   .ch2-theme-bar .ch2-dialog {
     padding: 0.850em 4.3em !important; 
 } 
-}
 
+ }
 @media (min-width: 1200px) and (max-width:1300px) {
 .richsubmeni {
   margin-top: 0.3em;
@@ -1521,7 +1521,7 @@ margin-bottom: 0.5em;
       }
     
       }
-    }
+    
 
     @media screen and (max-width: 767px) {
 .mobile-menu-content, .section, .overlayx {
