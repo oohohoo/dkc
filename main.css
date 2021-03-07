@@ -1604,6 +1604,10 @@ margin-bottom: 0.5em;
   top: -1.4em;
 }
 
+.open-nav {
+height: 50%;
+}
+
 /*searchfix*/
 .opensrch {
   margin-top: 4.5em;
