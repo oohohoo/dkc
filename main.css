@@ -824,13 +824,21 @@ MEDIA QUERY
     border-bottom: 3px solid #9b2557;
   }
 
-}
+
+  .logo.nosel {
+    margin-bottom: 1em;
+    width: 8.313em;
+  } 
 
 /*SEARCHRESULT FIX*/
 .resultcount {
   margin-bottom: 0.6em;
 
 }
+
+}
+
+
 
 
 
