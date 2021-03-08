@@ -3,7 +3,7 @@
 IMAGE ORIENTATION
 ================================================================================
 */
-function init() {
+/*function init() {
 
 
 /* $(window).load(function(){ */
@@ -39,12 +39,12 @@ $(".projectimgsizer").each(function(){
 console.log("Hello world!");
 
 
-}
+/* }
 
 window.addEventListener('load', function() {
     console.log("PAGE LOADED");
 	init();
-});
+}); */
 
 
 
