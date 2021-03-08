@@ -290,7 +290,28 @@ html {
     -webkit-font-smoothing: antialiased
   }
 
+/*
+================================================================================
+SWIPER ASPECT RATIO FIX
+================================================================================
+*/
 
+.swiper-container, .swiper-container-gal {
+  aspect-ratio: 16/9;
+}
+
+  .d-container {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+ }
+ .d-inner {
+    position:  absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+ }
 
 
   /*
@@ -848,11 +869,6 @@ MEDIA QUERY
     display: none!important;
 }
 
-/*SWIPER VISINA*/
-/* .swiper-container-gal {
-   max-height: 52vh;
-}
- */
 
 
 }
@@ -1377,12 +1393,6 @@ margin-bottom: 0.5em;
 
 .ch2-theme-bar .ch2-dialog {
   padding: 0.850em 1.5em !important;
-}
-
- /* SWIPER cont visina*/
- .swiper-container {
- /*  height: 25em; */
- aspect-ratio: 16 / 9;
 }
 
 
