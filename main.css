@@ -331,6 +331,10 @@ IMAGE PROPORTIONAL
   } 
 
 
+  .newsimgwrap {
+    width: 6em;
+  }
+
 
 /*
 ================================================================================
@@ -1601,6 +1605,3 @@ margin-top: 0.7em;
 } */
 
 
-.newsimgwrap {
-  width: 10em;
-}
