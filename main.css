@@ -297,7 +297,7 @@ SWIPER ASPECT RATIO FIX
 */
 
 .swiper-container, .swiper-container-gal {
-  aspect-ratio: 16/9;
+ /*  aspect-ratio: 16/9; */
 }
 
   .d-container {
