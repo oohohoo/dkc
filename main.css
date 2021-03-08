@@ -334,8 +334,11 @@ IMAGE PROPORTIONAL
   .newsimgwrap {
     width: 6em;
   }
+  .projectcont {
+    max-width: 15em;
+  }
 
-
+  
 /*
 ================================================================================
 IMAGE BLEND MODE
