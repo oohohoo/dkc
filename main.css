@@ -235,6 +235,7 @@ select:-webkit-autofill:focus {
   /*border: 0px solid #f5f4f1;*/
   -webkit-text-fill-color: #f5f4f1;
   -webkit-box-shadow: 0 0 0px 1000px #9b2557 inset;
+  box-shadow: 0 0 0px 1000px #9b2557 inset;
   transition: background-color 5000s ease-in-out 0s;
 }
 
@@ -606,6 +607,7 @@ ROTATE OVERTEXT
 ================================================================================
 */
 .is--rotate {
+  transform-style: preserve-3d;
   -webkit-transform-style: preserve-3d;
  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); 
 
@@ -1492,6 +1494,13 @@ margin-bottom: 0.5em;
 
 
 
+
+.openmenux {
+  display: flex;
+  align-items: flex-end;
+}
+
+
     }
 
     @media (min-width: 1600px) {
@@ -1543,10 +1552,12 @@ margin-bottom: 0.5em;
         -ms-grid-column-span: 7;
         grid-column-end: 6;
         -ms-grid-column: 1;
+        grid-column: 1;
         grid-column-start: 3;
         -ms-grid-row-span: 1;
         grid-row-end: 2;
         -ms-grid-row: 2;
+        grid-row: 1;
         grid-row-start: 1;
         /* -ms-grid-row-align: start;
         align-self: center; */
