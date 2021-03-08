@@ -3,6 +3,48 @@
 IMAGE ORIENTATION
 ================================================================================
 */
+function init() {
+
+
+/* $(window).load(function(){ */
+$(".homeimgsizer").each(function(){
+  var $this = $(this);
+  if ($this.width() > $this.height()) {
+      $this.addClass("horizontaly");
+  }else{
+      $this.addClass("verticaly");
+  }
+});
+
+  $(".newsimgsizer").each(function(){
+    var $this = $(this);
+    if ($this.width() > $this.height()) {
+        $this.addClass("horizontal");
+   }
+     else{
+        $this.addClass("vertical");
+    } 
+});
+
+
+$(".projectimgsizer").each(function(){
+  var $this = $(this);
+  if ($this.width() > $this.height()) {
+      $this.addClass("horizontalx");
+  }else{
+      $this.addClass("verticalx");
+  }
+});
+/* }); */
+console.log("Hello world!");
+
+
+}
+
+window.addEventListener('load', function() {
+    console.log("PAGE LOADED");
+	init();
+});
 
 
 
