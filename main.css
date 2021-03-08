@@ -335,9 +335,14 @@ IMAGE PROPORTIONAL
     width: 6em;
   }
   .projektos{
-    width: 13em;
+    display: flex;
+    width: 26em;
+    justify-content: flex-end;
+
   }
 
+  
+  
   
 /*
 ================================================================================
