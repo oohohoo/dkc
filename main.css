@@ -338,7 +338,7 @@ IMAGE PROPORTIONAL
     display: flex;
     width: 18em;
     justify-content: flex-end;
-
+align-items: flex-end;
   }
 
   
