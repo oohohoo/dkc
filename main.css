@@ -4,8 +4,7 @@ SCROLLBAR FIX
 ================================================================================
 */
 
-/* * { border: 1px solid black; }
- */
+
 body,
 html {
   
@@ -46,25 +45,6 @@ width:6px;
 body::-webkit-scrollbar-thumb {
 background:rgb(155, 37, 87);
 }
-
-/*
-body {overflow-y:hidden;}
-body:hover {overflow-y:scroll;}
-*/
-/*track
-::-webkit-scrollbar-track {
-  background:rgb(245, 244, 241);
-}
-*/
-
-/*FIREFOX SCROLLBAR */
-/*
-body {
-    scrollbar-width: thin;
-    scrollbar-color: #9b2557;
-  }
-
-*/
 
 /*
 ================================================================================
@@ -508,15 +488,7 @@ SWIPER FIX
 SEARCH
 ================================================================================
 */
- /*
-.w-input, .w-select {
-    color: #f5f4f1;
-}
 
-.w-input:focus, .w-select:focus {
-    border-color: #f5f4f1;
-}
-*/
 .search-button:focus, .search-field:focus {
 outline: none;
 } 
@@ -526,7 +498,6 @@ outline: none;
   color: #f5f4f1;
   width:100%;
   height: 1.3em;
-  /* padding-right: .5em; */
   border-style: solid;
   border-width: 0 0 3px;
   border-color: #000 #000 #f5f4f1;
