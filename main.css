@@ -560,6 +560,7 @@ input[type="submit" i] {
 }
 
 
+
 /* .swiper-button-p.focus, .swiper-button-n:focus {
   outline: 0;
   box-shadow: none!important;
@@ -588,6 +589,9 @@ user-select: none;
 /* SEARCH INPUT TEXT COLOR */ 
   input[type="search"]::placeholder {
     color: #f5f4f1;
+    -webkit-appearance: none;
+    -webkit-border-radius:0; 
+    border-radius:0;
 }
 
 /*
@@ -1628,12 +1632,5 @@ height: 50%;
   .opensrchfut {
     margin-top: 0em;
 }
-
-
-/* 
-
-.futfix {
-margin-top: 0.7em;
-} */
 
 
