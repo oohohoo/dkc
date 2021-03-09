@@ -526,7 +526,7 @@ outline: none;
   color: #f5f4f1;
   width:100%;
   height: 1.3em;
-  padding-right: .5em;
+  /* padding-right: .5em; */
   border-style: solid;
   border-width: 0 0 3px;
   border-color: #000 #000 #f5f4f1;
@@ -534,15 +534,9 @@ outline: none;
   font-size: 6.75em;
   line-height: 1;
   letter-spacing: -.024em;
-  -webkit-appearance: none;
-  -webkit-border-radius:0; 
-  border-radius:0;
-  -webkit-appearance: textfield;
+  padding: 0;
 }
 
-.input::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
 
 .search-submit{
   width: 6em;
