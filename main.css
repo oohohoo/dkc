@@ -534,6 +534,9 @@ outline: none;
   font-size: 6.75em;
   line-height: 1;
   letter-spacing: -.024em;
+  -webkit-appearance: none;
+  -webkit-border-radius:0; 
+  border-radius:0;
 }
 
 
@@ -589,10 +592,8 @@ user-select: none;
 /* SEARCH INPUT TEXT COLOR */ 
   input[type="search"]::placeholder {
     /* color: #f5f4f1; */
-    color: #06f506;
-    -webkit-appearance: none;
-    -webkit-border-radius:0; 
-    border-radius:0;
+    color: #f1f5f1;
+   
 }
 
 /*
