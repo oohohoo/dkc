@@ -537,11 +537,12 @@ outline: none;
   -webkit-appearance: none;
   -webkit-border-radius:0; 
   border-radius:0;
-  -moz-box-sizing: content-box;
--webkit-box-sizing: content-box;
-box-sizing: content-box;
+  -webkit-appearance: textfield;
 }
 
+.input::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
 
 .search-submit{
   width: 6em;
