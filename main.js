@@ -282,7 +282,7 @@ var menu = ['', '', '', '', '', '']
   //  direction: 'vertical',
       // delay between transitions in ms
     	autoplay: {
-				delay: 5000,
+				delay: 3000,
 				disableOnInteraction: false,
 },
    // autoplayStopOnLast: false, // loop false also
