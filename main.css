@@ -451,15 +451,17 @@ transform-origin: top left;
   animation-name: fade-in;
   animation-duration: 1s;
   animation-fill-mode: both;
+  animation-delay: 0.1s;
 }
 
+.swiper-container .swiper-wrapper .swiper-slide-active .up__link:nth-child(1) {
+  animation-delay: 0.2s;
+}
 
 .swiper-container .swiper-wrapper .swiper-slide-active .up:nth-child(2) {
   animation-delay: 0.4s;
 }
-.swiper-container .swiper-wrapper .swiper-slide-active .up__link:nth-child(1) {
-  animation-delay: 0.2s;
-}
+
 
 
 @keyframes fade-in {
