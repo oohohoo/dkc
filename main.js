@@ -269,7 +269,7 @@ SWIPER HERO
 ================================================================================
 */
 
-var menu = ['', '', '', '', '', '', '']  
+var menu = ['', '', '', '', '', '']  
   var mySwiper = new Swiper ('.swiper-container', {
    loop: true,
 		speed: 1000,
