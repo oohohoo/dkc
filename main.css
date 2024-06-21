@@ -453,7 +453,7 @@ transform-origin: top left;
   animation-fill-mode: both;
 }
 
-
+/*
 .swiper-container .swiper-wrapper .swiper-slide-active .up:nth-child(2) {
   animation-delay: 0.4s;
 }
@@ -467,7 +467,7 @@ transform-origin: top left;
     animation-duration: 1s;
     animation-fill-mode: both;
 }
-
+*/
 .swiper-container .swiper-wrapper .swiper-slide .up.fade-out {
     animation-name: fade-out;
     animation-duration: 1s;
